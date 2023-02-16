@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Mayg1 from "./Mayg1";
+import Mayg2 from "./Mayg2";
+import { useState } from "react";
+import { Button } from "antd";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Mayg3 from "./Mayg3";
+import Mayg4 from "./Mayg4";
 
 function App() {
+  const [type, setType] = useState(1);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Button onClick={() => setType(1)}>Mayg1</Button>
+      <Button onClick={() => setType(2)}>Mayg2</Button>
+      <Button onClick={() => setType(3)}>Mayg3</Button>
+      <Button onClick={() => setType(4)}>Mayg4</Button>
+      {type === 1 ? <Mayg1 /> : null}
+      {type === 2 ? <Mayg2 /> : null}
+      {type === 3 ? <Mayg3 /> : null}
+      {type === 4 ? <Mayg4 /> : null}
     </div>
   );
 }
