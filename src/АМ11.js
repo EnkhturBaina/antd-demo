@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-29В
-function Mayg2() {
+//маягт АМ-11
+function AM11() {
   const styles = {
     rowCells: {
       borderWidth: 1,
@@ -2450,4 +2450,4 @@ function Mayg2() {
   );
 }
 
-export default Mayg2;
+export default AM11;
