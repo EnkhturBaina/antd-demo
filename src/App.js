@@ -7,6 +7,13 @@ import { Button } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Mayg3 from "./Mayg3";
 import Mayg4 from "./Mayg4";
+import AM22Д from "./АМ22Д";
+import AM22Е from "./АМ22Е";
+import AM22Ж from "./АМ22Ж";
+import AM22Й from "./АМ22Й";
+import AM22К from "./АМ22К1";
+import AM22К2 from "./АМ22К2";
+import АМ22З from "./АМ22З";
 
 function App() {
   const [type, setType] = useState(1);
@@ -16,7 +23,7 @@ function App() {
       <Button onClick={() => setType(2)}>Mayg2</Button>
       <Button onClick={() => setType(3)}>Mayg3</Button>
       <Button onClick={() => setType(4)}>Mayg4</Button>
-      {type === 1 ? <Mayg1 /> : null}
+      {type === 1 ? <АМ22З /> : null}
       {type === 2 ? <Mayg2 /> : null}
       {type === 3 ? <Mayg3 /> : null}
       {type === 4 ? <Mayg4 /> : null}

@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-20
-function Mayg2() {
+//маягт АМ-22Й
+function AM22Й() {
   const styles = {
     generalText: {
       fontSize: 12,
@@ -15,14 +15,6 @@ function Mayg2() {
       borderStyle: "solid",
       width: 18,
       height: 18,
-    },
-    leftText: {
-      textAlign: "left",
-      verticalAlign: "middle",
-      fontSize: 10,
-      padding: 1,
-      paddingLeft: 5,
-      lineHeight: 1.3,
     },
     centerText: {
       textAlign: "center",
@@ -68,12 +60,12 @@ function Mayg2() {
               >
                 Эмнэлгийн нэр: ____________________
               </span>
-              <span style={{ fontWeight: "bold", fontSize: 12 }}>АМ-22Г</span>
+              <span style={{ fontWeight: "bold", fontSize: 12 }}>АМ-22В</span>
             </div>
           </div>
           <div style={{ textAlign: "center", marginTop: 5, marginBottom: 5 }}>
             <span style={{ fontWeight: "bold", fontSize: 12 }}>
-              ИММУНОЛОГИЙН ШИНЖИЛГЭЭ №
+              ЗИМНИЦКИЙН СОРИЛ
             </span>
           </div>
           <span style={{ fontSize: 12 }}>
@@ -105,67 +97,67 @@ function Mayg2() {
             <tbody>
               <tr>
                 <td style={{ ...styles.centerText, ...{ width: "40%" } }}>
-                  Шинжилэгдэхүүн
+                  Цаг
                 </td>
                 <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
-                  Лавлах хэмжээ
+                  Хэмжээ \мл\
                 </td>
                 <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
-                  Хариу
+                  Хувийн жин
                 </td>
               </tr>
               <tr>
-                <td style={styles.leftText}>АСЛО</td>
+                <td style={styles.centerText}>09.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>Ревтатиод фактор</td>
+                <td style={styles.centerText}>12.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>С улвалжийн уураг</td>
+                <td style={styles.centerText}>13.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>фетопротейн</td>
+                <td style={styles.centerText}>18.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>иммунологлобулин G</td>
+                <td style={styles.centerText}>Өдрийн диурез</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>иммунологлобулин А</td>
+                <td style={styles.centerText}>21.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>иммунологлобулин М</td>
+                <td style={styles.centerText}>24.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>Hbs Ag</td>
+                <td style={styles.centerText}>03.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>Hbe Ag</td>
+                <td style={styles.centerText}>06.00</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>Hbs Ab</td>
+                <td style={styles.centerText}>Шөнийн диурез</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>Anti HCV</td>
+                <td style={styles.centerText}>Нийт</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
@@ -197,4 +189,4 @@ function Mayg2() {
   );
 }
 
-export default Mayg2;
+export default AM22Й;

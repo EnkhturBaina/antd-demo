@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-20
-function Mayg2() {
+//маягт АМ-22Е
+function AM22Е() {
   const styles = {
     generalText: {
       fontSize: 12,
@@ -68,12 +68,12 @@ function Mayg2() {
               >
                 Эмнэлгийн нэр: ____________________
               </span>
-              <span style={{ fontWeight: "bold", fontSize: 12 }}>АМ-22Г</span>
+              <span style={{ fontWeight: "bold", fontSize: 12 }}>АМ-22Е</span>
             </div>
           </div>
           <div style={{ textAlign: "center", marginTop: 5, marginBottom: 5 }}>
             <span style={{ fontWeight: "bold", fontSize: 12 }}>
-              ИММУНОЛОГИЙН ШИНЖИЛГЭЭ №
+              ХОНОГИЙН ШЭЭСЭНД УУРАГ ТОДОРХОЙЛОХ
             </span>
           </div>
           <span style={{ fontSize: 12 }}>
@@ -105,67 +105,19 @@ function Mayg2() {
             <tbody>
               <tr>
                 <td style={{ ...styles.centerText, ...{ width: "40%" } }}>
-                  Шинжилэгдэхүүн
+                  Хоногийн шээсний хэмжээ, мл
                 </td>
-                <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
-                  Лавлах хэмжээ
+                <td style={{ ...styles.centerText, ...{ width: "20%" } }}>
+                  Хоног
                 </td>
-                <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
-                  Хариу
-                </td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>АСЛО</td>
+                <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
               <tr>
-                <td style={styles.leftText}>Ревтатиод фактор</td>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>С улвалжийн уураг</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>фетопротейн</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>иммунологлобулин G</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>иммунологлобулин А</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>иммунологлобулин М</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Hbs Ag</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Hbe Ag</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Hbs Ab</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Anti HCV</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
               </tr>
@@ -191,10 +143,133 @@ function Mayg2() {
               Эмчийн нэр _________________________
             </span>
           </div>
+          <div style={{ textAlign: "center", marginTop: 5, marginBottom: 5 }}>
+            <span style={{ fontWeight: "bold", fontSize: 12 }}>
+              ШИНЖИЛГЭЭ №
+            </span>
+          </div>
+          <span style={{ fontSize: 12 }}>
+            Эцэг \эх\ийн нэр _________________________
+          </span>
+          <div style={{ fontSize: 12 }}>Нэр _____________________________</div>
+          <div style={styles.rowStyle}>
+            <div style={{ display: "flex" }}>
+              <span style={{ marginRight: 5 }}>РД </span>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <span style={{ marginLeft: 10 }}>
+                Нас__________Хүйс: /зур/ эр, эм
+              </span>
+            </div>
+          </div>
+          <div style={styles.rowStyle}>
+            _____ он ____ сар _____ өдөр ____ цаг ______ минут
+          </div>
+
+          <Table bordered className="document" style={{ marginTop: 20 }}>
+            <tbody>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: "40%" } }}>
+                  Шинжлэгдэхүүн
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: "20%" } }}>
+                  Лавлах
+                </td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={{ ...styles.centerText, ...{ width: "20%" } }}>
+                  Хариу
+                </td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ height: 20 } }}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+            </tbody>
+          </Table>
+          <div
+            style={{
+              ...styles.rowStyle,
+              ...{ marginTop: 10 },
+            }}
+          >
+            <span style={{ marginLeft: 30 }}>
+              Лаборантын нэр ____________________
+            </span>
+          </div>
         </div>
       </div>
     </>
   );
 }
 
-export default Mayg2;
+export default AM22Е;

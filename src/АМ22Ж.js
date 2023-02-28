@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-20
-function Mayg2() {
+//маягт АМ-22Ж
+function AM22Ж() {
   const styles = {
     generalText: {
       fontSize: 12,
@@ -68,12 +68,12 @@ function Mayg2() {
               >
                 Эмнэлгийн нэр: ____________________
               </span>
-              <span style={{ fontWeight: "bold", fontSize: 12 }}>АМ-22Г</span>
+              <span style={{ fontWeight: "bold", fontSize: 12 }}>АМ-22Ж</span>
             </div>
           </div>
           <div style={{ textAlign: "center", marginTop: 5, marginBottom: 5 }}>
             <span style={{ fontWeight: "bold", fontSize: 12 }}>
-              ИММУНОЛОГИЙН ШИНЖИЛГЭЭ №
+              ЦЭРИЙГ МИКРОСКОПООР ШИНЖЛЭХ
             </span>
           </div>
           <span style={{ fontSize: 12 }}>
@@ -101,80 +101,59 @@ function Mayg2() {
           <div style={styles.rowStyle}>
             _____ он ____ сар _____ өдөр ____ цаг ______ минут
           </div>
-          <Table bordered className="document" style={{ marginTop: 20 }}>
-            <tbody>
-              <tr>
-                <td style={{ ...styles.centerText, ...{ width: "40%" } }}>
-                  Шинжилэгдэхүүн
-                </td>
-                <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
-                  Лавлах хэмжээ
-                </td>
-                <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
-                  Хариу
-                </td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>АСЛО</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Ревтатиод фактор</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>С улвалжийн уураг</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>фетопротейн</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>иммунологлобулин G</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>иммунологлобулин А</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>иммунологлобулин М</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Hbs Ag</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Hbe Ag</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Hbs Ab</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-              <tr>
-                <td style={styles.leftText}>Anti HCV</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-            </tbody>
-          </Table>
+          <div style={{ ...styles.rowStyle, ...{ marginTop: 20 } }}>
+            Шинж байдал ______________________________
+          </div>
+          <div style={styles.rowStyle}>
+            Төлөв байдал _____________________________
+          </div>
+          <div style={styles.rowStyle}>
+            Хольц _______________ үелэл ______________
+          </div>
+          <div style={styles.rowStyle}>Микроскопд: ( харах талбай )</div>
+          <div style={styles.rowStyle}>Эсийн элемент</div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Цагаан эс _______________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Улаан эс ________________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Хавтгай хучуур эс __________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Бортгон хучуур эс __________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Макрофог _______________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Хавдрын эс ______________________________
+          </div>
+          <div style={styles.rowStyle}>Утаслаг элемент</div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Шарко Лейдины талст ______________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Гемотоидины талст ________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Холестерины талст ________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Өөхний хүчлийн талст ______________________
+          </div>
+          <div style={styles.rowStyle}>Бусад элемент</div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Дитрихийн бөглөө __________________________
+          </div>
+          <div style={{ ...styles.rowStyle, ...{ marginLeft: 20 } }}>
+            Эрлихийн бөглөө __________________________
+          </div>
           <div
             style={{
               ...styles.rowStyle,
-              ...{ marginTop: 10 },
+              ...{ marginTop: 60 },
             }}
           >
             <span style={{ marginLeft: 30 }}>
@@ -197,4 +176,4 @@ function Mayg2() {
   );
 }
 
-export default Mayg2;
+export default AM22Ж;

@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-20
-function Mayg2() {
+//маягт АМ-22Г
+function AM22Г() {
   const styles = {
     generalText: {
       fontSize: 12,
@@ -197,4 +197,4 @@ function Mayg2() {
   );
 }
 
-export default Mayg2;
+export default AM22Г;
