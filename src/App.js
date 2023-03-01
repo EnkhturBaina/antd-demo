@@ -14,7 +14,7 @@ import AM22Й from "./АМ22Й";
 import AM22К from "./АМ22К1";
 import AM22К2 from "./АМ22К2";
 import AM24Б from "./AM24Б";
-import AM28А from "./AM28А";
+import AM28Б from "./AM28Б";
 
 function App() {
   const [type, setType] = useState(1);
@@ -24,7 +24,7 @@ function App() {
       <Button onClick={() => setType(2)}>Mayg2</Button>
       <Button onClick={() => setType(3)}>Mayg3</Button>
       <Button onClick={() => setType(4)}>Mayg4</Button>
-      {type === 1 ? <AM28А /> : null}
+      {type === 1 ? <AM28Б /> : null}
       {type === 2 ? <Mayg2 /> : null}
       {type === 3 ? <Mayg3 /> : null}
       {type === 4 ? <Mayg4 /> : null}
