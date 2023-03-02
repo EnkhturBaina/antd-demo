@@ -7,24 +7,18 @@ import { Button } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Mayg3 from "./Mayg3";
 import Mayg4 from "./Mayg4";
-import AM22Д from "./АМ22Д";
-import AM22Е from "./АМ22Е";
-import AM22Ж from "./АМ22Ж";
-import AM22Й from "./АМ22Й";
-import AM22К from "./АМ22К1";
-import AM22К2 from "./АМ22К2";
-import AM24Б from "./AM24Б";
-import AM28Б from "./AM28Б";
+import AM39 from "./AM39";
 
 function App() {
   const [type, setType] = useState(1);
   return (
     <div>
+      {/* 39 iig zurj ehelj bga */}
       <Button onClick={() => setType(1)}>Mayg1</Button>
       <Button onClick={() => setType(2)}>Mayg2</Button>
       <Button onClick={() => setType(3)}>Mayg3</Button>
       <Button onClick={() => setType(4)}>Mayg4</Button>
-      {type === 1 ? <AM28Б /> : null}
+      {type === 1 ? <AM39 /> : null}
       {type === 2 ? <Mayg2 /> : null}
       {type === 3 ? <Mayg3 /> : null}
       {type === 4 ? <Mayg4 /> : null}
