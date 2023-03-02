@@ -11,7 +11,7 @@ function AM39() {
       padding: 0,
     },
     numberText: {
-      height: 20,
+      height: 18,
       width: 20,
       fontSize: 10,
       textAlign: "center",
@@ -48,26 +48,26 @@ function AM39() {
               alignItems: "flex-end",
             }}
           >
-            <span style={{ fontSize: 12 }}>
+            <span style={{ fontSize: 10 }}>
               Эрүүл мэндийн сайдын 2019 оны 12 дугаар сарын 30-ны өдрийн
             </span>
-            <span style={{ fontSize: 12 }}>
+            <span style={{ fontSize: 10 }}>
               A/611 дүгээр тушаалын арваннэгдүгээр хавсралт
             </span>
-            <span style={{ fontWeight: "bold", fontSize: 12 }}>
+            <span style={{ fontWeight: "bold", fontSize: 10 }}>
               Эрүүл мэндийн бүртгэлийн маягт АМ-39
             </span>
           </div>
           <div style={{ textAlign: "center", marginBottom: 5 }}>
-            <span style={{ fontWeight: "bold", fontSize: 14 }}>
+            <span style={{ fontWeight: "bold", fontSize: 12 }}>
               НҮҮР АМНЫ СОГОГ ЗАСЛЫН ЭМЧИЙН ЭМЧИЛГЭЭНИЙ БҮРТГЭЛ
             </span>
           </div>
         </div>
         <Table bordered className="document">
           <colgroup>
-            <col style={{ width: 10 }} />
-            <col style={{ width: 60 }} />
+            <col style={{ width: 30 }} />
+            <col style={{ width: 70 }} />
             <col style={{ width: 80 }} />
           </colgroup>
           <tbody>
@@ -115,7 +115,7 @@ function AM39() {
                 colSpan={3}
                 style={{
                   ...textStyle.centerText,
-                  ...{ width: 20, height: 20 },
+                  ...{ width: 20, height: 18 },
                 }}
               >
                 Хүний тоо
@@ -154,7 +154,7 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td rowSpan={6} style={textStyle.verticalText}>
+              <td rowSpan={10} style={textStyle.verticalText}>
                 Үүнээс
               </td>
               <td colSpan={2} style={textStyle.leftText}>
@@ -231,9 +231,10 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td colSpan={2} style={textStyle.leftText}>
-                Анх
+              <td rowSpan={2} style={textStyle.leftText}>
+                Анхан
               </td>
+              <td style={textStyle.numberText}>Хотын</td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -268,8 +269,114 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td colSpan={2} style={textStyle.leftText}>
+              <td style={textStyle.leftText}>Хөдөөгийн</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.leftText}>
                 Давтан
+              </td>
+              <td style={textStyle.numberText}>Хотын</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.leftText}>Хөдөөгийн</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td colSpan={2} style={textStyle.leftText}>
+                Зөвлөгөө
               </td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -343,7 +450,7 @@ function AM39() {
             </tr>
             <tr>
               <td colSpan={2} style={textStyle.leftText}>
-                У/сэргийлэх үзлэг
+                У/Сэргийлэх үзлэг
               </td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -379,186 +486,8 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.leftText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
+              <td colSpan={2} style={textStyle.leftText}>
                 Эрүүлжсэн
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.leftText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
-                0-16 насны хүүхэд
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.leftText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
-                5-6 насны хүүхэд
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.leftText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
-                12 насны хүүхэд
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.leftText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
-                18 насны хүүхэд
               </td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -597,7 +526,7 @@ function AM39() {
               <td rowSpan={3} style={textStyle.verticalText}>
                 Бусад
               </td>
-              <td colSpan={2} style={textStyle.centerText}>
+              <td colSpan={2} style={textStyle.leftText}>
                 Тэтгэвэрт
               </td>
               <td style={textStyle.numberText}></td>
@@ -634,7 +563,7 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td colSpan={2} style={textStyle.centerText}>
+              <td colSpan={2} style={textStyle.leftText}>
                 Групп
               </td>
               <td style={textStyle.numberText}></td>
@@ -671,7 +600,7 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td colSpan={2} style={textStyle.centerText}>
+              <td colSpan={2} style={textStyle.leftText}>
                 Хөгжлийн бэрхшээлтэй
               </td>
               <td style={textStyle.numberText}></td>
@@ -708,14 +637,881 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.centerText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
-                Сүүн шүд авах
+              <td rowSpan={12} style={textStyle.verticalText}>
+                Авагддаг хиймэл шүдэлбэр
+              </td>
+              <td rowSpan={2} style={textStyle.leftText}>
+                Бүрэн шүд
+              </td>
+              <td style={textStyle.numberText}>Дээд</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Доод</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.leftText}>
+                Хэсэг шүдтэй
+              </td>
+              <td style={textStyle.numberText}>Дээд</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Доод</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.leftText}>
+                Цутгамал
+              </td>
+              <td style={textStyle.numberText}>Дээд</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Доод</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.leftText}>
+                Уян шүдэлбэр
+              </td>
+              <td style={textStyle.numberText}>Дээд</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Доод</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.leftText}>
+                Голонцор
+              </td>
+              <td style={textStyle.numberText}>Дээд</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Доод</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.leftText}>
+                Уян шүдэлбэр
+              </td>
+              <td style={textStyle.numberText}>Дээд</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Доод</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={14} style={textStyle.verticalText}>
+                Авагддаггүй хиймэл шүдэлбэр
+              </td>
+              <td rowSpan={4} style={textStyle.leftText}>
+                Хэвлэмэл
+              </td>
+              <td style={textStyle.numberText}>Ган</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Холимог</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Хуванцар</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Фасетка</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={4} style={textStyle.leftText}>
+                Цутгамал
+              </td>
+              <td style={textStyle.numberText}>Ган</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Холимог</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Шаазан</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>Фасетка</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={4} style={textStyle.leftText}>
+                Гүүрэлсэн
+              </td>
+              <td style={textStyle.numberText}>1 тул -тай</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>2 тул- тай</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>3 тул- тай</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td style={textStyle.numberText}>4 тул- тай</td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td colSpan={2} style={textStyle.leftText}>
+                Хуучин бүрээс авах
               </td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -751,903 +1547,9 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td rowSpan={3} style={textStyle.centerText}>
-                Тогтмол шүд авах
+              <td colSpan={2} style={textStyle.leftText}>
+                Шаазан шүдэлбэр
               </td>
-              <td colSpan={2} style={textStyle.centerText}>
-                Цоо / хүнд/
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td colSpan={2} style={textStyle.centerText}>
-                Суларсан
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td colSpan={2} style={textStyle.centerText}>
-                Бусад
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={3} style={textStyle.centerText}>
-                Шүд авсаны дараах хүндрэл
-              </td>
-              <td colSpan={2} style={textStyle.centerText}>
-                Альвеолит
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td colSpan={2} style={textStyle.centerText}>
-                Цус алдалт
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td colSpan={2} style={textStyle.centerText}>
-                Ёзоор хугар
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.centerText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
-                Амбулаторийн хагалгаа
-              </td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} colSpan={2} style={textStyle.centerText}>
-                Зөвлөгөө
-              </td>
-              <td style={textStyle.centerText}>Салст</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.centerText}>Бусад</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={20} style={textStyle.verticalText}>
-                Хагалгааны төрөлүүд
-              </td>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Шүдний гаралтай
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Шүдний бус гаралтай
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Шүлсний булчирхайн өвчин
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Шүдний үений өвчинүүд
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Мэдрэлийн өвчинүүд
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Гэмтэлүүд
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Хавдарууд
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Остеомиелит
-              </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -1683,82 +1585,11 @@ function AM39() {
             </tr>
             <tr>
               <td rowSpan={2} style={textStyle.centerText}>
-                Шүдний гаралтай
+                Загвар шүд
               </td>
-              <td style={textStyle.leftText}>Анх</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Нөхөн сэргээх м/з
+              <td colSpan={2} style={textStyle.leftText}>
+                Дээд
               </td>
-              <td style={textStyle.leftText}>Анх</td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -1793,49 +1624,8 @@ function AM39() {
               <td style={textStyle.numberText}></td>
             </tr>
             <tr>
-              <td style={textStyle.leftText}>Давтан</td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-              <td style={textStyle.numberText}></td>
-            </tr>
-            <tr>
-              <td
-                colSpan={3}
-                style={{
-                  ...textStyle.centerText,
-                  ...{ width: 20, height: 20 },
-                }}
-              >
-                Ажлын нэгж
+              <td colSpan={2} style={textStyle.leftText}>
+                Доод
               </td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
@@ -1875,10 +1665,333 @@ function AM39() {
                 colSpan={3}
                 style={{
                   ...textStyle.centerText,
-                  ...{ width: 20, height: 20 },
+                  ...{ width: 20, height: 18 },
                 }}
               >
-                Ажлын цаг
+                Нийлмэл хийцтэй хиймэл шүд
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td
+                colSpan={3}
+                style={{
+                  ...textStyle.centerText,
+                  ...{ width: 20, height: 18 },
+                }}
+              >
+                Шүд хийсэн бүгд
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td
+                colSpan={3}
+                style={{
+                  ...textStyle.centerText,
+                  ...{ width: 20, height: 18 },
+                }}
+              >
+                Уян шүдэлбэр бүгд
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td rowSpan={4} style={textStyle.verticalText}>
+                Үүнээс
+              </td>
+              <td colSpan={2} style={textStyle.leftText}>
+                Авагддаггүй х / шүд
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td colSpan={2} style={textStyle.leftText}>
+                Шахмал таг х /шүд
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td colSpan={2} style={textStyle.leftText}>
+                Цутгамал таг х /шүд
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td colSpan={2} style={textStyle.leftText}>
+                Шаазан шүдэлбэр
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td
+                colSpan={3}
+                style={{
+                  ...textStyle.centerText,
+                  ...{ width: 20, height: 18 },
+                }}
+              >
+                Бүгд нэгж
+              </td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+              <td style={textStyle.numberText}></td>
+            </tr>
+            <tr>
+              <td
+                colSpan={3}
+                style={{
+                  ...textStyle.centerText,
+                  ...{ width: 20, height: 18 },
+                }}
+              >
+                Орлого
               </td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
