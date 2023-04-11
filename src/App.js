@@ -1,13 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Mayg1 from "./Mayg1";
 import Mayg2 from "./Mayg2";
 import { useState } from "react";
 import { Button } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Mayg3 from "./Mayg3";
 import Mayg4 from "./Mayg4";
-import СТ2_9 from "./СТ2_9";
+import СТ2_4 from "./СТ2_4";
 
 function App() {
   const [type, setType] = useState(1);
@@ -18,7 +16,7 @@ function App() {
       <Button onClick={() => setType(2)}>Mayg2</Button>
       <Button onClick={() => setType(3)}>Mayg3</Button>
       <Button onClick={() => setType(4)}>Mayg4</Button>
-      {type === 1 ? <СТ2_9 /> : null}
+      {type === 1 ? <СТ2_4 /> : null}
       {type === 2 ? <Mayg2 /> : null}
       {type === 3 ? <Mayg3 /> : null}
       {type === 4 ? <Mayg4 /> : null}

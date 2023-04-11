@@ -189,76 +189,15 @@ function AM29А() {
               <td style={styles.centerText}>Хийгдсэн хугацаа</td>
               <td style={styles.centerText}>Сувилагчийн нэр</td>
             </tr>
-            <tr>
-              <td style={styles.centerText}>1</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>2</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>3</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>4</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>5</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>6</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>7</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>8</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>9</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
-            <tr>
-              <td style={styles.centerText}>10</td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-              <td style={styles.centerText}></td>
-            </tr>
+            {[...Array(10)].map((x, i) => (
+              <tr index={i}>
+                <td style={styles.centerText}>{i + 1}</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+            ))}
           </tbody>
         </Table>
       </div>
