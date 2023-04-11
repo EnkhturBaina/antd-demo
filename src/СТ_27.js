@@ -171,7 +171,7 @@ function СТ_27() {
             <tr>
               {[...Array(20)].map((x, i) => (
                 <td
-                  index={i}
+                  key={i}
                   style={{
                     ...textStyle.centerText,
                     ...{ width: 20 },
@@ -268,7 +268,7 @@ function СТ_27() {
               </td>
             </tr>
             {[...Array(22)].map((x, i) => (
-              <tr index={i}>
+              <tr key={i}>
                 <td style={textStyle.centerText}></td>
                 <td></td>
                 <td></td>

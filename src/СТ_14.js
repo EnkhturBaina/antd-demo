@@ -161,7 +161,7 @@ function СТ_14() {
               </td>
             </tr>
             {[...Array(31)].map((x, i) => (
-              <tr index={i}>
+              <tr key={i}>
                 <td style={textStyle.centerText}>{i + 1}</td>
                 <td></td>
                 <td></td>

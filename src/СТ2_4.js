@@ -34,6 +34,7 @@ function СТ2_4() {
     verticalText: {
       writingMode: "vertical-rl",
       verticalAlign: "middle",
+      textAlign: "center",
       padding: 5,
       rotate: "180deg",
       maxHeight: 100,
@@ -253,27 +254,248 @@ function СТ2_4() {
                 </td>
               </tr>
               {[...Array(8)].map((x, i) => (
-                <tr index={i}>
+                <tr key={i}>
                   {[...Array(20)].map((x, i) => (
-                    <td style={styles.centerText} index={i}>
+                    <td style={styles.centerText} key={i}>
                       &nbsp;
                     </td>
                   ))}
                 </tr>
               ))}
               {[...Array(14)].map((x, i) => (
-                <tr index={i}>
+                <tr key={i}>
                   {[...Array(i == 0 ? 21 : 20)].map((x, j) => (
                     <td
                       rowSpan={j == 20 && i == 0 ? 14 : null}
                       style={styles.centerText}
-                      index={j}
+                      key={j}
                     >
                       &nbsp;
                     </td>
                   ))}
                 </tr>
               ))}
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page-landscape">
+        <div className="subpage-landscape">
+          <div style={styles.flexContainer}>
+            <div>
+              <div style={styles.leftText}>
+                Эмчлүүлэгч _______________________
+              </div>
+              <div style={styles.leftText}>Нас.....</div>
+              <div style={styles.leftText}>Хүйс/зур/ эрэгтэй, эмэгтэй</div>
+            </div>
+            <div>
+              <div style={styles.leftText}>Хориглох зүйл_________________</div>
+              <div style={styles.leftText}>Харшил ____________________</div>
+            </div>
+            <div style={{ marginRight: 300 }}>
+              <div style={styles.leftText}>
+                Шинжилгээ: 1. ........................................
+              </div>
+              {[...Array(8)].map((x, i) => (
+                <div
+                  key={i}
+                  style={{ ...styles.leftText, ...{ marginLeft: 70 } }}
+                >
+                  {i}. ........................................
+                </div>
+              ))}
+            </div>
+          </div>
+          <Table bordered className="document" style={{ marginTop: 10 }}>
+            <tbody>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}>Д/Д</td>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}>
+                  Эмчилгээ, сувилгааны заалт цаг
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>09</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>10</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>11</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>12</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>13</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>14</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>15</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>16</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>17</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>18</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>19</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>20</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>21</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>22</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>23</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>00</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>01</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>02</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>03</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>04</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>05</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>06</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>07</td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>08</td>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}>Дүн</td>
+                <td
+                  colSpan={3}
+                  style={{ ...styles.centerText, ...{ width: 100 } }}
+                ></td>
+              </tr>
+              <tr>
+                <td rowSpan={4} style={styles.verticalText}>
+                  Шахуурга
+                </td>
+                {[...Array(28)].map((x, i) => (
+                  <td
+                    colSpan={i == 27 ? 3 : null}
+                    rowSpan={i == 27 ? 8 : null}
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: i == 27 ? 40 : null },
+                    }}
+                    key={i}
+                  >
+                    {i == 27 ? (
+                      <span>+ /орсон/ Судсаар Амаар</span>
+                    ) : (
+                      <>&nbsp;{i}</>
+                    )}
+                  </td>
+                ))}
+              </tr>
+              {[...Array(3)].map((x, i) => (
+                <tr key={i}>
+                  {[...Array(27)].map((x, j) => (
+                    <td style={styles.centerText}>&nbsp;</td>
+                  ))}
+                </tr>
+              ))}
+              <tr>
+                <td rowSpan={9} style={styles.verticalText}>
+                  Дуслаар
+                </td>
+                {[...Array(27)].map((x, i) => (
+                  <td style={styles.centerText} key={i}>
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(27)].map((x, i) => (
+                  <td style={styles.centerText} key={i}>
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(27)].map((x, i) => (
+                  <td style={styles.centerText} key={i}>
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(27)].map((x, i) => (
+                  <td style={styles.centerText} key={i}>
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(29)].map((x, i) => (
+                  <td
+                    key={i}
+                    rowSpan={i == 27 || i == 28 ? 2 : null}
+                    colSpan={i == 27 ? 2 : null}
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: i == 26 ? 40 : null },
+                    }}
+                  >
+                    {i == 27 ? <span>Нийт</span> : <>&nbsp;</>}
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(27)].map((x, i) => (
+                  <td
+                    key={i}
+                    style={{ ...styles.centerText, ...{ height: 10 } }}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(28)].map((x, i) => (
+                  <td
+                    style={{ ...styles.leftText, ...{ height: 10 } }}
+                    key={i}
+                    colSpan={i == 27 ? 3 : null}
+                    rowSpan={i == 27 ? 14 : null}
+                  >
+                    {i == 27 ? (
+                      <div style={{ display: "flex", flexDirection: "column" }}>
+                        <div style={styles.leftText}>- /гарсан/</div>
+                        <div style={styles.leftText}>Шээс</div>
+                        <div style={styles.leftText}>Бөөлжилт</div>
+                        <div style={styles.leftText}>Өтгөн</div>
+                        <div style={styles.leftText}>Гуурсаар</div>
+                        <div style={styles.leftText}>Бусад</div>
+                      </div>
+                    ) : (
+                      <>&nbsp;</>
+                    )}
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(27)].map((x, i) => (
+                  <td style={styles.centerText} key={i}>
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(27)].map((x, i) => (
+                  <td style={styles.centerText} key={i}>
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              {/*<tr>
+                {[...Array(27)].map((x, i) => (
+                  <td style={styles.centerText} key={i}>
+                    &nbsp;
+                  </td>
+                ))}
+              </tr> */}
+              {/* {[...Array(8)].map((x, i) => (
+                <tr key={i}>
+                  {[...Array(i == 3 ? 28 : 27)].map((x, j) => (
+                    <td
+                      key={j}
+                      rowSpan={
+                        i == 3 && j == 27
+                          ? 2
+                          : null || (i == 5 && j == 28)
+                          ? 14
+                          : null
+                      }
+                      style={{
+                        ...styles.centerText,
+                        ...{ width: i == 3 && j == 27 ? 40 : null },
+                      }}
+                    >
+                      {i} - {j}
+                    </td>
+                  ))}
+                </tr>
+              ))} */}
             </tbody>
           </Table>
         </div>

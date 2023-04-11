@@ -190,7 +190,7 @@ function AM29А() {
               <td style={styles.centerText}>Сувилагчийн нэр</td>
             </tr>
             {[...Array(10)].map((x, i) => (
-              <tr index={i}>
+              <tr key={i}>
                 <td style={styles.centerText}>{i + 1}</td>
                 <td style={styles.centerText}></td>
                 <td style={styles.centerText}></td>
