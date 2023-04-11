@@ -241,7 +241,7 @@ function СТ2_4() {
                   rowSpan={10}
                   style={{ ...styles.centerText, ...{ width: 40 } }}
                 >
-                  1
+                  &nbsp;
                 </td>
               </tr>
               <tr>
