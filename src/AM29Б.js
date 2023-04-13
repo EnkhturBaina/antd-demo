@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-29А
-function AM29А() {
+//маягт АМ-29Б
+function AM29Б() {
   const styles = {
     rowCells: {
       borderWidth: 1,
@@ -54,7 +54,7 @@ function AM29А() {
               A/611 дүгээр тушаалын арваннэгдүгээр хавсралт
             </span>
             <span style={{ fontWeight: "bold", fontSize: 14 }}>
-              Эрүүл мэндийн бүртгэлийн маягт АМ-29А
+              Эрүүл мэндийн бүртгэлийн маягт АМ-29Б
             </span>
           </div>
         </div>
@@ -72,7 +72,7 @@ function AM29А() {
         </div>
         <div style={{ textAlign: "center", marginTop: 15, marginBottom: 15 }}>
           <span style={{ fontWeight: "bold", fontSize: 16 }}>
-            ДЭВТЭЭЛГЭ ЗАСАЛ ЭМЧИЛГЭЭНИЙ КАРТ
+            БАРИА ЗАСАЛ ЭМЧИЛГЭЭНИЙ КАРТ
           </span>
         </div>
         <div style={{ ...styles.generalText, ...{ marginLeft: 450 } }}>
@@ -114,64 +114,73 @@ function AM29А() {
           <span style={{ marginLeft: 50 }}>Хүйс: /зур/ эрэгтэй, эмэгтэй</span>
         </div>
         <div style={styles.rowStyle}>
-          3. Эмчилгээ эхэлсэн _____ он ___ сар ___ өдөр, Эмчилгээ дууссан он сар
-          өдөр _____ он ___ сар ___ өдөр
-        </div>
-        <div style={styles.rowStyle}>
-          4. Үндсэн онош: ________________________________________
+          3. Үндсэн онош: ________________________________________
         </div>
         <div style={styles.flexCotnainer}>
-          <div style={styles.rowStyle}>
-            5. Эмчилгээний төрөл ________________
-          </div>
+          <div style={styles.rowStyle}>4. Барианы төрөл ________________</div>
           <div>
             <div style={styles.rowStyle}>
-              <span>Таван рашаан</span>
+              <span>Бүтэн биеийн бариа :</span>
             </div>
             <div style={styles.generalText}>
-              <span>Барагшуны рашаан</span>
+              <span>1. Бүтэн биеийн зөөлөн бариа</span>
             </div>
             <div style={styles.generalText}>
-              <span>Халгайн рашаан:</span>
+              <span>2. Халуун тосон бариа</span>
             </div>
             <div style={styles.generalText}>
-              <span>Шимт рашаан</span>
+              <span>3. Сүүн бариа</span>
             </div>
             <div style={styles.generalText}>
-              <span>Циркуляр душ</span>
+              <span>4. Шөлөн бариа</span>
             </div>
             <div style={styles.generalText}>
-              <span>Өгсүүр душ</span>
+              <span>5. Арвайн бариа</span>
             </div>
             <div style={styles.generalText}>
-              <span>Шарко</span>
+              <span>6. Бусад бариа ..................</span>
             </div>
             <div style={styles.generalText}>
-              <span>Саун</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Сувдан ванн</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Бусад</span>
+              <span>............................................</span>
             </div>
           </div>
           <div>
             <div style={styles.rowStyle}>
-              <span>6. Ороолт:</span>
+              <span>Хэсэгчилсэн бариа:</span>
             </div>
             <div style={styles.generalText}>
-              <span>Эмийн бодис: ______________</span>
+              <span>1. Толгой, хүзүү, нуруу</span>
             </div>
             <div style={styles.generalText}>
-              <span>Бэлчир орон: ______________</span>
+              <span>2. Нүүрний хэсэг</span>
+            </div>
+            <div style={styles.generalText}>
+              <span>3. Гарын /мөр, бугалга, шуу, тохой, сарвууны хэсэг/</span>
+            </div>
+            <div style={styles.generalText}>
+              <span>4. Сээр бүсэлхий ууц нуруу</span>
+            </div>
+            <div style={styles.generalText}>
+              <span>5. Хөлийн /түнх, гуя, өвдөг, шилбэ, тавхайн хэсэг/</span>
+            </div>
+            <div style={styles.generalText}>
+              <span>6. 4 тольтын бариа</span>
+            </div>
+            <div style={styles.generalText}>
+              <span>7. Даран бариа</span>
+            </div>
+            <div style={styles.generalText}>
+              <span>8. Бусад бариа</span>
             </div>
           </div>
         </div>
         <div style={styles.rowStyle}>
-          Эмчилгээ хийсэн эмчийн нэр: ___________________________
+          5. Анхаарах
+          зүйл:_______________________________________________________________
         </div>
-
+        <div style={styles.rowStyle}>
+          Эмчийн нэр: __________________________
+        </div>
         <div style={{ ...styles.generalText, ...{ marginLeft: 450 } }}>
           <span style={{ fontWeight: "bold", fontSize: 14 }}>
             Маягтын ар тал
@@ -186,7 +195,7 @@ function AM29А() {
               <td style={{ ...styles.centerText, ...{ width: 70 } }}>
                 Он сар өдөр
               </td>
-              <td style={styles.centerText}>Дэвтээлгийн төрөл</td>
+              <td style={styles.centerText}>Барианы төрөл</td>
               <td style={styles.centerText}>Хийгдсэн хугацаа</td>
               <td style={styles.centerText}>Сувилагчийн нэр</td>
             </tr>
@@ -206,4 +215,4 @@ function AM29А() {
   );
 }
 
-export default AM29А;
+export default AM29Б;

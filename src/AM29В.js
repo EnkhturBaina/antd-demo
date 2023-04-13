@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-29А
-function AM29А() {
+//маягт АМ-29В
+function AM29В() {
   const styles = {
     rowCells: {
       borderWidth: 1,
@@ -13,6 +13,9 @@ function AM29А() {
     generalText: {
       fontSize: 12,
     },
+    blankSpaces: {
+      fontSize: 10,
+    },
     rowStyle: {
       fontSize: 12,
       marginTop: 10,
@@ -21,11 +24,6 @@ function AM29А() {
       textAlign: "center",
       verticalAlign: "middle",
       fontSize: 12,
-    },
-    flexCotnainer: {
-      display: "flex",
-      flexDirection: "row",
-      justifyContent: "space-between",
     },
   };
   return (
@@ -54,7 +52,7 @@ function AM29А() {
               A/611 дүгээр тушаалын арваннэгдүгээр хавсралт
             </span>
             <span style={{ fontWeight: "bold", fontSize: 14 }}>
-              Эрүүл мэндийн бүртгэлийн маягт АМ-29А
+              Эрүүл мэндийн бүртгэлийн маягт АМ-29В
             </span>
           </div>
         </div>
@@ -72,7 +70,7 @@ function AM29А() {
         </div>
         <div style={{ textAlign: "center", marginTop: 15, marginBottom: 15 }}>
           <span style={{ fontWeight: "bold", fontSize: 16 }}>
-            ДЭВТЭЭЛГЭ ЗАСАЛ ЭМЧИЛГЭЭНИЙ КАРТ
+            ХАТГАХ ЗАСАЛ ЭМЧИЛГЭЭНИЙ КАРТ
           </span>
         </div>
         <div style={{ ...styles.generalText, ...{ marginLeft: 450 } }}>
@@ -114,96 +112,60 @@ function AM29А() {
           <span style={{ marginLeft: 50 }}>Хүйс: /зур/ эрэгтэй, эмэгтэй</span>
         </div>
         <div style={styles.rowStyle}>
-          3. Эмчилгээ эхэлсэн _____ он ___ сар ___ өдөр, Эмчилгээ дууссан он сар
-          өдөр _____ он ___ сар ___ өдөр
+          3. Үндсэн онош: ________________________________________
         </div>
         <div style={styles.rowStyle}>
-          4. Үндсэн онош: ________________________________________
-        </div>
-        <div style={styles.flexCotnainer}>
-          <div style={styles.rowStyle}>
-            5. Эмчилгээний төрөл ________________
-          </div>
-          <div>
-            <div style={styles.rowStyle}>
-              <span>Таван рашаан</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Барагшуны рашаан</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Халгайн рашаан:</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Шимт рашаан</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Циркуляр душ</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Өгсүүр душ</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Шарко</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Саун</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Сувдан ванн</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Бусад</span>
-            </div>
-          </div>
-          <div>
-            <div style={styles.rowStyle}>
-              <span>6. Ороолт:</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Эмийн бодис: ______________</span>
-            </div>
-            <div style={styles.generalText}>
-              <span>Бэлчир орон: ______________</span>
-            </div>
-          </div>
+          4. Эмчилгээний төрөл, талбай, байрлал: ________
         </div>
         <div style={styles.rowStyle}>
-          Эмчилгээ хийсэн эмчийн нэр: ___________________________
-        </div>
-
-        <div style={{ ...styles.generalText, ...{ marginLeft: 450 } }}>
-          <span style={{ fontWeight: "bold", fontSize: 14 }}>
-            Маягтын ар тал
+          <span style={{ marginLeft: 50 }}>
+            Ханасан судасны нэр: __________________________
           </span>
-          <br />
-          <span style={{ fontWeight: "bold", fontSize: 14 }}>Б тал</span>
         </div>
-        <Table bordered className="document" style={{ marginTop: 10 }}>
-          <tbody>
-            <tr>
-              <td style={{ ...styles.centerText, ...{ width: 40 } }}>№</td>
-              <td style={{ ...styles.centerText, ...{ width: 70 } }}>
-                Он сар өдөр
-              </td>
-              <td style={styles.centerText}>Дэвтээлгийн төрөл</td>
-              <td style={styles.centerText}>Хийгдсэн хугацаа</td>
-              <td style={styles.centerText}>Сувилагчийн нэр</td>
-            </tr>
-            {[...Array(10)].map((x, i) => (
-              <tr key={i}>
-                <td style={styles.centerText}>{i + 1}</td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-                <td style={styles.centerText}></td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
+        <div style={styles.rowStyle}>
+          <span style={{ marginLeft: 50 }}>
+            Самнуур: _____________________________________
+          </span>
+        </div>
+        <div style={styles.rowStyle}>
+          <span style={{ marginLeft: 50 }}>
+            Шивүүр: ______________________________________
+          </span>
+        </div>
+        <div style={styles.rowStyle}>
+          <span style={{ marginLeft: 50 }}>
+            Түрэм: ______________________________________
+          </span>
+        </div>
+        <div style={styles.rowStyle}>
+          5. Эмчилгээний талаар зөвлөгөө өгсөн эсэх: ____________________ тийм
+          ___________________ үгүй
+        </div>
+        <div style={styles.rowStyle}>
+          6. Гарсан хүндрэл:
+          __________________________________________________________________________
+        </div>
+        <div style={styles.rowStyle}>
+          7. Авсан арга хэмжээ:
+          _______________________________________________________________________
+        </div>
+        <div style={styles.rowStyle}>
+          ____________________________________________________________________________________________________________________________________
+        </div>
+        <div style={styles.rowStyle}>
+          ____________________________________________________________________________________________________________________________________
+        </div>
+        <div style={{ marginTop: 20, textAlign: "center" }}>
+          <div style={styles.rowStyle}>
+            Эмчилгээ хийсэн эмчийн нэр: ___________________________
+          </div>
+          <div style={styles.rowStyle}>
+            Хатгах засал хийхийг зөвшөөрсөн өвчтөний нэр: ______________________
+          </div>
+        </div>
       </div>
     </div>
   );
 }
 
-export default AM29А;
+export default AM29В;
