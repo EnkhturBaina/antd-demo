@@ -5,16 +5,25 @@ import { Table } from "react-bootstrap";
 function СТ2_4() {
   const styles = {
     generalText: {
-      fontSize: 9,
+      fontSize: 12,
+    },
+    rowStyle: {
+      fontSize: 12,
+      marginTop: 10,
     },
     leftText: {
-      fontSize: 9,
+      fontSize: 12,
     },
     centerText: {
       textAlign: "center",
       verticalAlign: "middle",
-      fontSize: 9,
+      fontSize: 12,
       padding: 0,
+      marginTop: 10,
+    },
+    rightText: {
+      textAlign: "right",
+      fontSize: 12,
     },
     flexContainer: {
       display: "flex",
@@ -28,10 +37,10 @@ function СТ2_4() {
       textAlign: "center",
       padding: 5,
       rotate: "180deg",
-      maxHeight: 80,
-      maxWidth: 20,
+      maxHeight: 100,
+      maxWidth: 50,
       lineHeight: 1,
-      fontSize: 9,
+      fontSize: 12,
     },
   };
   return (
@@ -126,10 +135,7 @@ function СТ2_4() {
                 >
                   Т&#176;
                 </td>
-                <td
-                  colSpan={2}
-                  style={{ ...styles.centerText, ...{ width: 60 } }}
-                >
+                <td colSpan={2} style={{ ...styles.centerText, ...{} }}>
                   АД
                 </td>
                 <td
@@ -146,7 +152,7 @@ function СТ2_4() {
                 </td>
                 <td
                   rowSpan={3}
-                  style={{ ...styles.centerText, ...{ width: 20, padding: 8 } }}
+                  style={{ ...styles.centerText, ...{ width: 20 } }}
                 >
                   Sao2
                 </td>
@@ -164,19 +170,13 @@ function СТ2_4() {
               <tr>
                 <td
                   rowSpan={2}
-                  style={{
-                    ...styles.verticalText,
-                    ...{ width: 40 },
-                  }}
+                  style={{ ...styles.verticalText, ...{ width: 40 } }}
                 >
                   Дээд\Доод
                 </td>
                 <td
                   rowSpan={2}
-                  style={{
-                    ...styles.verticalText,
-                    ...{ width: 50 },
-                  }}
+                  style={{ ...styles.verticalText, ...{ width: 40 } }}
                 >
                   Дундаж
                 </td>
@@ -297,26 +297,22 @@ function СТ2_4() {
               <div style={styles.leftText}>
                 Шинжилгээ: 1. ........................................
               </div>
-              {[...Array(7)].map((x, i) => (
+              {[...Array(8)].map((x, i) => (
                 <div
                   key={i}
-                  style={{ ...styles.leftText, ...{ marginLeft: 60 } }}
+                  style={{ ...styles.leftText, ...{ marginLeft: 70 } }}
                 >
-                  {i + 2}. ........................................
+                  {i}. ........................................
                 </div>
               ))}
             </div>
           </div>
-          <Table
-            bordered
-            className="document"
-            style={{ marginTop: 10, marginBottom: 0 }}
-          >
+          <Table bordered className="document" style={{ marginTop: 10 }}>
             <tbody>
               <tr>
                 <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
                 <td style={{ ...styles.centerText, ...{ width: 40 } }}>Д/Д</td>
-                <td style={{ ...styles.centerText, ...{ width: 200 } }}>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}>
                   Эмчилгээ, сувилгааны заалт цаг
                 </td>
                 <td style={{ ...styles.centerText, ...{ width: 10 } }}>09</td>
@@ -358,20 +354,15 @@ function СТ2_4() {
                     colSpan={i == 27 ? 3 : null}
                     rowSpan={i == 27 ? 8 : null}
                     style={{
-                      ...styles.leftText,
-                      ...{ width: i == 27 ? 40 : null, height: 15, padding: 0 },
+                      ...styles.centerText,
+                      ...{ width: i == 27 ? 40 : null },
                     }}
                     key={i}
                   >
                     {i == 27 ? (
-                      <div style={{ display: "flex", flexDirection: "column" }}>
-                        <div style={styles.leftText}>+ /орсон/</div>
-                        <div style={styles.leftText}>Судсаар</div>
-                        <div style={styles.leftText}>&nbsp;</div>
-                        <div style={styles.leftText}>Амаар</div>
-                      </div>
+                      <span>+ /орсон/ Судсаар Амаар</span>
                     ) : (
-                      <>&nbsp;</>
+                      <>&nbsp;{i}</>
                     )}
                   </td>
                 ))}
@@ -379,15 +370,7 @@ function СТ2_4() {
               {[...Array(3)].map((x, i) => (
                 <tr key={i}>
                   {[...Array(27)].map((x, j) => (
-                    <td
-                      style={{
-                        ...styles.centerText,
-                        ...{ height: 15 },
-                      }}
-                      key={j}
-                    >
-                      &nbsp;
-                    </td>
+                    <td style={styles.centerText}>&nbsp;</td>
                   ))}
                 </tr>
               ))}
@@ -427,10 +410,10 @@ function СТ2_4() {
                   <td
                     key={i}
                     rowSpan={i == 27 || i == 28 ? 2 : null}
-                    colSpan={i == 28 ? 2 : null}
+                    colSpan={i == 27 ? 2 : null}
                     style={{
                       ...styles.centerText,
-                      ...{ width: i == 27 ? 60 : null },
+                      ...{ width: i == 26 ? 40 : null },
                     }}
                   >
                     {i == 27 ? <span>Нийт</span> : <>&nbsp;</>}
@@ -464,7 +447,9 @@ function СТ2_4() {
                         <div style={styles.leftText}>Гуурсаар</div>
                         <div style={styles.leftText}>Бусад</div>
                       </div>
-                    ) : null}
+                    ) : (
+                      <>&nbsp;</>
+                    )}
                   </td>
                 ))}
               </tr>
@@ -482,319 +467,37 @@ function СТ2_4() {
                   </td>
                 ))}
               </tr>
-              <tr>
-                <td rowSpan={8} style={styles.verticalText}>
-                  Судсаар
-                </td>
+              {/*<tr>
                 {[...Array(27)].map((x, i) => (
                   <td style={styles.centerText} key={i}>
                     &nbsp;
                   </td>
                 ))}
-              </tr>
-              {[...Array(7)].map((x, i) => (
+              </tr> */}
+              {/* {[...Array(8)].map((x, i) => (
                 <tr key={i}>
-                  {[...Array(27)].map((x, j) => (
-                    <td style={styles.centerText} key={j}>
-                      &nbsp;
-                    </td>
-                  ))}
-                </tr>
-              ))}
-              <tr>
-                <td
-                  rowSpan={4}
-                  style={{
-                    ...styles.verticalText,
-                    ...{ maxHeight: 60 },
-                  }}
-                >
-                  Булчин, арьсан дор
-                </td>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(29)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                    colSpan={i == 28 ? 2 : null}
-                  >
-                    {i == 27 ? <span>Нийт</span> : <>&nbsp;</>}
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                <td
-                  rowSpan={6}
-                  style={{
-                    ...styles.verticalText,
-                    ...{ maxHeight: 60 },
-                  }}
-                >
-                  Амаар
-                </td>
-                {[...Array(28)].map((x, i) => (
-                  <td
-                    colSpan={i == 27 ? 3 : null}
-                    rowSpan={i == 27 ? 3 : null}
-                    style={{
-                      ...styles.leftText,
-                      ...{ height: 15, padding: 0 },
-                    }}
-                    key={i}
-                  >
-                    {i == 27 ? "Шингэний баланс" : null}
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(28)].map((x, i) => (
-                  <td
-                    colSpan={i == 27 ? 3 : null}
-                    rowSpan={i == 27 ? 3 : null}
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    {i == 27 ? "Эмчид мэдэгдэх хяналтын хязгаар" : null}
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                <td
-                  rowSpan={8}
-                  style={{
-                    ...styles.verticalText,
-                    ...{ maxHeight: 60 },
-                  }}
-                >
-                  Сувилгаа, өдрийн дэглэм
-                </td>
-                {[...Array(28)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-                <td
-                  style={{
-                    ...styles.centerText,
-                    ...{ width: 50 },
-                  }}
-                >
-                  Дээд
-                </td>
-                <td
-                  style={{
-                    ...styles.centerText,
-                    ...{ width: 50 },
-                  }}
-                >
-                  Доод
-                </td>
-              </tr>
-              {[...Array(5)].map((x, i) => (
-                <tr key={i}>
-                  {[...Array(27)].map((x, j) => (
+                  {[...Array(i == 3 ? 28 : 27)].map((x, j) => (
                     <td
+                      key={j}
+                      rowSpan={
+                        i == 3 && j == 27
+                          ? 2
+                          : null || (i == 5 && j == 28)
+                          ? 14
+                          : null
+                      }
                       style={{
                         ...styles.centerText,
-                        ...{ height: 15 },
+                        ...{ width: i == 3 && j == 27 ? 40 : null },
                       }}
-                      key={j}
                     >
-                      &nbsp;
+                      {i} - {j}
                     </td>
                   ))}
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ width: 50 },
-                    }}
-                  >
-                    {i == 0 ? "АДД" : null}
-                    {i == 1 ? "Пульс" : null}
-                    {i == 2 ? "Sao2" : null}
-                  </td>
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ width: 50 },
-                    }}
-                  >
-                    &nbsp;
-                  </td>
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ width: 50 },
-                    }}
-                  >
-                    &nbsp;
-                  </td>
                 </tr>
-              ))}
-              <tr>
-                {[...Array(28)].map((x, i) => (
-                  <td
-                    colSpan={i == 27 ? 3 : null}
-                    rowSpan={i == 27 ? 3 : null}
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    {i == 27 ? "Баланс төлөвлөлт" : null}
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                {[...Array(27)].map((x, i) => (
-                  <td
-                    style={{
-                      ...styles.centerText,
-                      ...{ height: 15 },
-                    }}
-                    key={i}
-                  >
-                    &nbsp;
-                  </td>
-                ))}
-              </tr>
-              <tr>
-                <td
-                  colSpan={3}
-                  style={{
-                    ...styles.leftText,
-                    ...{ height: 15, padding: 0 },
-                  }}
-                >
-                  Хариуцсан сувилагч
-                </td>
-                <td
-                  colSpan={13}
-                  style={{
-                    ...styles.centerText,
-                    ...{ height: 15 },
-                  }}
-                ></td>
-                <td
-                  colSpan={11}
-                  style={{
-                    ...styles.centerText,
-                    ...{ height: 15 },
-                  }}
-                ></td>
-                <td
-                  style={{
-                    ...styles.centerText,
-                    ...{ height: 15 },
-                  }}
-                ></td>
-              </tr>
+              ))} */}
             </tbody>
           </Table>
-          <div style={styles.leftText}>Эмчлэгч эмч:</div>
         </div>
       </div>
     </>
