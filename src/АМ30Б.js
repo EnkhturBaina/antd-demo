@@ -24,6 +24,7 @@ function АМ30Б() {
     },
     rightText: {
       padding: 1,
+      paddingRight: 3,
       textAlign: "right",
       verticalAlign: "middle",
       fontSize: 12,
@@ -155,11 +156,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>ЗЦ</td>
-                <td style={styles.leftText}>А</td>
-                <td style={styles.leftText}>t°</td>
-                <td style={styles.leftText}>АД</td>
-                <td style={styles.leftText}>SpO2</td>
+                <td style={styles.centerText}>ЗЦ</td>
+                <td style={styles.centerText}>А</td>
+                <td style={styles.centerText}>t°</td>
+                <td style={styles.centerText}>АД</td>
+                <td style={styles.centerText}>SpO2</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -168,11 +169,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>150</td>
-                <td style={styles.leftText}>55</td>
-                <td style={styles.leftText}>40,5</td>
-                <td style={styles.leftText}>140</td>
-                <td style={styles.leftText}>100</td>
+                <td style={styles.centerText}>150</td>
+                <td style={styles.centerText}>55</td>
+                <td style={styles.centerText}>40,5</td>
+                <td style={styles.centerText}>140</td>
+                <td style={styles.centerText}>100</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -181,11 +182,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>140</td>
-                <td style={styles.leftText}>50</td>
-                <td style={styles.leftText}>40</td>
-                <td style={styles.leftText}>130</td>
-                <td style={styles.leftText}>98</td>
+                <td style={styles.centerText}>140</td>
+                <td style={styles.centerText}>50</td>
+                <td style={styles.centerText}>40</td>
+                <td style={styles.centerText}>130</td>
+                <td style={styles.centerText}>98</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -194,11 +195,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>130</td>
-                <td style={styles.leftText}>45</td>
-                <td style={styles.leftText}>39,5</td>
-                <td style={styles.leftText}>120</td>
-                <td style={styles.leftText}>96</td>
+                <td style={styles.centerText}>130</td>
+                <td style={styles.centerText}>45</td>
+                <td style={styles.centerText}>39,5</td>
+                <td style={styles.centerText}>120</td>
+                <td style={styles.centerText}>96</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -207,11 +208,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>120</td>
-                <td style={styles.leftText}>40</td>
-                <td style={styles.leftText}>39</td>
-                <td style={styles.leftText}>110</td>
-                <td style={styles.leftText}>94</td>
+                <td style={styles.centerText}>120</td>
+                <td style={styles.centerText}>40</td>
+                <td style={styles.centerText}>39</td>
+                <td style={styles.centerText}>110</td>
+                <td style={styles.centerText}>94</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -220,11 +221,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>110</td>
-                <td style={styles.leftText}>35</td>
-                <td style={styles.leftText}>38,5</td>
-                <td style={styles.leftText}>100</td>
-                <td style={styles.leftText}>92</td>
+                <td style={styles.centerText}>110</td>
+                <td style={styles.centerText}>35</td>
+                <td style={styles.centerText}>38,5</td>
+                <td style={styles.centerText}>100</td>
+                <td style={styles.centerText}>92</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -233,11 +234,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>100</td>
-                <td style={styles.leftText}>30</td>
-                <td style={styles.leftText}>38</td>
-                <td style={styles.leftText}>90</td>
-                <td style={styles.leftText}>90</td>
+                <td style={styles.centerText}>100</td>
+                <td style={styles.centerText}>30</td>
+                <td style={styles.centerText}>38</td>
+                <td style={styles.centerText}>90</td>
+                <td style={styles.centerText}>90</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -246,11 +247,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>90</td>
-                <td style={styles.leftText}>25</td>
-                <td style={styles.leftText}>37,5</td>
-                <td style={styles.leftText}>80</td>
-                <td style={styles.leftText}>88</td>
+                <td style={styles.centerText}>90</td>
+                <td style={styles.centerText}>25</td>
+                <td style={styles.centerText}>37,5</td>
+                <td style={styles.centerText}>80</td>
+                <td style={styles.centerText}>88</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -260,11 +261,11 @@ function АМ30Б() {
                 <td style={styles.centerText}>Авсан арга хэмжээ</td>
               </tr>
               <tr>
-                <td style={styles.leftText}>80</td>
-                <td style={styles.leftText}>20</td>
-                <td style={styles.leftText}>37</td>
-                <td style={styles.leftText}>70</td>
-                <td style={styles.leftText}>86</td>
+                <td style={styles.centerText}>80</td>
+                <td style={styles.centerText}>20</td>
+                <td style={styles.centerText}>37</td>
+                <td style={styles.centerText}>70</td>
+                <td style={styles.centerText}>86</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -287,11 +288,11 @@ function АМ30Б() {
                 </td>
               </tr>
               <tr>
-                <td style={styles.leftText}>70</td>
-                <td style={styles.leftText}>15</td>
-                <td style={styles.leftText}>36,5</td>
-                <td style={styles.leftText}>60</td>
-                <td style={styles.leftText}>84</td>
+                <td style={styles.centerText}>70</td>
+                <td style={styles.centerText}>15</td>
+                <td style={styles.centerText}>36,5</td>
+                <td style={styles.centerText}>60</td>
+                <td style={styles.centerText}>84</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -300,11 +301,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>60</td>
-                <td style={styles.leftText}>10</td>
-                <td style={styles.leftText}>36</td>
-                <td style={styles.leftText}>50</td>
-                <td style={styles.leftText}>82</td>
+                <td style={styles.centerText}>60</td>
+                <td style={styles.centerText}>10</td>
+                <td style={styles.centerText}>36</td>
+                <td style={styles.centerText}>50</td>
+                <td style={styles.centerText}>82</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -313,11 +314,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>50</td>
-                <td style={styles.leftText}>5</td>
-                <td style={styles.leftText}>35,5</td>
-                <td style={styles.leftText}>40</td>
-                <td style={styles.leftText}>80</td>
+                <td style={styles.centerText}>50</td>
+                <td style={styles.centerText}>5</td>
+                <td style={styles.centerText}>35,5</td>
+                <td style={styles.centerText}>40</td>
+                <td style={styles.centerText}>80</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -326,11 +327,11 @@ function АМ30Б() {
                 ))}
               </tr>
               <tr>
-                <td style={styles.leftText}>40</td>
-                <td style={styles.leftText}>0</td>
-                <td style={styles.leftText}>35</td>
-                <td style={styles.leftText}>30</td>
-                <td style={styles.leftText}>78</td>
+                <td style={styles.centerText}>40</td>
+                <td style={styles.centerText}>0</td>
+                <td style={styles.centerText}>35</td>
+                <td style={styles.centerText}>30</td>
+                <td style={styles.centerText}>78</td>
                 {[...Array(20)].map((x, i) => (
                   <td
                     style={{ ...styles.centerText, ...{ width: 15 } }}
@@ -461,6 +462,505 @@ function АМ30Б() {
           </div>
           <div style={styles.rightText}>
             огноо: . . . . . . . . ./ . . . . . . ./ . . . . . .
+          </div>
+          <Table bordered className="document" style={{ marginBottom: 0 }}>
+            <tbody>
+              <tr>
+                <td style={styles.centerText} rowSpan={2} colSpan={2}>
+                  Эмийн нэр
+                </td>
+                <td style={styles.centerText} rowSpan={2}>
+                  тун
+                </td>
+                <td style={styles.centerText} rowSpan={2}>
+                  Хийх арга
+                </td>
+                <td style={styles.centerText} colSpan={6}>
+                  Хийсэн цаг минут
+                </td>
+                <td
+                  style={{ ...styles.centerText, ...{ width: 80, height: 20 } }}
+                  rowSpan={2}
+                >
+                  Зардал
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style={{ ...styles.centerText, ...{ width: 40, height: 20 } }}
+                ></td>
+                <td
+                  style={{ ...styles.centerText, ...{ width: 40, height: 20 } }}
+                ></td>
+                <td
+                  style={{ ...styles.centerText, ...{ width: 40, height: 20 } }}
+                ></td>
+                <td
+                  style={{ ...styles.centerText, ...{ width: 40, height: 20 } }}
+                ></td>
+                <td
+                  style={{ ...styles.centerText, ...{ width: 40, height: 20 } }}
+                ></td>
+                <td
+                  style={{ ...styles.centerText, ...{ width: 40, height: 20 } }}
+                ></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>1</td>
+                <td style={styles.leftText}>Парацетамол лаа / таб</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>2</td>
+                <td style={styles.leftText}>Ибупрофейн таб</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>3</td>
+                <td style={styles.leftText}>Диклофенак лаа</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>4</td>
+                <td style={styles.leftText}>Метамизол таб / тариа</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>5</td>
+                <td style={styles.leftText}>Натрийн хлорид 0,9%</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>6</td>
+                <td style={styles.leftText}>Чихрийн уусмал ........%</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>7</td>
+                <td style={styles.leftText}>Рингерийн уусмал</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>8</td>
+                <td style={styles.leftText}>Церукал таб / тариа</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>9</td>
+                <td style={styles.leftText}>Ондацетрон тариа</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>10</td>
+                <td style={styles.leftText}>Пропофол тариа</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>11</td>
+                <td style={styles.leftText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>12</td>
+                <td style={styles.leftText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              {[...Array(5)].map((x, i) => (
+                <tr key={i}>
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 40, height: 20 },
+                    }}
+                  ></td>
+                  <td style={styles.leftText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                </tr>
+              ))}
+              <tr>
+                <td style={styles.centerText} colSpan={2}>
+                  Нэг удаагийн хэрэгсэл
+                </td>
+                <td style={styles.centerText}>хэмжээ</td>
+                <td style={styles.centerText}>Тоо ширхэг</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>1</td>
+                <td style={styles.leftText}>Соруулах гуурс</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>2</td>
+                <td style={styles.leftText}>Ходоодны гуурс</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>3</td>
+                <td style={styles.leftText}>Спирт</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>4</td>
+                <td style={styles.leftText}>Хөвөн</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>5</td>
+                <td style={styles.leftText}>Бээлий</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>6</td>
+                <td style={styles.leftText}>Систем</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>7</td>
+                <td style={styles.leftText}>Уян зүү</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>8</td>
+                <td style={styles.leftText} rowSpan={5}>
+                  Тариур:
+                </td>
+                <td style={styles.centerText}>20 мл</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>9</td>
+                <td style={styles.centerText}>10 мл</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>10</td>
+                <td style={styles.centerText}>5 мл</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>11</td>
+                <td style={styles.centerText}>3 мл</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>12</td>
+                <td style={styles.centerText}>1 мл</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>13</td>
+                <td style={styles.leftText}>Боолтын иж бүрдэл</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>14</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+              </tr>
+              {[...Array(2)].map((x, i) => (
+                <tr key={i}>
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 40, height: 20 },
+                    }}
+                  ></td>
+                  <td style={styles.leftText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                  <td style={styles.centerText}></td>
+                </tr>
+              ))}
+              <tr>
+                <td style={styles.centerText}>14</td>
+                <td style={styles.centerText}>
+                  Хяналтын өрөөний эмчилгээний зардал
+                </td>
+                <td style={styles.centerText} colSpan={8}>
+                  Зөвхөн хяналтын өрөөнд хэргэлсэн эм, хэрэгслийн зардлыг бичнэ.
+                </td>
+                <td style={styles.centerText}></td>
+              </tr>
+            </tbody>
+          </Table>
+          <Table bordered className="document" style={{ marginBottom: 0 }}>
+            <tbody>
+              <tr>
+                <td style={styles.centerText} colSpan={3}>
+                  Эмчилгээнйи нийт зардал /төгрөгөөр/
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>1</td>
+                <td style={styles.rightText}>Мэс заслын нийт</td>
+                <td style={styles.centerText}>
+                  . . . . . . . . . . . . . . . . . . . . . . .₮
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>2</td>
+                <td style={styles.rightText}>Мэдээгүйжүүлгийн</td>
+                <td style={styles.centerText}>
+                  . . . . . . . . . . . . . . . . . . . . . . .₮
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>3</td>
+                <td style={styles.rightText}>Сэрээх өрөөний эмчилгээний</td>
+                <td style={styles.centerText}>
+                  . . . . . . . . . . . . . . . . . . . . . . .₮
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>4</td>
+                <td style={styles.rightText}>Хяналтын өрөөний эмчилгээний</td>
+                <td style={styles.centerText}>
+                  . . . . . . . . . . . . . . . . . . . . . . .₮
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>5</td>
+                <td style={styles.rightText}>Өдрийн эмчилгээний нийт</td>
+                <td style={styles.centerText}>
+                  . . . . . . . . . . . . . . . . . . . . . . .₮
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+          <div style={styles.rightText}>
+            Мэс заслын дараах хяналтын өрөөнд асаргаа, сувилгаа, эмчилгээ хийсэн
+            хүний нэр, гарын үсэг:
+          </div>
+          <div style={styles.rightText}>
+            1. Эмч / сувилагч: . . . . . . . . . . . . . . . . . . . . . . . ./{" "}
+            <span style={{ marginLeft: 80 }}>/</span>
+          </div>
+          <div style={styles.rightText}>
+            1. Эмч / сувилагч: . . . . . . . . . . . . . . . . . . . . . . . ./{" "}
+            <span style={{ marginLeft: 80 }}>/</span>
           </div>
         </div>
       </div>
