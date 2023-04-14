@@ -22,6 +22,12 @@ function АМ30Б() {
       verticalAlign: "middle",
       fontSize: 12,
     },
+    rightText: {
+      padding: 1,
+      textAlign: "right",
+      verticalAlign: "middle",
+      fontSize: 12,
+    },
     centerText: {
       padding: 1,
       textAlign: "center",
@@ -444,6 +450,17 @@ function АМ30Б() {
             . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
             . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
             . . . . . . . . . .
+          </div>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            Өдрийн эмчилгээний дараах хяналтын өрөөнд хийгдсэн эмчилгээ,
+            сувилгааны зарлагын хуудас
+          </div>
+          <div style={styles.rightText}>
+            огноо: . . . . . . . . ./ . . . . . . ./ . . . . . .
           </div>
         </div>
       </div>
