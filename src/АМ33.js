@@ -8,7 +8,8 @@ function АМ33() {
       borderWidth: 1,
       borderStyle: "solid",
       width: 15,
-      height: 15,
+      height: 12,
+      lineHeight: 1,
     },
     generalText: {
       fontSize: 9,
@@ -176,15 +177,15 @@ function АМ33() {
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Эрэгтэй</td>
-                      <td style={styles.leftText}>1</td>
+                      <td style={styles.centerText}>1</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Эмэгтэй</td>
-                      <td style={styles.leftText}>2</td>
+                      <td style={styles.centerText}>2</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Тодорхойгүй</td>
-                      <td style={styles.leftText}>99</td>
+                      <td style={styles.centerText}>99</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -241,41 +242,41 @@ function АМ33() {
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Боловсролгүй</td>
-                      <td style={styles.leftText}>1</td>
+                      <td style={styles.centerText}>1</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Бага</td>
-                      <td style={styles.leftText}>2</td>
+                      <td style={styles.centerText}>2</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Суурь боловсрол</td>
-                      <td style={styles.leftText}>3</td>
+                      <td style={styles.centerText}>3</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Бүрэн дунд</td>
-                      <td style={styles.leftText}>4</td>
+                      <td style={styles.centerText}>4</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>
                         Мэргэжлийн болон техникийн
                       </td>
-                      <td style={styles.leftText}>5</td>
+                      <td style={styles.centerText}>5</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Дипломын</td>
-                      <td style={styles.leftText}>6</td>
+                      <td style={styles.centerText}>6</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Бакалавр</td>
-                      <td style={styles.leftText}>7</td>
+                      <td style={styles.centerText}>7</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Магистр</td>
-                      <td style={styles.leftText}>8</td>
+                      <td style={styles.centerText}>8</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Доктор</td>
-                      <td style={styles.leftText}>9</td>
+                      <td style={styles.centerText}>9</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -292,37 +293,41 @@ function АМ33() {
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Өрх ЭМТөв</td>
-                      <td style={styles.leftText}>1</td>
+                      <td style={styles.centerText}>1</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>
                         Сум, тосгон, сум дундын ЭМТ
                       </td>
-                      <td style={styles.leftText}>2</td>
+                      <td style={styles.centerText}>2</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Аймаг, Дүүргийн НЭ</td>
-                      <td style={styles.leftText}>3</td>
+                      <td style={styles.centerText}>3</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>БОЭТ</td>
-                      <td style={styles.leftText}>4</td>
+                      <td style={styles.centerText}>4</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>
                         Төрөлжсөн мэргэжлийн эмнэлэг
                       </td>
-                      <td style={styles.leftText}>5</td>
+                      <td style={styles.centerText}>5</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Бусад</td>
-                      <td style={styles.leftText}>98</td>
+                      <td style={styles.centerText}>98</td>
                     </tr>
                   </tbody>
                 </Table>
               </div>
               <div style={styles.flexRow}>
-                <Table bordered className="document" style={{ marginTop: 5 }}>
+                <Table
+                  bordered
+                  className="document"
+                  style={{ marginTop: 5, marginBottom: 5 }}
+                >
                   <tbody>
                     <tr>
                       <td colSpan={2} style={styles.centerText}>
@@ -331,26 +336,26 @@ function АМ33() {
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Өөрөө</td>
-                      <td style={styles.leftText}>1</td>
+                      <td style={styles.centerText}>1</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Түргэн тусламжаар</td>
-                      <td style={styles.leftText}>2</td>
+                      <td style={styles.centerText}>2</td>
                     </tr>
                     <tr>
                       <td style={styles.leftText}>Бусад____________</td>
-                      <td style={styles.leftText}>98</td>
+                      <td style={styles.centerText}>98</td>
                     </tr>
                   </tbody>
                 </Table>
                 <Table
                   bordered
                   className="document"
-                  style={{ marginTop: 5, marginLeft: 10 }}
+                  style={{ marginTop: 5, marginLeft: 10, marginBottom: 5 }}
                 >
                   <tbody>
                     <tr>
-                      <td colSpan={5} style={styles.centerText}>
+                      <td colSpan={5} style={styles.leftText}>
                         15.Гэмтсэн/он,сар,өдөр,цаг,мин/
                       </td>
                     </tr>
@@ -983,6 +988,56 @@ function АМ33() {
                   </tr>
                 </tbody>
               </Table>
+              <Table bordered className="document">
+                <tbody>
+                  <tr>
+                    <td colSpan={2} style={styles.centerText}>
+                      <b>Г3. Хэдэн хүчирхийлэгч оролцсон бэ?</b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>1</td>
+                    <td style={styles.centerText}>1</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>2</td>
+                    <td style={styles.centerText}>2</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>3</td>
+                    <td style={styles.centerText}>3</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>4 ба дээш</td>
+                    <td style={styles.centerText}>4</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>Тодорхойгүй</td>
+                    <td style={styles.centerText}>99</td>
+                  </tr>
+                </tbody>
+              </Table>
+              <Table bordered className="document">
+                <tbody>
+                  <tr>
+                    <td colSpan={2} style={styles.centerText}>
+                      <b>Г4. Гол хүчирхийлэгчийн хүйс</b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>Эрэгтэй</td>
+                    <td style={styles.centerText}>1</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>Эмэгтэй</td>
+                    <td style={styles.centerText}>2</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerText}>Тодорхойгүй</td>
+                    <td style={styles.centerText}>99</td>
+                  </tr>
+                </tbody>
+              </Table>
             </div>
             <div
               style={{
@@ -995,7 +1050,7 @@ function АМ33() {
                 <tbody>
                   <tr>
                     <td colSpan={3} style={styles.centerText}>
-                      <b>Г1. Хүчирхийлэлийн хэлбэр</b>
+                      <b>Г2. Хэрэглэсэн арга/ зүйл</b>
                     </td>
                   </tr>
                   <tr>
@@ -1026,7 +1081,7 @@ function АМ33() {
                     <td style={styles.leftText}>
                       Утаа, гал дөлөөр түлэх /Х97/
                     </td>
-                    <td style={styles.centerText}>&nbsp;</td>
+                    <td style={styles.centerText}>&nbsp;&nbsp;&nbsp;</td>
                     <td style={styles.centerText}>5</td>
                   </tr>
                   <tr>
@@ -1078,57 +1133,45 @@ function АМ33() {
                   </tr>
                 </tbody>
               </Table>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                marginRight: 10,
-              }}
-            >
               <Table bordered className="document">
                 <tbody>
                   <tr>
-                    <td colSpan={2} style={styles.centerText}>
-                      <b>Д1. Амиа хорлоход хүргэсэн хэлбэр</b>
+                    <td colSpan={3} style={styles.centerText}>
+                      <b>Г5. Хүчирхийлэгч-хохирогч хоорондын холбоо</b>
                     </td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Биеийн өвчин</td>
-                    <td style={styles.centerText}>1</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Сэтгэл санааны</td>
-                    <td style={styles.centerText}>2</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Бэлгийн хэлбэр</td>
-                    <td style={styles.centerText}>3</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Эдийн засгийн хэлбэр</td>
-                    <td style={styles.centerText}>4</td>
                   </tr>
                   <tr>
                     <td style={styles.leftText}>
-                      Хууль хяналтын байгууллагын дарамт
+                      Гэр бүлийн хүн /хамтран амьдрагч
                     </td>
+                    <td style={styles.centerText}>1</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.leftText}>Эх эцэг</td>
+                    <td style={styles.centerText}>2</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.leftText}>Бусад хамаатан</td>
+                    <td style={styles.centerText}>3</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.leftText}>Хамаатан биш харгалзагч</td>
+                    <td style={styles.centerText}>4</td>
+                  </tr>
+                  <tr>
+                    <td style={styles.leftText}>Танил/найз</td>
                     <td style={styles.centerText}>5</td>
                   </tr>
                   <tr>
-                    <td style={styles.leftText}>Сэтгэцийн эмгэгтэй</td>
+                    <td style={styles.leftText}>Хууль цагдаагийн хүн</td>
                     <td style={styles.centerText}>6</td>
                   </tr>
                   <tr>
-                    <td style={styles.leftText}>Гэр бүлийн гишүүд маргалдах</td>
+                    <td style={styles.leftText}>Үл таних хүн</td>
                     <td style={styles.centerText}>7</td>
                   </tr>
                   <tr>
-                    <td style={styles.leftText}>Ажлын байрны дарамт</td>
-                    <td style={styles.centerText}>8</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Бусад _______________</td>
+                    <td style={styles.leftText}>Бусад_________________</td>
                     <td style={styles.centerText}>98</td>
                   </tr>
                   <tr>
@@ -1139,78 +1182,237 @@ function АМ33() {
               </Table>
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ display: "flex", flexDirection: "row" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    marginRight: 10,
+                  }}
+                >
+                  <Table bordered className="document">
+                    <tbody>
+                      <tr>
+                        <td colSpan={2} style={styles.centerText}>
+                          <b>Д1. Амиа хорлоход хүргэсэн хэлбэр</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Биеийн өвчин</td>
+                        <td style={styles.centerText}>1</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Сэтгэл санааны</td>
+                        <td style={styles.centerText}>2</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Бэлгийн хэлбэр</td>
+                        <td style={styles.centerText}>3</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Эдийн засгийн хэлбэр</td>
+                        <td style={styles.centerText}>4</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          Хууль хяналтын байгууллагын дарамт
+                        </td>
+                        <td style={styles.centerText}>5</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Сэтгэцийн эмгэгтэй</td>
+                        <td style={styles.centerText}>6</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          Гэр бүлийн гишүүд маргалдах
+                        </td>
+                        <td style={styles.centerText}>7</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Ажлын байрны дарамт</td>
+                        <td style={styles.centerText}>8</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Бусад _______________</td>
+                        <td style={styles.centerText}>98</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Тодорхойгүй</td>
+                        <td style={styles.centerText}>99</td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <Table bordered className="document">
+                    <tbody>
+                      <tr>
+                        <td colSpan={2} style={styles.centerText}>
+                          <b>Д2. Хэрэглэсэн арга/ зүйл</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          Эмийн бодис /бичих/_______
+                        </td>
+                        <td style={styles.centerText}>1</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          Спирт, бусад бодис /бичих/_____
+                        </td>
+                        <td style={styles.centerText}>2</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Дүүжлэх, боох /Х70/ </td>
+                        <td style={styles.centerText}>3</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Усанд живэх /Х71/</td>
+                        <td style={styles.centerText}>4</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          Галт зэвсэг, буу /Х72- Х74/
+                        </td>
+                        <td style={styles.centerText}>5</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Тэсрэх, дэлбэрэх /X75/ </td>
+                        <td style={styles.centerText}>6</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          Гал дөл, ууранд түлэх /Х76-Х77/
+                        </td>
+                        <td style={styles.centerText}>7</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Иртэй зүйлээр /Х78/</td>
+                        <td style={styles.centerText}>8</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Мохоо зүйлээр /Х79/</td>
+                        <td style={styles.centerText}>9</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Өндрөөс үсрэх /X80/</td>
+                        <td style={styles.centerText}>10</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          Зам тээврийн осолд орох /X81-X82/
+                        </td>
+                        <td style={styles.centerText}>11</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>
+                          <div>Бусад / бичих / ____________________</div>
+                          <div>__________________________</div>
+                          <div>__________________________</div>
+                        </td>
+                        <td style={styles.centerText}>98</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Тодорхойгүй</td>
+                        <td style={styles.centerText}>99</td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <Table bordered className="document">
+                  <tbody>
+                    <tr>
+                      <td style={styles.centerText}>
+                        <b>Е2. ГЭМТЛИЙН ОНОШ</b>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style={{ ...styles.centerText, ...{ height: 100 } }}
+                      ></td>
+                    </tr>
+                  </tbody>
+                </Table>
+                <Table bordered className="document">
+                  <tbody>
+                    <tr>
+                      <td colSpan={4} style={styles.centerText}>
+                        <b>Е3 ШИЛЖҮҮЛСЭН ХЭЛБЭР</b>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style={styles.leftText}>Тасаг</td>
+                      <td style={styles.centerText}>1</td>
+                      <td style={styles.leftText}>Өрх</td>
+                      <td style={styles.centerText}>4</td>
+                    </tr>
+                    <tr>
+                      <td style={styles.leftText}>Эрчимт эмчилгээ </td>
+                      <td style={styles.centerText}>2</td>
+                      <td style={styles.leftText}>Аймаг/Дүүргийн НЭ</td>
+                      <td style={styles.centerText}>5</td>
+                    </tr>
+                    <tr>
+                      <td style={styles.leftText}>Нас барсан</td>
+                      <td style={styles.centerText}>3</td>
+                      <td style={styles.leftText}>Бусад</td>
+                      <td style={styles.centerText}>98</td>
+                    </tr>
+                  </tbody>
+                </Table>
+              </div>
+            </div>
+          </div>
+          <div style={styles.flexRow}>
+            <div
+              style={{ display: "flex", flexDirection: "column", width: "48%" }}
+            >
               <Table bordered className="document">
                 <tbody>
                   <tr>
-                    <td colSpan={2} style={styles.centerText}>
-                      <b>Д2. Хэрэглэсэн арга/ зүйл</b>
+                    <td style={styles.centerText}>
+                      <b>
+                        Е1. ТУСГАЙ ТЭМДЭГЛЭЛ /Гэмтсэн шалтгаан, механизмыг
+                        дэлгэрэнгүй бичнэ./
+                      </b>
                     </td>
                   </tr>
                   <tr>
-                    <td style={styles.leftText}>Эмийн бодис /бичих/_______</td>
-                    <td style={styles.centerText}>1</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>
-                      Спирт, бусад бодис /бичих/_____
-                    </td>
-                    <td style={styles.centerText}>2</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Дүүжлэх, боох /Х70/ </td>
-                    <td style={styles.centerText}>3</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Усанд живэх /Х71/</td>
-                    <td style={styles.centerText}>4</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Галт зэвсэг, буу /Х72- Х74/</td>
-                    <td style={styles.centerText}>5</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Тэсрэх, дэлбэрэх /X75/ </td>
-                    <td style={styles.centerText}>6</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>
-                      Гал дөл, ууранд түлэх /Х76-Х77/
-                    </td>
-                    <td style={styles.centerText}>7</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Иртэй зүйлээр /Х78/</td>
-                    <td style={styles.centerText}>8</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Мохоо зүйлээр /Х79/</td>
-                    <td style={styles.centerText}>9</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Өндрөөс үсрэх /X80/</td>
-                    <td style={styles.centerText}>10</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>
-                      Зам тээврийн осолд орох /X81-X82/
-                    </td>
-                    <td style={styles.centerText}>11</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>
-                      <div>Бусад / бичих / ____________________</div>
-                      <div>__________________________</div>
-                      <div>__________________________</div>
-                    </td>
-                    <td style={styles.centerText}>98</td>
-                  </tr>
-                  <tr>
-                    <td style={styles.leftText}>Тодорхойгүй</td>
-                    <td style={styles.centerText}>99</td>
+                    <td
+                      style={{ ...styles.centerText, ...{ height: 100 } }}
+                    ></td>
                   </tr>
                 </tbody>
               </Table>
             </div>
+            <div
+              style={{ display: "flex", flexDirection: "column", width: "48%" }}
+            >
+              <Table bordered className="document">
+                <tbody>
+                  <tr>
+                    <td style={styles.centerText}>
+                      <b>Е4. АВСАН АРГА ХЭМЖЭЭ</b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style={{ ...styles.centerText, ...{ height: 115 } }}
+                    ></td>
+                  </tr>
+                </tbody>
+              </Table>
+            </div>
+          </div>
+          <div style={styles.centerText}>
+            <b>
+              Эмчийн нэр, гарын үсэг /тамга/ ______________________________ (
+              <span style={{ marginLeft: 100 }}>)</span>
+            </b>
           </div>
         </div>
       </div>
