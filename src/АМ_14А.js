@@ -1,0 +1,279 @@
+import React from "react";
+import { Table } from "react-bootstrap";
+
+//маягт АМ-14А
+function АМ_14А() {
+  const textStyle = {
+    verticalText: {
+      writingMode: "vertical-rl",
+      verticalAlign: "middle",
+      padding: 5,
+      rotate: "180deg",
+      maxHeight: 100,
+      maxWidth: 50,
+      lineHeight: 1,
+    },
+    centerText: {
+      textAlign: "center",
+      verticalAlign: "middle",
+      fontSize: 12,
+    },
+    rowCells: {
+      borderWidth: 1,
+      borderStyle: "solid",
+      borderColor: "black",
+      width: 25,
+      height: 25,
+    },
+  };
+  return (
+    <div className="page-landscape">
+      <div className="subpage-landscape">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <span>Эмнэлгийн нэр: </span>
+
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <span style={{ marginRight: 5 }}>Эмнэлгийн код:</span>
+              <div style={textStyle.rowCells}></div>
+              <div style={textStyle.rowCells}></div>
+              <div style={textStyle.rowCells}></div>
+              <div style={textStyle.rowCells}></div>
+              <div style={textStyle.rowCells}></div>
+              <div style={textStyle.rowCells}></div>
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-end",
+            }}
+          >
+            <span style={{ fontSize: 12 }}>
+              Эрүүл мэндийн сайдын 2019 оны 12 дугаар сарын 30-ны өдрийн
+            </span>
+            <span style={{ fontSize: 12 }}>
+              A/611 дүгээр тушаалын арваннэгдүгээр хавсралт
+            </span>
+            <span style={{ fontWeight: "bold", fontSize: 12 }}>
+              Эрүүл мэндийн бүртгэлийн маягт АМ-14А
+            </span>
+          </div>
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <span style={{ fontWeight: "bold", fontSize: 16 }}>
+            ЖИРЭМСЭН ЭМЭГТЭЙЧҮҮДИЙН БҮРТГЭЛ
+          </span>
+        </div>
+        <Table bordered className="document">
+          <tbody>
+            <tr>
+              <td
+                rowSpan={4}
+                style={{ ...textStyle.centerText, ...{ width: 40 } }}
+              >
+                Д/д
+              </td>
+              <td
+                rowSpan={4}
+                style={{
+                  ...textStyle.centerText,
+                  ...{ width: 200 },
+                }}
+              >
+                Эцэг /эх/-ийн нэр Нэр Регистрийн дугаар
+              </td>
+              <td
+                rowSpan={4}
+                style={{
+                  ...textStyle.centerText,
+                  ...{ width: 40 },
+                }}
+              >
+                Нас
+              </td>
+              <td
+                rowSpan={4}
+                style={{
+                  ...textStyle.centerText,
+                  ...{ width: 150 },
+                }}
+              >
+                Тогтмол хаяг
+              </td>
+              <td rowSpan={4} style={textStyle.verticalText}>
+                Сүүлийн сарын тэмдэг ирсэн хугацаа
+              </td>
+              <td rowSpan={4} style={textStyle.verticalText}>
+                Төрөх хугацаа
+              </td>
+              <td colSpan={8} style={textStyle.centerText}>
+                Жирэмсний хяналтад орох үеийн мэдээлэл
+              </td>
+              <td colSpan={5} style={textStyle.centerText}>
+                Хяналтаас гарсан тухай
+              </td>
+              <td rowSpan={4} style={textStyle.verticalText}>
+                Амаржсан сар, өдөр
+              </td>
+              <td rowSpan={4} style={textStyle.verticalText}>
+                Төрсний дараа хяналтад орсон сар, өдөр
+              </td>
+              <td colSpan={2} style={textStyle.centerText}>
+                Цусны шинжилгээ эерэг (+) сөрөг (-)
+              </td>
+              <td colSpan={4} style={textStyle.centerText}>
+                БЗДХ-ын шинжилгээ /он.сар.өдөр/ эерэг (+) сөрөг (-)
+              </td>
+              <td rowSpan={4} style={textStyle.verticalText}>
+                Хөгжлийн бэрхшээлтэй эсэх
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2} style={textStyle.verticalText}>
+                Хяналтад орсон тухай
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Хяналтад орох үеийн жирэмсний тээлтийн хугацаа
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Хэд дэх жирэмслэлт
+              </td>
+              <td colSpan={4} style={textStyle.centerText}>
+                Өмнөх жирэмслэлтийн № тухай мэдээлэл
+              </td>
+              <td colSpan={2} style={textStyle.centerText}>
+                Хэвийн төрсөн
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Үр хөндсөн, сар.өдөр
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Зулбасан, сар.өдөр
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Шилжсэн, сар.өдөр
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Вирүст хепатит В
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Вирүст хепатит С
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                ДОХ/ХДХВ
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Тэмбүү
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Заг хүйтэн
+              </td>
+              <td rowSpan={3} style={textStyle.verticalText}>
+                Трихомониаз
+              </td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Шинээр орсон он.сар.өдөр
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Шилжиж ирсэн он.сар.өдөр
+              </td>
+              <td colSpan={2} style={textStyle.centerText}>
+                Төрсөн
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Үр хөндөлт
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Зулбалт
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Гүйцэд
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Дутуу
+              </td>
+            </tr>
+            <tr>
+              <td style={textStyle.verticalText}>Гүйцэд</td>
+              <td style={textStyle.verticalText}>Дутуу</td>
+            </tr>
+            <tr>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>1</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>2</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>3</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>4</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>5</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>6</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>7</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>8</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>9</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>10</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>11</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>12</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>13</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>14</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>15</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>16</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>17</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>18</td>
+              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>19</td>
+            </tr>
+            <tr>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td
+                colSpan={10}
+                style={{ ...textStyle.centerText, ...{ width: 30 } }}
+              ></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+              <td rowSpan={2} style={textStyle.centerText}></td>
+            </tr>
+            <tr>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+              <td style={{ height: 25, width: 25 }}></td>
+            </tr>
+          </tbody>
+        </Table>
+      </div>
+    </div>
+  );
+}
+
+export default АМ_14А;
