@@ -10,7 +10,6 @@ function АМ_14А() {
       padding: 5,
       rotate: "180deg",
       maxHeight: 100,
-      maxWidth: 50,
       lineHeight: 1,
     },
     centerText: {
@@ -88,6 +87,7 @@ function АМ_14А() {
               </td>
               <td
                 rowSpan={4}
+                colSpan={10}
                 style={{
                   ...textStyle.centerText,
                   ...{ width: 200 },
@@ -213,62 +213,107 @@ function АМ_14А() {
               <td style={textStyle.verticalText}>Дутуу</td>
             </tr>
             <tr>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>1</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>2</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>3</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>4</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>5</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>6</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>7</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>8</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>9</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>10</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>11</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>12</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>13</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>14</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>15</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>16</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>17</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>18</td>
-              <td style={{ ...textStyle.centerText, ...{ width: 30 } }}>19</td>
+              {[...Array(28)].map((x, i) => (
+                <td
+                  style={{
+                    ...textStyle.centerText,
+                    ...{ height: 20, padding: 2 },
+                  }}
+                  key={i}
+                  colSpan={i == 1 ? 10 : 0}
+                >
+                  {i + 1}
+                </td>
+              ))}
             </tr>
-            <tr>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td
-                colSpan={10}
-                style={{ ...textStyle.centerText, ...{ width: 30 } }}
-              ></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-              <td rowSpan={2} style={textStyle.centerText}></td>
-            </tr>
-            <tr>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-              <td style={{ height: 25, width: 25 }}></td>
-            </tr>
+            {[...Array(6)].map((x, i) => (
+              <>
+                <tr>
+                  <td rowSpan={3} style={textStyle.centerText}></td>
+                  {[...Array(21)].map((x, i) => (
+                    <td
+                      rowSpan={i == 0 ? 2 : 3}
+                      colSpan={i == 0 ? 10 : 0}
+                      style={textStyle.centerText}
+                      key={i}
+                    ></td>
+                  ))}
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                </tr>
+                <tr>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                  <td
+                    style={{
+                      ...textStyle.centerText,
+                      ...{ height: 20, padding: 2 },
+                    }}
+                  ></td>
+                </tr>
+                <tr>
+                  {[...Array(16)].map((x, i) => (
+                    <td
+                      style={{
+                        ...textStyle.centerText,
+                        ...{ height: 20, padding: 2 },
+                      }}
+                      key={i}
+                    ></td>
+                  ))}
+                </tr>
+              </>
+            ))}
           </tbody>
         </Table>
       </div>
