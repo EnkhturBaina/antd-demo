@@ -47,14 +47,6 @@ function АМ30Б() {
       flexDirection: "row",
       justifyContent: "space-between",
     },
-    rowCellWithText: {
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      fontSize: 12,
-      padding: 0,
-      lineHeight: 1,
-    },
   };
   return (
     <>
