@@ -8,10 +8,10 @@ import Mayg4 from "./Mayg4";
 import AM_18 from "./AM_18";
 
 function App() {
+  // zaswar AM_18 zurj bga 2 doh huudas zurj ehleh
   const [type, setType] = useState(1);
   return (
     <div>
-      {/* 39 iig zurj ehelj bga */}
       <Button onClick={() => setType(1)}>Mayg1</Button>
       <Button onClick={() => setType(2)}>Mayg2</Button>
       <Button onClick={() => setType(3)}>Mayg3</Button>
