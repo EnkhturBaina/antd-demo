@@ -23,12 +23,6 @@ function CT_12B() {
       verticalAlign: "middle",
       fontSize: 12,
     },
-    centerText: {
-      padding: 1,
-      textAlign: "center",
-      verticalAlign: "middle",
-      fontSize: 12,
-    },
     flexContainer: {
       display: "flex",
       flexDirection: "row",
@@ -40,29 +34,6 @@ function CT_12B() {
       display: "flex",
       flexDirection: "row",
       justifyContent: "space-between",
-    },
-    topText: {
-      padding: 1,
-      fontSize: 12,
-    },
-    rowCellWithText: {
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      fontSize: 12,
-      padding: 0,
-      lineHeight: 1,
-      marginTop: 2,
-    },
-    verticalText: {
-      writingMode: "vertical-rl",
-      verticalAlign: "middle",
-      padding: 5,
-      rotate: "180deg",
-      maxHeight: 100,
-      maxWidth: 50,
-      lineHeight: 1,
-      fontSize: 12,
     },
   };
   return (
@@ -551,7 +522,286 @@ function CT_12B() {
           <div style={styles.leftText}>
             <span style={{ marginLeft: 180 }}>e. Хавчуур</span>
           </div>
-          <div style={styles.leftText}>27 Төрөлт удирдсан хүн:</div>
+          <div style={styles.leftText}>27. Төрөлт удирдсан хүн:</div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>
+              1 Эх барих эмэгтэйчүүдийн мэргэжлийн эмч
+            </span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>2 Бусад мэргэжлийн эмч</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>3 Эх баригч</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>4 Бага эмч</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>5 Эмнэлгийн бус хүн</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>6 Төрөлтөнд оролцсон хүнгүй</span>
+          </div>
+          <div style={styles.leftText}>28 . Хагалгаа хийсэн заалт:</div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>1. Манас таталтын урьдал</span>
+            <span style={{ marginLeft: 118 }}>6. Ихэс ховхрох</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>2. Манас таталт</span>
+            <span style={{ marginLeft: 171 }}> 7. Ургийн талын заалт</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>3. Давтан кесеров хагалгаа</span>
+            <span style={{ marginLeft: 112 }}>8. Эхийн хавсарсан өвчин</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>4. Төрөх замын саатал</span>
+            <span style={{ marginLeft: 138 }}>
+              9. Бусад _______________________
+            </span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>5. Ихэс түрүүлэлт</span>
+          </div>
+          <div style={styles.leftText}>
+            29 . Түрүүлсэн хэсэг:
+            <span style={{ marginLeft: 30 }}> 1. Толгой</span>
+            <span style={{ marginLeft: 30 }}> 2. Өгзөг</span>
+            <span style={{ marginLeft: 30 }}> 3. Хөл</span>
+            <span style={{ marginLeft: 30 }}>4. Хөндлөн</span>
+            <span style={{ marginLeft: 30 }}>
+              5. Бусад ______________________
+            </span>
+          </div>
+          <div style={styles.leftText}>30 . Төрөлтийн үеийн хүндрэл:</div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>1. Төрөлтийн саатал </span>
+            <span style={{ marginLeft: 180 }}>
+              3. Төрөх хүчний 2-р үеийн сулрал
+            </span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>
+              2. Төрөх хүчний 1-р үеийн сулрал
+            </span>
+            <span style={{ marginLeft: 108 }}>4. Бусад __________________</span>
+          </div>
+          <div style={styles.leftText}>
+            31 . Ургийн хүндрэл:
+            <span style={{ marginLeft: 15 }}>1. Дутуу төрөлт</span>
+            <span style={{ marginLeft: 185 }}>
+              5. Төрөлхийн хөгжлийн гажиг:
+            </span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 126 }}>2. Зунгагаар хахах хам шинж</span>
+            <span style={{ marginLeft: 110 }}>
+              онош _________________________________
+            </span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 126 }}>3. Өсөлт хөгжлийн саатал</span>
+            <span style={{ marginLeft: 128 }}>
+              ________________________________________
+            </span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 126 }}>4. Ургийн бүтэлт</span>
+            <span style={{ marginLeft: 178 }}>
+              6. Бусад _______________________________
+            </span>
+          </div>
+          <div style={styles.leftText}>
+            32. Төрөх үеийн эхийн онош: _____________________________________
+          </div>
+          <div style={styles.leftText}>
+            <b>В. АМЬГҮЙ ТӨРӨЛТИЙН ТАЛААРХ МЭДЭЭЛЭЛ</b>
+          </div>
+          <div style={styles.leftText}>
+            1 . Төрсөн{" "}
+            <span style={{ marginLeft: 50 }}>
+              _____он ___сар ___өдөр ___цаг ___минут
+            </span>
+          </div>
+          <div
+            style={{
+              ...styles.rowStyle,
+              ...{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+              },
+            }}
+          >
+            2 . Энэ төрөлтөөр төрүүлсэн хүүхдийн тоо (амьд амьгүй хүүхдийн тоо)
+            <div
+              style={{ display: "flex", alignItems: "center", marginLeft: 10 }}
+            >
+              <div style={styles.rowCells}></div>
+            </div>
+          </div>
+          <div style={styles.leftText}>
+            3 . Энэ амьгүй ихэр хүүхдийн хэд дэх хүүхэд вэ?
+            ________________________
+          </div>
+          <div style={styles.leftText}>4 . Нас баралтын ангилал:</div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>1. Антенаталь</span>
+          </div>
+          <div style={styles.leftText}>
+            <span style={{ marginLeft: 30 }}>2. Интранаталь</span>
+          </div>
+          <div style={styles.leftText}>
+            5. Хүйс: <span style={{ marginLeft: 30 }}>1. Эр </span>
+            <span style={{ marginLeft: 30 }}>2. Эм </span>
+            <span span style={{ marginLeft: 30 }}>
+              3. Хүйс тодорхойгүй
+            </span>
+          </div>
+          <div
+            style={{
+              ...styles.leftText,
+              ...{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+              },
+            }}
+          >
+            6. Биеийн жин:
+            <div
+              style={{ display: "flex", alignItems: "center", marginLeft: 10 }}
+            >
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>(гр)
+            </div>
+          </div>
+          <div
+            style={{
+              ...styles.leftText,
+              ...{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+              },
+            }}
+          >
+            7. Өндөр:
+            <div
+              style={{ display: "flex", alignItems: "center", marginLeft: 10 }}
+            >
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>(см)
+            </div>
+          </div>
+          <div
+            style={{
+              ...styles.leftText,
+              ...{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+              },
+            }}
+          >
+            8. Төрөх үеийн тээлтийн нас
+            <div
+              style={{ display: "flex", alignItems: "center", marginLeft: 100 }}
+            >
+              долоо хоног<span style={{ marginLeft: 10 }}></span>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+            </div>
+            <div
+              style={{ display: "flex", alignItems: "center", marginLeft: 100 }}
+            >
+              хоног<span style={{ marginLeft: 10 }}></span>
+              <div style={styles.rowCells}></div>
+              <div style={styles.rowCells}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.leftText}>
+            9 . Эмнэл зүйн онош: /ӨОУА-10 кодлоно уу/{" "}
+            <div style={{ marginLeft: 80 }}>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>Үндсэн онош:
+                ____________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>
+                ___________________________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>Хүндрэл:
+                __________________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>
+                ___________________________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>Дагалдах онош:
+                __________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>
+                ___________________________________________________________________________________________
+              </div>
+            </div>
+            <div style={styles.leftText}>
+              10. Эмгэг судлалын шинжилгээнд орсон эсэх:
+              <span style={{ marginLeft: 30 }}>1. Тийм </span>
+              <span style={{ marginLeft: 30 }}>2. Үгүй </span>
+            </div>
+            <div style={styles.leftText}>
+              11. Эмгэг судлалын онош: /ӨОУА-10 кодлоно уу/
+            </div>
+            <div style={{ marginLeft: 80 }}>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>Үндсэн онош:
+                ____________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>
+                ___________________________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>Хүндрэл:
+                __________________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>
+                ___________________________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>Дагалдах онош:
+                __________________________________________________________________________
+              </div>
+              <div style={styles.leftText}>
+                <span style={{ marginLeft: 20 }}>&nbsp;</span>
+                ___________________________________________________________________________________________
+              </div>
+            </div>
+            <div style={styles.leftText}>
+              12. Онош тохирсон эсэх:
+              <span style={{ marginLeft: 30 }}>1. Тийм </span>
+              <span style={{ marginLeft: 30 }}>2. Үгүй </span>
+            </div>
+            <div style={styles.leftText}>
+              13. Тохироогүй бол:
+              <span style={{ marginLeft: 30 }}>1. Үндсэн оношоор</span>
+              <span style={{ marginLeft: 30 }}>2. Хүндрэлээр</span>
+              <span style={{ marginLeft: 30 }}>3. Дагалдах оношоор</span>
+            </div>
+          </div>
         </div>
       </div>
     </>

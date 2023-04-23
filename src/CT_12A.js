@@ -23,12 +23,6 @@ function CT_12A() {
       verticalAlign: "middle",
       fontSize: 12,
     },
-    centerText: {
-      padding: 1,
-      textAlign: "center",
-      verticalAlign: "middle",
-      fontSize: 12,
-    },
     flexContainer: {
       display: "flex",
       flexDirection: "row",
@@ -40,29 +34,6 @@ function CT_12A() {
       display: "flex",
       flexDirection: "row",
       justifyContent: "space-between",
-    },
-    topText: {
-      padding: 1,
-      fontSize: 12,
-    },
-    rowCellWithText: {
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      fontSize: 12,
-      padding: 0,
-      lineHeight: 1,
-      marginTop: 2,
-    },
-    verticalText: {
-      writingMode: "vertical-rl",
-      verticalAlign: "middle",
-      padding: 5,
-      rotate: "180deg",
-      maxHeight: 100,
-      maxWidth: 50,
-      lineHeight: 1,
-      fontSize: 12,
     },
   };
   return (

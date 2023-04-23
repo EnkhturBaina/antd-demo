@@ -5,7 +5,7 @@ import { Button } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Mayg3 from "./Mayg3";
 import Mayg4 from "./Mayg4";
-import CT_12B from "./CT_12B";
+import CT_11 from "./CT_11";
 
 function App() {
   // zaswar AM_18 zurj bga 2 doh huudas zurj ehleh
@@ -16,7 +16,7 @@ function App() {
       <Button onClick={() => setType(2)}>Mayg2</Button>
       <Button onClick={() => setType(3)}>Mayg3</Button>
       <Button onClick={() => setType(4)}>Mayg4</Button>
-      {type === 1 ? <CT_12B /> : null}
+      {type === 1 ? <CT_11 /> : null}
       {type === 2 ? <Mayg2 /> : null}
       {type === 3 ? <Mayg3 /> : null}
       {type === 4 ? <Mayg4 /> : null}
