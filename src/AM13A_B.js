@@ -2,7 +2,7 @@ import React from "react";
 
 //маягт АМ-13А
 //маягт АМ-13Б
-function AM_13A_B() {
+function AM13A_B() {
   const styles = {
     rowCells: {
       borderWidth: 1,
@@ -399,4 +399,4 @@ function AM_13A_B() {
   );
 }
 
-export default AM_13A_B;
+export default AM13A_B;

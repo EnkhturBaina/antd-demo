@@ -2,7 +2,7 @@ import React from "react";
 import { Table } from "react-bootstrap";
 
 //маягт АМ-18
-function AM_18() {
+function AM18() {
   const styles = {
     rowCells: {
       borderWidth: 1,
@@ -571,4 +571,4 @@ function AM_18() {
   );
 }
 
-export default AM_18;
+export default AM18;

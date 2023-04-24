@@ -2,7 +2,7 @@ import React from "react";
 import { Table } from "react-bootstrap";
 
 //маягт АМ-19
-function AM_19() {
+function AM19() {
   const textStyle = {
     verticalText: {
       writingMode: "vertical-rl",
@@ -192,4 +192,4 @@ function AM_19() {
   );
 }
 
-export default AM_19;
+export default AM19;

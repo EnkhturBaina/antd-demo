@@ -1,7 +1,7 @@
 import React from "react";
 
 //маягт АМ-13В
-function AM_13V() {
+function AM13V() {
   const styles = {
     rowCells: {
       borderWidth: 1,
@@ -342,4 +342,4 @@ function AM_13V() {
   );
 }
 
-export default AM_13V;
+export default AM13V;

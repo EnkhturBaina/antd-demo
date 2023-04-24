@@ -2,7 +2,7 @@ import React from "react";
 import { Table } from "react-bootstrap";
 
 //маягт АМ-1В
-function AM_1V() {
+function AM1V() {
   const styles = {
     verticalText: {
       writingMode: "vertical-rl",
@@ -276,4 +276,4 @@ function AM_1V() {
   );
 }
 
-export default AM_1V;
+export default AM1V;

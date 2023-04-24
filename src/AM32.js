@@ -2,7 +2,7 @@ import React from "react";
 import { Table } from "react-bootstrap";
 
 //маягт АМ-32
-function AM_32() {
+function AM32() {
   const styles = {
     rowCells: {
       borderWidth: 1,
@@ -582,4 +582,4 @@ function AM_32() {
   );
 }
 
-export default AM_32;
+export default AM32;

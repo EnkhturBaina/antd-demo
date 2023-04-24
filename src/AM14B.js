@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-//маягт АМ-14В
-function AM_14V() {
+//маягт АМ-14Б
+function AM14B() {
   const textStyle = {
     verticalText: {
       writingMode: "vertical-rl",
@@ -67,13 +67,13 @@ function AM_14V() {
               A/611 дүгээр тушаалын арваннэгдүгээр хавсралт
             </span>
             <span style={{ fontWeight: "bold", fontSize: 12 }}>
-              Эрүүл мэндийн бүртгэлийн маягт АМ-14В
+              Эрүүл мэндийн бүртгэлийн маягт АМ-14Б
             </span>
           </div>
         </div>
         <div style={{ textAlign: "center" }}>
           <span style={{ fontWeight: "bold", fontSize: 16, marginBottom: 10 }}>
-            АМАРЖИХ ГАЗАР /ТӨРӨХ ТАСАГ/ ТЭМБҮҮ ИЛРҮҮЛЭХ ШИНЖИЛГЭЭНИЙ БҮРТГЭЛ
+            ТЭМБҮҮГИЙН ХАЛДВАРТАЙ ЖИРЭМСЭН ЭМЭГТЭЙН ХЯНАЛТЫН БҮРТГЭЛ
           </span>
         </div>
         <Table bordered className="document">
@@ -98,51 +98,56 @@ function AM_14V() {
               <td rowSpan={2} style={textStyle.centerText}>
                 Нас
               </td>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Хаяг /Үндсэн хаяг, одоо амьдарч байгаа хаяг/
-              </td>
-              <td colSpan={5} style={textStyle.centerText}>
-                Тэмбүүгийн хурдавчилсан шинжилгээнд хамруулсан шалтгаан
-              </td>
               <td rowSpan={2} style={textStyle.verticalText}>
-                Тэмбүүгийн хурдавчилсан шинжилгээний дүн /+, -/
+                Анх хяналтанд орсон жирэмсний хугацаа
               </td>
-              <td rowSpan={2} style={textStyle.verticalText}>
-                Эмчилгээний эхний тун авсан огноо
+              <td colSpan={2} style={textStyle.centerText}>
+                Тэмбүүгийн хурдавчилсан шинжилгээнд хамрагдалт
               </td>
+              <td style={textStyle.centerText}>Оношийн баталгаажилт</td>
               <td rowSpan={2} style={textStyle.verticalText}>
-                TPHA, RPR, RPR-ийн титр
-              </td>
-              <td rowSpan={2} style={textStyle.verticalText}>
-                Зөвлөгөө өгч, аймаг, дүүрэгт мэдээлсэн
+                Үндсэн онош
               </td>
               <td colSpan={3} style={textStyle.centerText}>
-                Төрөлхийн тэмбүүтэй хүүхэд төрсөн бол
+                Эмчилгээний тун /Бензатин пенициллин G/
               </td>
-              <td rowSpan={2} style={textStyle.centerText}>
-                Бүртгэл хийсэн эмчийн нэр
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Бусад стандарт эмчилгээ авсан
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Эмчилгээний явцад гаж нөлөө өгсөн эсэх /+,-/
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Бүрэн эмчлэгдсэн эсэх /+,-/
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Дахин халдвар авсан эсэх /+,-/
+              </td>
+              <td colSpan={3} style={textStyle.centerText}>
+                Өвчлөлөөс илэрсэн хавьтал
+              </td>
+              <td colSpan={2} style={textStyle.centerText}>
+                Хавьтагчийн эмчилгээ /Бензатин пенициллин G/
+              </td>
+              <td rowSpan={2} style={textStyle.verticalText}>
+                Дараагийн шатанд шилжүүлсэн эсэх /+,-/
               </td>
             </tr>
             <tr>
-              <td style={textStyle.verticalText}>
-                Жирэмсний хяналтанд ороогүй
-              </td>
-              <td style={textStyle.verticalText}>
-                Хожуу үеийн зулбалт /13-21 долоо хоног/
-              </td>
-              <td style={textStyle.verticalText}>
-                Дутуу төрөлт /22-с дээш долоо хоног/
-              </td>
-              <td style={textStyle.verticalText}>Амьгүй төрөлт</td>
-              <td style={textStyle.verticalText}>
-                Давтан шинжилгээнд хамрагдаагүй-1,
-              </td>
-              <td style={textStyle.verticalText}>Амьд</td>
-              <td style={textStyle.verticalText}>Амьгүй төрөлт</td>
-              <td style={textStyle.verticalText}>Нас барсан</td>
+              <td style={textStyle.verticalText}>Анх удаа</td>
+              <td style={textStyle.verticalText}>Давтан</td>
+              <td style={textStyle.verticalText}>RPR, TPHA</td>
+              <td style={textStyle.verticalText}>Анхны тун</td>
+              <td style={textStyle.verticalText}>2 дахь тун</td>
+              <td style={textStyle.verticalText}>3 дахь тун</td>
+              <td style={textStyle.verticalText}>Тэмбүүгийн хурдавчилсан</td>
+              <td style={textStyle.verticalText}>RPR,TPHA</td>
+              <td style={textStyle.verticalText}>Үндсэн онош /ОУӨА-10/</td>
+              <td style={textStyle.verticalText}>Анхны тун авсан</td>
+              <td style={textStyle.verticalText}>Бүрэн эмчлэгдсэн</td>
             </tr>
             <tr>
-              {[...Array(17)].map((x, i) => (
+              {[...Array(21)].map((x, i) => (
                 <td
                   style={{
                     ...textStyle.centerText,
@@ -155,30 +160,39 @@ function AM_14V() {
                 </td>
               ))}
             </tr>
-            {[...Array(6)].map((x, m) => (
+            {[...Array(6)].map((x, i) => (
               <>
                 <tr>
-                  {[...Array(17)].map((x, i) => (
+                  {[...Array(21)].map((x, i) => (
                     <td
                       key={i}
-                      rowSpan={i == 1 ? null : 2}
+                      rowSpan={i == 0 ? 3 : i == 1 ? 2 : null}
                       colSpan={i == 1 ? 10 : null}
                       style={{
                         ...textStyle.centerText,
-                        ...{ height: 25, padding: 2 },
+                        ...{ height: 20, padding: 2 },
                       }}
-                    >
-                      {i == 0 ? <>{m + 1}</> : null}{" "}
-                    </td>
+                    ></td>
                   ))}
                 </tr>
                 <tr>
-                  {[...Array(10)].map((x, i) => (
+                  {[...Array(19)].map((x, i) => (
                     <td
                       key={i}
                       style={{
                         ...textStyle.centerText,
-                        ...{ height: 25, padding: 2 },
+                        ...{ height: 20, padding: 2 },
+                      }}
+                    ></td>
+                  ))}
+                </tr>
+                <tr>
+                  {[...Array(29)].map((x, i) => (
+                    <td
+                      key={i}
+                      style={{
+                        ...textStyle.centerText,
+                        ...{ height: 20, padding: 2 },
                       }}
                     ></td>
                   ))}
@@ -192,4 +206,4 @@ function AM_14V() {
   );
 }
 
-export default AM_14V;
+export default AM14B;
