@@ -3051,6 +3051,1422 @@ function AM15() {
           </div>
         </div>
       </div>
+      <div className="page">
+        <div className="subpage">
+          <Table bordered className="document" style={{ marginBottom: 0 }}>
+            <tbody>
+              <tr>
+                <td style={styles.centerText} colSpan={3}>
+                  Үзлэгийн дугаар
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  I
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  II
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  III
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  IV
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  V
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  VI
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  VII
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  VIII
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}>
+                  Төрсний дараа
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={3}>
+                  Жирэмсэн эмэгтэйд үзлэг хийх товлол
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  &#60;12
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  16
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  20
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  28
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  32
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  36
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  38
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  39-40
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
+                <td style={styles.centerText} rowSpan={4}>
+                  Нойтон түрхэц
+                </td>
+                <td style={styles.leftText}>Огноо</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
+                <td style={styles.leftText}>Трихомониаз (-)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td
+                  style={{ ...styles.verticalText, ...{ width: 40 } }}
+                  rowSpan={17}
+                >
+                  Шинжилгээ/шаардлагатай бол биохими, маркер үзэх
+                </td>
+                <td style={styles.leftText}>Мөөгөнцөр (-)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Түлхүүр эс (-)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} rowSpan={2}>
+                  Орчин рН
+                </td>
+                <td style={styles.leftText}>Хүчиллэг</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Шүлтлэг</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} rowSpan={2}>
+                  КОН сорил
+                </td>
+                <td style={styles.leftText}>Онцын үнэргүй</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Үмхий үнэртэй</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} rowSpan={9}>
+                  Үтрээний наац
+                </td>
+                <td style={styles.leftText}>Огноо</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Дедерлейний савханцар (+++эсвэл++++)
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Цагаан эсүүд 0-4х/т</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Грам сөрөг диплококк (- эсвэл+)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Бактери (-эсвэл+)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Мөөгөнцөр (-)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Түлхүүр эс (-)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Нянгийн гаралтай үтрээний үрэвсэл (-)
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Огноо</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} rowSpan={2}>
+                  Тэмбүүгийн сорил
+                </td>
+                <td style={styles.leftText}>Он сар өдөр</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эерэг эсэх /т/ү/</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
+                <td style={styles.centerText} rowSpan={4}>
+                  ХДХВ/ДОХ
+                </td>
+                <td style={styles.leftText}>Шинжилгээний өмнөх зөвлөгөө</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
+                <td style={styles.leftText}>Он сар өдөр</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
+                <td style={styles.leftText}>Эерэг эсэх (Т/Ү)</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 40 } }}></td>
+                <td style={styles.leftText}>Шинжилгээний дараах зөвлөгөө</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td
+                  style={{ ...styles.verticalText, ...{ width: 40 } }}
+                  rowSpan={18}
+                >
+                  ** Зөвлөгөө
+                </td>
+                <td style={styles.leftText} colSpan={2}>
+                  Жирэмсний хяналтын ач холбогдол
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Амны хөндийн эрүүл мэнд
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Жирэмсэн үеийн хоол
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Хорт зуршил, архи, тамхины хор
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  БЗДХ, сэргийлэх тухай
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Жирэмсний эмгэг байдал/аюултай шинжүүд
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Жирэмсэн төрөлттэй холбоотой, хууль эрхзүйн ойлголт
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Төмрийн бэлдмэл, фолийн хүчил уухын ач холбогдол
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Зулбалт, дутуу төрөлтөөс сэргийлэх тухай
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Цус багадалт үүсч болох тухай
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Эрхтэн тогтолцооны эмгэг
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Төрөлтийн тухай
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Жирэмсний хожуу хордлогын тухай
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Хөх арчлах тухай
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Төрөлтөд бэлтгэх
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Хүчирхийллээс ангид байх
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Эх хүүхдэд дамжих халдвар /ХДХВ/ДОХ, Тэмбүү, Гепатит В/
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Сэтгэл зүйн бэлтгэл
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <Table bordered className="document" style={{ marginBottom: 0 }}>
+            <tbody>
+              <tr>
+                <td
+                  style={{ ...styles.verticalText, ...{ width: 40 } }}
+                  rowSpan={6}
+                >
+                  &nbsp;
+                </td>
+                <td style={styles.leftText}>Илүү тээлт</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Төрөх үеийн өвдөлтийг бууруулах аргууд
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Төрсний дараа үе</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Нярайн асаргаа</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Гэр бүл төлөвлөлт</td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Халдварт өвчин илэрсэн бол холбогдох зөвлөгөөг өгөх
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Дараагийн ирэлтийг товлосон хугацаа
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Зөвлөгөө авсан жирэмсэн эхийн гарын үсэг
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Эмчийн гарын үсэг
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+                {[...Array(16)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 25 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={{ ...styles.centerText, ...{ width: 50 } }}></td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={{ ...styles.centerText, ...{ marginTop: 550 } }}>
+            <b>ЧАНД АВИАН ШИНЖИЛГЭЭ</b>
+          </div>
+          <Table bordered className="document" style={{ marginBottom: 0 }}>
+            <tbody>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 250 } }}>
+                  &nbsp;
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  I
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  II
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  III
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  IV
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Үзлэгийн дугаар</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Сар өдөр</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Үзүүлэлтүүд</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Ургийн цэврүүний дундаж хэмжээ</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Зулай ахар сүүлний хэмжээ /КТР/</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Толгойн хөндлөн хэмжээ /БПР/</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Дунд чөмөгний үрт /ДБК/</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хэвлийн тойрог</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Толгойн тойрог</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Ургийн байрлал</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Түрүүлсэн хэсэг</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Ургийн зүрхний цохилт</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Үзлэгийн</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эхсийн бойжилт</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Усны хэмжээ индексээр</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Ясжилтын цэг</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Ургийн эрхтэн тогтолцооны бүтэц зүйн өөрчлөлт
+                </td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хүйн тогтоц</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>Онош, онцгой тэмдэглэл
+                </td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Бусад эрхтэн<div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эмчийн гарын үсэг</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 70 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: "70%" } }}>
+                  Жирэмсний явцыг удирдах /шийдвэрлэх төлөвлөгөө:
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
+                  Эмчилгээ
+                </td>
+              </tr>
+              <tr>
+                <td style={{ ...styles.leftText, ...{ width: "70%" } }}>
+                  Эхний үзлэгээр
+                  __________________________________________________________________
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг №2
+                    _______________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг №3
+                    _______________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг №4
+                    _______________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг №5
+                    _______________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг №6
+                    _______________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг №7
+                    _______________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг №8
+                    ________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    ___________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    ___________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    Үзлэг
+                    __________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _________________________________________________________________________________
+                  </div>
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: "30%" } }}>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                  <div style={styles.leftText}>
+                    _______________________________________________________________
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 5 }}
+          >
+            <tbody>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 70 } }}>
+                  Огноо
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 150 } }}>
+                  Мэргэжлийн чиглэл
+                </td>
+                <td style={{ ...styles.centerText, ...{} }}>Огноо</td>
+                <td style={{ ...styles.centerText, ...{ width: 100 } }}>
+                  Эмчилгээ
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 100 } }}>
+                  Гарын үсэг
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Дотор</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Нүд</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Шүд</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Мэдрэл</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Зүрх судас</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Цусны эмгэг</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Бөөр</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Чих, хамар, хоолой</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Эндокринолог</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Сүрьеэ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>БЗДХ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style={styles.leftText}>Бусад</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>ТӨРСНИЙ ДАРААХ ҮЗЛЭГ</b>
+          </div>
+          <div style={styles.leftText}>
+            Төрөх үеийн (эрт болон хожуу үр хөндүүлсэн, зулбасан, дутуу төрсөн)
+            онош
+            ____________________________________________________________________
+          </div>
+          <div style={styles.leftText}>
+            _________________________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.leftText}>
+            _________________________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.leftText}>
+            _________________________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.centerText}>Төрсөн (жирэмслэлт төгссөн) огноо</div>
+          <div style={styles.leftText}>
+            _________________________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.leftText}>
+            _________________________________________________________________________________________________________________________________________________________
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 15 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.leftText}>Огноо</td>
+                <td style={{ ...styles.centerText, ...{ width: "18%" } }}></td>
+                <td style={{ ...styles.centerText, ...{ width: "18%" } }}></td>
+                <td style={{ ...styles.centerText, ...{ width: "18%" } }}></td>
+                <td style={{ ...styles.centerText, ...{ width: "18%" } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Зовиур</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Биеийн халуун</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Арьс салст</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Артерийн даралт</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Судасны лугшилт</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хөхний байдал</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Сүүний гарц</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Умайн ёроол</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Шавхарга (хэмжээ, өнгө, үнэр)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хярзан /хэвлийн шархны байдал</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Шээсний гарц</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Асаргаа зөвлөгөө</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эхийн гарын үсэг</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эмчийн гарын үсэг</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </Table>
+          <div>&nbsp;</div>
+          <div style={styles.leftText}>
+            Тэмдэглэл
+            _____________________________________________________________________________________________________________________________________________
+          </div>
+
+          {[...Array(25)].map((x, i) => (
+            <div style={styles.leftText} key={i}>
+              _________________________________________________________________________________________________________________________________________________________
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
