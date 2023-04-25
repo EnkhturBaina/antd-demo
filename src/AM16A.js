@@ -43,6 +43,12 @@ function AM16A() {
       verticalAlign: "middle",
       fontSize: 16,
     },
+    centerTextSmall: {
+      padding: 0,
+      textAlign: "center",
+      verticalAlign: "middle",
+      fontSize: 10,
+    },
     centerText: {
       padding: 0,
       textAlign: "center",
@@ -53,7 +59,7 @@ function AM16A() {
       padding: 0,
       verticalAlign: "middle",
       fontSize: 12,
-      height: 20,
+      height: 10,
     },
   };
 
@@ -195,7 +201,7 @@ function AM16A() {
               <Table
                 bordered
                 className="document"
-                style={{ marginBottom: 0, marginTop: 5 }}
+                style={{ marginBottom: 0, marginTop: 0 }}
               >
                 <tbody>
                   <tr>
@@ -243,6 +249,7 @@ function AM16A() {
                 borderLeftStyle: "dashed",
                 borderLeftWidth: 2,
                 paddingLeft: 10,
+                height: "100%",
               }}
             >
               <div style={styles.verticalTextCenter}>СОЛИЛЦОХ ХУУДАС Б </div>
@@ -293,6 +300,7 @@ function AM16A() {
                 borderRightStyle: "dashed",
                 borderRightWidth: 2,
                 paddingLeft: 10,
+                height: "100%",
               }}
             >
               <div style={styles.verticalText}>
@@ -347,31 +355,25 @@ function AM16A() {
                 <Table
                   bordered
                   className="document"
-                  style={{ marginBottom: 0, marginTop: 5 }}
+                  style={{ marginBottom: 0, marginTop: 0 }}
                 >
                   <tbody>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
-                        &nbsp;
-                      </td>
+                      <td style={{ fontSize: 8, padding: 0, height: 13 }}></td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{
                             padding: 0,
                             height: 10,
                             width: 10,
-                            fontSize: 12,
+                            fontSize: 8,
                           }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
-                        &nbsp;
-                      </td>
+                      <td style={{ fontSize: 8, padding: 0, height: 13 }}></td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{
@@ -379,7 +381,7 @@ function AM16A() {
                             height: 10,
                             width: 10,
                             textAlign: "center",
-                            fontSize: 12,
+                            fontSize: 9,
                           }}
                           key={i}
                         >
@@ -388,319 +390,690 @@ function AM16A() {
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
-                        &nbsp;
-                      </td>
+                      <td style={{ fontSize: 8, padding: 0, height: 13 }}></td>
                       {[...Array(38)].map((x, i) => (
                         <td
-                          style={{ padding: 0, height: 10, width: 10 }}
+                          style={{
+                            padding: 0,
+                            height: 10,
+                            width: 10,
+                            fontSize: 8,
+                          }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         220{" "}
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
-                          style={{ padding: 0, height: 10, width: 10 }}
+                          style={{ padding: 0, height: 17, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         200
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         180
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         160
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         150
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         140
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         130
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         120
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         110
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         100
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         90
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         80
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         60
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
-                        &nbsp;
-                      </td>
+                      <td style={{ fontSize: 8, padding: 0, height: 13 }}></td>
                       {[...Array(38)].map((x, i) => (
                         <td
-                          style={{ padding: 0, height: 10, width: 10 }}
+                          style={{
+                            padding: 0,
+                            height: 10,
+                            width: 10,
+                            fontSize: 8,
+                          }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         40
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         45
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
-                        &nbsp;
-                      </td>
+                      <td style={{ fontSize: 8, padding: 0, height: 13 }}></td>
                       {[...Array(38)].map((x, i) => (
                         <td
-                          style={{ padding: 0, height: 10, width: 10 }}
+                          style={{
+                            padding: 0,
+                            height: 10,
+                            width: 10,
+                            fontSize: 8,
+                          }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                        height={10}
+                      >
                         40
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         35
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         30
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         25
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         20
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                     <tr>
-                      <td style={styles.leftTextTable} width={25}>
+                      <td
+                        style={{
+                          paddingRight: 10,
+                          fontSize: 9,
+                          padding: 0,
+                          textAlign: "right",
+                        }}
+                        width={17}
+                      >
                         10
                       </td>
                       {[...Array(38)].map((x, i) => (
                         <td
                           style={{ padding: 0, height: 10, width: 10 }}
                           key={i}
-                        >
-                          &nbsp;
-                        </td>
+                        ></td>
                       ))}
                     </tr>
                   </tbody>
                 </Table>
+              </div>
+              <div style={styles.centerTextSmall}>
+                <b>Шинжилгээний хариу</b>
+              </div>
+              <Table bordered className="document" style={{ marginBottom: 0 }}>
+                <tbody>
+                  <tr>
+                    <td style={styles.centerTextSmall}>
+                      Шээсний ерөнхий шинжилгээ
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      I
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      II
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      III
+                    </td>
+                    <td style={styles.centerTextSmall}>
+                      Цусны ерөнхий шинжилгээ
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      I
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      II
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      III
+                    </td>
+                    <td style={styles.centerTextSmall}>Үтрээний наалдац</td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      I
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      II
+                    </td>
+                    <td style={{ ...styles.centerTextSmall, ...{ width: 60 } }}>
+                      III
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Он, сар, өдөр</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Он, сар, өдөр</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Он, сар, өдөр</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Хэмжээ</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Гемоглобин</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Лейкоцит</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Өнгө</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Эритроцит</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Трихомоноцит A59</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Цөсний пигмент</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Лейкоцит</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Гонококк A54</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Хувийн жин</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Тромбоцит</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Бактери</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Уураг</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Моноцит</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Цэвэршил.зэрэг</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Эпители эс</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>СОЭ</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall} colSpan={4}>
+                      Серологийн шинжилгээ
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Бактери</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall} colSpan={4}>
+                      Биохими
+                    </td>
+                    <td style={styles.centerTextSmall}>Он, сар, өдөр</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}>Лейкоцит</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Он, сар, өдөр</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Тэмбүү A51</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Билирубин</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>ДОХ/ХДХВ/ B20-B23</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Уураг</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>HBsAg</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>АЛАТ</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>HCV</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>АСАТ</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                  <tr>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}>Бусад</td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                    <td style={styles.centerTextSmall}></td>
+                  </tr>
+                </tbody>
+              </Table>
+              <div style={styles.leftTextTable}>
+                Жирэмснийг хянасан: зур (ЭБЭ-ийн эмч, өрхийг эмч)-ийн нэр:
+                ____________________________________{" "}
               </div>
             </div>
           </div>
