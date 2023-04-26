@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import { Button } from "antd";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CT_7 from "./CT/CT_7";
+import CM_2_12 from "./CM/CM_2_12";
 
 function App() {
   // zaswar 16А zurj bga1
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Button onClick={() => setType(1)}>Mayg1</Button>
-      {type === 1 ? <CT_7 /> : null}
+      {type === 1 ? <CM_2_12 /> : null}
     </div>
   );
 }
