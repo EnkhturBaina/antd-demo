@@ -30,6 +30,7 @@ function CT_3() {
       textAlign: "center",
       verticalAlign: "middle",
       fontSize: 12,
+      paddingLeft: 0,
     },
     flexContainer: {
       display: "flex",
@@ -61,10 +62,9 @@ function CT_3() {
       verticalAlign: "middle",
       padding: 5,
       rotate: "180deg",
-      maxHeight: 100,
-      maxWidth: 50,
       lineHeight: 1,
-      fontSize: 12,
+      fontSize: 10,
+      textAlign: "center",
     },
   };
   return (
@@ -134,13 +134,13 @@ function CT_3() {
                   Эцэг /эх/-ийн нэр
                 </td>
                 <td style={styles.leftText} colSpan={3}>
-                  Өөрийн нэр:{" "}
+                  Өөрийн нэр:
                   <span style={{ marginLeft: 200 }}>Нас: _______</span>
                 </td>
               </tr>
               <tr>
                 <td style={styles.leftText}>
-                  Төрсөн{" "}
+                  Төрсөн
                   <div style={styles.leftText}>
                     ______ он ____ сар ____ өдөр
                   </div>
@@ -334,7 +334,7 @@ function CT_3() {
               </tr>
               <tr>
                 <td style={styles.topText} colSpan={2}>
-                  Эмчлэгч эмчийн нэр, гарын үсэг{" "}
+                  Эмчлэгч эмчийн нэр, гарын үсэг
                 </td>
                 <td style={styles.topText} colSpan={2}>
                   Хянасан эмчийн нэр, гарын үсэг (Тасгийн эрхлэгч, эмчилгээний
@@ -607,7 +607,7 @@ function CT_3() {
             </tbody>
           </Table>
         </div>
-      </div>{" "}
+      </div>
       <div className="page">
         <div className="subpage">
           <Table bordered className="document" style={{ marginBottom: 0 }}>
@@ -934,6 +934,994 @@ function CT_3() {
                     _____ он ____ сар ____ өдөр
                   </div>
                 </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>ТӨРЛӨГИЙН ЯВЦ</b>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 0, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.leftText} colSpan={5}>
+                  <b>
+                    I хүүхэд төрсөн хугацаа: _______ он ____ сар ____ өдөр
+                    ....... цаг ............ мин
+                  </b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Төрлөгийн хэлбэр
+                  <div style={styles.topText}> Өөрөө</div>
+                  <div style={styles.topText}> Хавчуураар</div>
+                  <div style={styles.topText}> Кесар хагалгаагаар</div>
+                  <div style={styles.topText}> Вакум</div>
+                </td>
+                <td style={styles.topText}>
+                  Төрөхдөө:
+                  <div style={styles.topText}>
+                     Толгой
+                    <span style={{ marginLeft: 20 }}> Өгзөг</span>
+                  </div>
+                  <div style={styles.topText}> Хөл</div>
+                  <div style={styles.topText}> Бүтэлттэй</div>
+                  <div style={styles.topText}> Бүтэлтгүй</div>
+                </td>
+                <td style={styles.topText}>
+                  Хүүхэд:
+                  <div style={styles.topText}> Амьд</div>
+                  <div style={styles.topText}> Амьгүй</div>
+                  <div style={styles.topText}>Хүүхэд:</div>
+                  <div style={styles.topText}> Эрэгтэй</div>
+                  <div style={styles.topText}> Эмэгтэй</div>
+                </td>
+                <td style={styles.topText}>
+                  Апгар оноо
+                  <div>&nbsp;</div>
+                  <div style={styles.topText}>Хүйн урт</div>
+                  <div>&nbsp;</div>
+                </td>
+                <td style={styles.topText}>
+                  Төрөх үеийн:
+                  <div style={styles.topText}>Жин ________ грамм</div>
+                  <div style={styles.topText}>Өндөр ________ см</div>
+                  <div style={styles.topText}>Толгойн бүслүүр ________ см</div>
+                  <div style={styles.topText}>Мөрний бүслүүр ________ см</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={5}>
+                  <b>
+                    II хүүхэд төрсөн хугацаа: _______ он ____ сар ____ өдөр
+                    ....... цаг ............ мин
+                  </b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Төрлөгийн хэлбэр
+                  <div style={styles.topText}> Өөрөө</div>
+                  <div style={styles.topText}> Хавчуураар</div>
+                  <div style={styles.topText}> Кесар хагалгаагаар</div>
+                  <div style={styles.topText}> Вакум</div>
+                </td>
+                <td style={styles.topText}>
+                  Төрөхдөө:
+                  <div style={styles.topText}>
+                     Толгой
+                    <span style={{ marginLeft: 20 }}> Өгзөг</span>
+                  </div>
+                  <div style={styles.topText}> Хөл</div>
+                  <div style={styles.topText}> Бүтэлттэй</div>
+                  <div style={styles.topText}> Бүтэлтгүй</div>
+                </td>
+                <td style={styles.topText}>
+                  Хүүхэд:
+                  <div style={styles.topText}> Амьд</div>
+                  <div style={styles.topText}> Амьгүй</div>
+                  <div style={styles.topText}>Хүүхэд:</div>
+                  <div style={styles.topText}> Эрэгтэй</div>
+                  <div style={styles.topText}> Эмэгтэй</div>
+                </td>
+                <td style={styles.topText}>
+                  Апгар оноо
+                  <div>&nbsp;</div>
+                  <div style={styles.topText}>Хүйн урт</div>
+                  <div>&nbsp;</div>
+                </td>
+                <td style={styles.topText}>
+                  Төрөх үеийн:
+                  <div style={styles.topText}>Жин ________ грамм</div>
+                  <div style={styles.topText}>Өндөр ________ см</div>
+                  <div style={styles.topText}>Толгойн бүслүүр ________ см</div>
+                  <div style={styles.topText}>Мөрний бүслүүр ________ см</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={5}>
+                  <b>
+                    III хүүхэд төрсөн хугацаа: _______ он ____ сар ____ өдөр
+                    ....... цаг ............ мин
+                  </b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Төрлөгийн хэлбэр
+                  <div style={styles.topText}> Өөрөө</div>
+                  <div style={styles.topText}> Хавчуураар</div>
+                  <div style={styles.topText}> Кесар хагалгаагаар</div>
+                  <div style={styles.topText}> Вакум</div>
+                </td>
+                <td style={styles.topText}>
+                  Төрөхдөө:
+                  <div style={styles.topText}>
+                     Толгой
+                    <span style={{ marginLeft: 20 }}> Өгзөг</span>
+                  </div>
+                  <div style={styles.topText}> Хөл</div>
+                  <div style={styles.topText}> Бүтэлттэй</div>
+                  <div style={styles.topText}> Бүтэлтгүй</div>
+                </td>
+                <td style={styles.topText}>
+                  Хүүхэд:
+                  <div style={styles.topText}> Амьд</div>
+                  <div style={styles.topText}> Амьгүй</div>
+                  <div style={styles.topText}>Хүүхэд:</div>
+                  <div style={styles.topText}> Эрэгтэй</div>
+                  <div style={styles.topText}> Эмэгтэй</div>
+                </td>
+                <td style={styles.topText}>
+                  Апгар оноо
+                  <div>&nbsp;</div>
+                  <div style={styles.topText}>Хүйн урт</div>
+                  <div>&nbsp;</div>
+                </td>
+                <td style={styles.topText}>
+                  Төрөх үеийн:
+                  <div style={styles.topText}>Жин ________ грамм</div>
+                  <div style={styles.topText}>Өндөр ________ см</div>
+                  <div style={styles.topText}>Толгойн бүслүүр ________ см</div>
+                  <div style={styles.topText}>Мөрний бүслүүр ________ см</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  <b>Хойтхын үе:</b>
+                  <div style={styles.topText}> Хүлээж удирдсан</div>
+                  <div style={styles.topText}> Идэвхтэй удирдсан</div>
+                  <div style={styles.topText}> Гардаж авсан</div>
+                  <div style={styles.topText}>
+                    <b>Төрсний дараах эрт үе:</b>
+                  </div>
+                  <div style={styles.topText}>
+                     Умайн хөндийг гараар шалгасан
+                  </div>
+                  <div style={styles.topText}>Бусад эмчилгээ:</div>
+                </td>
+                <td style={styles.topText}>
+                  <b>Ихэс:</b>
+                  <div style={styles.topText}> Бүтэн</div>
+                  <div style={styles.topText}> Эргэлзээтэй</div>
+                  <div style={styles.topText}> Бүтэн биш</div>
+                  <div style={styles.topText}>Жин ________ грамм</div>
+                  <div style={styles.topText}>Зузаан ________ см</div>
+                  <div style={styles.topText}>Диаметр ________ см</div>
+                  <div style={styles.topText}>Хүйн бэхлэлт:</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  <b>Хярзан:</b>
+                  <div style={styles.topText}>
+                     Бүтэн
+                    <span style={{ marginLeft: 20 }}> Эпизиотоми</span>
+                  </div>
+                  <div style={styles.topText}>
+                     Перинеотоми
+                    <span style={{ marginLeft: 20 }}> Урагдсан</span>
+                  </div>
+                  <div style={styles.topText}>
+                    Урагдлын зэрэг: I , II, III, IV
+                  </div>
+                  <div style={styles.topText}>Умайн хүзүү урагдсан эсэх:</div>
+                  <div style={styles.topText}>
+                     Тийм
+                    <span style={{ marginLeft: 20 }}> Үгүй</span>
+                  </div>
+                  <div style={styles.topText}>
+                    Умайн хүзүүний урагдлын зэрэг:
+                  </div>
+                  <div style={styles.topText}>I , II, III, IV</div>
+                  <div style={styles.topText}>
+                    Үтрээний урагдал:  Тийм  Үгүй
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  Алдсан цусны хэмжээ ________ мл
+                </td>
+                <td style={styles.topText} colSpan={3}>
+                  <b>Төрлөг явагдсан хугацаа:</b> _________ цаг
+                  <div style={styles.topText}>
+                    I үе _________ II үе _________ III үе _________
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={5}>
+                  <b>Төрөх үеийн онош</b>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={5}>
+                  <b>Хүндрэлийн онош</b>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={5}>
+                  <b>Хийгдсэн мэс ажилбар</b>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={5}>
+                  <b>Хүндрэлийн үед авсан арга хэмжээ</b>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={5}>
+                  Төрөлт удирдсан эмчийн гарын үсэг:
+                  ......................................
+                  <div>&nbsp;</div>
+                  <div style={styles.topText}>
+                    Эх баригч эмчийн гарын үсэг
+                    ......................................................
+                  </div>
+                  <div>&nbsp;</div>
+                  <div style={styles.centerText}>
+                    ______ он ____ сар ____ өдөр ____ цаг ____ мин
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>ТӨРСНИЙ ДАРААХ ҮЕИЙН БАЙДАЛ</b>
+          </div>
+          <div style={styles.rowStyle}>
+            <b>а/ Төрсний дараах эрт үеийн</b>
+          </div>
+          <div style={styles.rowStyle}>Зовиур</div>
+          <div style={styles.rowStyle}>
+            ________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>Ерөнхий биеийн байдал</div>
+          <div style={styles.rowStyle}>
+            ________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>
+            Арьс салст _________________ АД баруун гарт _________/_________ зүүн
+            гарт _________/_________Судасны цохилт /1 мин/_______
+          </div>
+          <div style={styles.rowStyle}>
+            Хярзангийн орчинд /зур/: эмзэглэлтэй, үгүй
+          </div>
+          <div style={styles.rowStyle}>
+            Төрсний дараах тасагт /зур/: шилжүүлсэн, үгүй
+          </div>
+          <div style={styles.rowStyle}>
+            Эмчилгээ, шинжилгээний заалт:
+            _____________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>
+            ________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>
+            Эмч: ________________________________ _____________ цаг
+            ________________ минут
+          </div>
+          <div style={styles.rowStyle}>
+            <b>б/ Төрсний дараах үеийн эмчилгээ, үйлчилгээ</b>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.centerText}>Үзлэгийн сар, өдөр</td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <b>Төрсний дараах өдөр</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>1</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>2</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>3</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>4</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>5</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эхийн биеийн ерөнхий байдал</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Зовиур</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Арьс салстын өнгө</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Артерийн даралт</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Судасны цохилт</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Зүрх судас</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Амьсгалын тоо</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хөх</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хэвлий</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <div>&nbsp;</div>Умай<div>&nbsp;</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Шавхрага</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <div>&nbsp;</div>Хярзангийн шарх<div>&nbsp;</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Шээс</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Өтгөн</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  Эмчилгээ, үйлчилгээ, сувилгаа
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эмчийн гарын үсэг</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 150 } }}>
+                  Үзлэг хийсэн өдөр, цаг минут
+                </td>
+                <td style={styles.centerText}>ҮЗЛЭГИЙН ТЭМДЭГЛЭЛ</td>
+                <td style={{ ...styles.centerText, ...{ width: 150 } }}>
+                  ЭМЧИЛГЭЭ, ХООЛ, СУВИЛГААНЫ ЗААЛТ
+                </td>
+              </tr>
+              <tr>
+                <td style={{ height: 900 }}></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>ПАРТОГРАММ</b>
+          </div>
+          <div style={{ marginLeft: 70 }}>
+            <div style={styles.leftText}>
+              Базлалт
+              эхэлсэн_________он_________сар_________өдөр_________цаг_________минут
+            </div>
+            <div style={styles.leftText}>
+              Ус гарсан
+              _________он_________сар_________өдөр_________цаг_________минут
+            </div>
+            <div style={styles.leftText}>Усны шинж байдал:</div>
+            <div style={styles.leftText}>
+              Төрөхийн өмнөх
+              онош:_________________________________________________________________________
+            </div>
+            <div style={styles.leftText}>
+              ___________________________________________________________________________________________________
+            </div>
+            <div style={styles.leftText}>
+              Дүлэлт эхэлсэн________цаг________минут
+            </div>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 0, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    ...styles.leftText,
+                    ...{ fontSize: 10, width: 120 },
+                  }}
+                  colSpan={2}
+                >
+                  Хугацаа
+                </td>
+                {[...Array(24)].map((x, i) => (
+                  <td style={styles.centerText} colSpan={2} key={i}>
+                    {i + 1}
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 70 },
+                  }}
+                  rowSpan={9}
+                >
+                  Ургийн зүрхний цохилт (1 мин)
+                </td>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  180
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  170
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  160
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  150
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  140
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  130
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  120
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  110
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 20 },
+                  }}
+                >
+                  100
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 12 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+            </tbody>
+          </Table>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    ...styles.leftText,
+                    ...{ fontSize: 10, width: 115 },
+                  }}
+                >
+                  Ураг орчмын шингэн
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td style={styles.centerText} key={i}></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ ...styles.leftText, ...{ fontSize: 10 } }}>
+                  Толгойн хэлбэржилт
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td style={styles.centerText} key={i}></td>
+                ))}
+              </tr>
+            </tbody>
+          </Table>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    ...styles.verticalText,
+                    ...{ fontSize: 10, width: 100 },
+                  }}
+                >
+                  Умайн хүзүүний нээгдэлт (см)
+                  <div style={styles.leftText}>Х-ээр тэмдэглэнэ</div>
+                  <div style={styles.leftText}>Ургийн толгойн давших</div>
+                  <div style={styles.leftText}>хөдөлгөөн 0-оор тэмдэглэнэ</div>
+                </td>
+                {[...Array(24)].map((x, i) => (
+                  <td style={styles.centerText} key={i}></td>
+                ))}
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>ТӨРСНИЙ ДАРААХ ҮЕИЙН БАЙДАЛ</b>
+          </div>
+          <div style={styles.rowStyle}>
+            <b>а/ Төрсний дараах эрт үеийн</b>
+          </div>
+          <div style={styles.rowStyle}>Зовиур</div>
+          <div style={styles.rowStyle}>
+            ________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>Ерөнхий биеийн байдал</div>
+          <div style={styles.rowStyle}>
+            ________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>
+            Арьс салст _________________ АД баруун гарт _________/_________ зүүн
+            гарт _________/_________Судасны цохилт /1 мин/_______
+          </div>
+          <div style={styles.rowStyle}>
+            Хярзангийн орчинд /зур/: эмзэглэлтэй, үгүй
+          </div>
+          <div style={styles.rowStyle}>
+            Төрсний дараах тасагт /зур/: шилжүүлсэн, үгүй
+          </div>
+          <div style={styles.rowStyle}>
+            Эмчилгээ, шинжилгээний заалт:
+            _____________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>
+            ________________________________________________________________________________________________________________________________________
+          </div>
+          <div style={styles.rowStyle}>
+            Эмч: ________________________________ _____________ цаг
+            ________________ минут
+          </div>
+          <div style={styles.rowStyle}>
+            <b>б/ Төрсний дараах үеийн эмчилгээ, үйлчилгээ</b>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.centerText}>Үзлэгийн сар, өдөр</td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+                <td style={{ ...styles.leftText, ...{ width: 120 } }}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <b>Төрсний дараах өдөр</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>1</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>2</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>3</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>4</b>
+                </td>
+                <td style={styles.centerText}>
+                  <b>5</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эхийн биеийн ерөнхий байдал</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Зовиур</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Арьс салстын өнгө</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Артерийн даралт</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Судасны цохилт</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Зүрх судас</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Амьсгалын тоо</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хөх</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Хэвлий</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <div>&nbsp;</div>Умай<div>&nbsp;</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Шавхрага</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <div>&nbsp;</div>Хярзангийн шарх<div>&nbsp;</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Шээс</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Өтгөн</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  Эмчилгээ, үйлчилгээ, сувилгаа
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>Эмчийн гарын үсэг</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
               </tr>
             </tbody>
           </Table>
