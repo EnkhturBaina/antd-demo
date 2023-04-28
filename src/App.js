@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import CT_2 from "./CT/CT_2";
 
 function App() {
-  // CT_2  zurj bga
   const [type, setType] = useState(1);
   return (
     <div>
