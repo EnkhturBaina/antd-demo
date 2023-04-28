@@ -1457,23 +1457,25 @@ function CT_3() {
             <b>ПАРТОГРАММ</b>
           </div>
           <div style={{ marginLeft: 70 }}>
-            <div style={styles.leftText}>
+            <div style={{ ...styles.leftText, ...{ fontSize: 10 } }}>
               Базлалт
               эхэлсэн_________он_________сар_________өдөр_________цаг_________минут
             </div>
-            <div style={styles.leftText}>
+            <div style={{ ...styles.leftText, ...{ fontSize: 10 } }}>
               Ус гарсан
               _________он_________сар_________өдөр_________цаг_________минут
             </div>
-            <div style={styles.leftText}>Усны шинж байдал:</div>
-            <div style={styles.leftText}>
+            <div style={{ ...styles.leftText, ...{ fontSize: 10 } }}>
+              Усны шинж байдал:
+            </div>
+            <div style={{ ...styles.leftText, ...{ fontSize: 10 } }}>
               Төрөхийн өмнөх
               онош:_________________________________________________________________________
             </div>
             <div style={styles.leftText}>
               ___________________________________________________________________________________________________
             </div>
-            <div style={styles.leftText}>
+            <div style={{ ...styles.leftText, ...{ fontSize: 10 } }}>
               Дүлэлт эхэлсэн________цаг________минут
             </div>
           </div>
@@ -1695,18 +1697,385 @@ function CT_3() {
                     ...styles.verticalText,
                     ...{ fontSize: 10, width: 100 },
                   }}
+                  rowSpan={9}
                 >
                   Умайн хүзүүний нээгдэлт (см)
                   <div style={styles.leftText}>Х-ээр тэмдэглэнэ</div>
                   <div style={styles.leftText}>Ургийн толгойн давших</div>
                   <div style={styles.leftText}>хөдөлгөөн 0-оор тэмдэглэнэ</div>
                 </td>
-                {[...Array(24)].map((x, i) => (
+                <td style={{ ...styles.centerText, ...{ width: 20 } }}>9</td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText} colSpan={3}>
+                  Нууц шат
+                </td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText}></td>
+                <td style={styles.centerText} colSpan={4}>
+                  Идэвхтэй шат
+                </td>
+                {[...Array(12)].map((x, i) => (
                   <td style={styles.centerText} key={i}></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 20 } }}>8</td>
+                {[...Array(24)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 20 } }}>7</td>
+                {[...Array(8)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={styles.centerText} colSpan={2}>
+                  Хянах
+                </td>
+                {[...Array(14)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                  ></td>
+                ))}
+              </tr>
+              <tr>
+                <td style={{ ...styles.centerText, ...{ width: 20 } }}>6</td>
+                {[...Array(17)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                  ></td>
+                ))}
+                <td style={styles.centerText} colSpan={5}>
+                  Авах арга хэмжээ
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 20 } }}></td>
+                <td style={{ ...styles.centerText, ...{ width: 20 } }}></td>
+              </tr>
+
+              {[...Array(5)].map((x, z) => (
+                <tr>
+                  <td style={{ ...styles.centerText, ...{ width: 20 } }}>
+                    {5 - z}
+                  </td>
+                  {[...Array(24)].map((x, i) => (
+                    <td
+                      style={{ ...styles.centerText, ...{ width: 20 } }}
+                      key={i}
+                    ></td>
+                  ))}
+                </tr>
+              ))}
+              <tr>
+                <td style={styles.centerText} rowSpan={2}>
+                  Хугацаа/цаг
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 20 } }}>0</td>
+                {[...Array(24)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                  >
+                    {i + 1}
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(24)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                  >
+                    &nbsp;
+                  </td>
                 ))}
               </tr>
             </tbody>
           </Table>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 100 },
+                  }}
+                  rowSpan={5}
+                >
+                  Умайн базлалт 10 мин тутамд
+                </td>
+                <td style={{ ...styles.centerText, ...{ width: 10 } }}>5</td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 10 } }}
+                    key={i}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              {[...Array(4)].map((x, z) => (
+                <tr key={z}>
+                  <td style={{ ...styles.centerText, ...{ width: 10 } }}>
+                    {4 - z}
+                  </td>
+                  {[...Array(48)].map((x, i) => (
+                    <td
+                      style={{ ...styles.centerText, ...{ width: 10 } }}
+                      key={i}
+                    >
+                      &nbsp;
+                    </td>
+                  ))}
+                </tr>
+              ))}
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 100 },
+                  }}
+                  colSpan={2}
+                  rowSpan={2}
+                >
+                  Окситоцин дусал/мин
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 10, height: 10, fontSize: 8 },
+                    }}
+                    key={i}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 10, height: 10, fontSize: 8 },
+                    }}
+                    key={i}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </Table>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 100, height: 100 },
+                  }}
+                  colSpan={2}
+                >
+                  Хэрэглэсэн эм, шингэн
+                </td>
+                {[...Array(24)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 10 } }}
+                    key={i}
+                    colSpan={2}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 100 },
+                  }}
+                  rowSpan={9}
+                >
+                  Судасны цохилт
+                </td>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ width: 10, fontSize: 8, height: 10 },
+                  }}
+                >
+                  180
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 10, fontSize: 8, height: 10 },
+                    }}
+                    key={i}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              {[...Array(8)].map((x, i) => (
+                <tr>
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 10, fontSize: 8, height: 10 },
+                    }}
+                  >
+                    {170 - 10 * i}
+                  </td>
+                  {[...Array(48)].map((x, i) => (
+                    <td
+                      style={{
+                        ...styles.centerText,
+                        ...{ width: 10, fontSize: 8, height: 10 },
+                      }}
+                      key={i}
+                    >
+                      &nbsp;
+                    </td>
+                  ))}
+                </tr>
+              ))}
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 100 },
+                  }}
+                  rowSpan={4}
+                >
+                  Цусны даралт
+                </td>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ width: 10, fontSize: 8 },
+                  }}
+                >
+                  90
+                </td>
+                {[...Array(48)].map((x, i) => (
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 10, fontSize: 8 },
+                    }}
+                    key={i}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+              {[...Array(3)].map((x, i) => (
+                <tr>
+                  <td
+                    style={{
+                      ...styles.centerText,
+                      ...{ width: 10, fontSize: 8 },
+                    }}
+                  >
+                    {80 - 10 * i}
+                  </td>
+                  {[...Array(48)].map((x, i) => (
+                    <td
+                      style={{
+                        ...styles.centerText,
+                        ...{ width: 10, fontSize: 8, height: 10 },
+                      }}
+                      key={i}
+                    >
+                      &nbsp;
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 100 },
+                  }}
+                  colSpan={2}
+                >
+                  Биеийн халуун
+                </td>
+                {[...Array(24)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                    colSpan={2}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </Table>
+          <Table
+            bordered
+            className="document"
+            style={{ marginTop: 10, marginBottom: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td
+                  style={{
+                    ...styles.centerText,
+                    ...{ fontSize: 10, width: 100 },
+                  }}
+                  colSpan={2}
+                >
+                  Шээсний хэмжээ
+                </td>
+                {[...Array(24)].map((x, i) => (
+                  <td
+                    style={{ ...styles.centerText, ...{ width: 20 } }}
+                    key={i}
+                    colSpan={2}
+                  >
+                    &nbsp;
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </Table>
+          <div style={styles.rowStyle}>
+            Хөтөлсөн эмчийн гарын үсэг …………………………………………
+            <span style={{ marginLeft: 100 }}>
+              Эх баригчийн гарын үсэг …………………………………………
+            </span>
+          </div>
         </div>
       </div>
       <div className="page">
