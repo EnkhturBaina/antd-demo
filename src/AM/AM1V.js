@@ -96,7 +96,7 @@ function AM1V() {
               Кабинетийн нэр: ........................................
             </div>
           </div>
-        </div>{" "}
+        </div>
         <Table bordered className="document" style={{ marginBottom: 0 }}>
           <tbody>
             <tr>
@@ -110,10 +110,10 @@ function AM1V() {
                 Овог, нэр Регистрийн дугаар
               </td>
               <td rowSpan={3} style={styles.verticalText}>
-                Нас{" "}
+                Нас
               </td>
               <td rowSpan={3} style={styles.verticalText}>
-                Хүйс{" "}
+                Хүйс
               </td>
               <td rowSpan={3} style={styles.verticalText}>
                 Жирэмсэн эсэх /1.1/

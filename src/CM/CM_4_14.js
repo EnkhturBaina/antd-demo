@@ -46,7 +46,7 @@ function CM_4_14() {
             </span>
           </div>
           <div style={styles.centerText}>
-            Эмчлүүлэгчийн овог, нэр:{" "}
+            Эмчлүүлэгчийн овог, нэр:
             <span style={{ marginLeft: 100 }}>Өвчний түүх №</span>
             <span style={{ marginLeft: 100 }}>
               Нас: _____ Хүйс: _____ Тасаг: _____ Өрөө: _____

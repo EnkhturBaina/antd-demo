@@ -302,7 +302,7 @@ function AM15() {
               <div style={styles.leftText}>
                 <b>
                   14. Урт хугацааны эм биологийн идэвхит бүтээгдэхүүн тогтмол
-                  хэрэглэдэг эсэх? /зур/ Тийм / Үгүй{" "}
+                  хэрэглэдэг эсэх? /зур/ Тийм / Үгүй
                 </b>
               </div>
             </div>
@@ -930,7 +930,7 @@ function AM15() {
                   colSpan={2}
                 >
                   <b>Нүдний өвчин Н00-Н59:</b> холын харалган-2,3-р зэрэг Н53,
-                  нүдний даралт ихдэлт H40-H42, бусад{" "}
+                  нүдний даралт ихдэлт H40-H42, бусад
                 </td>
                 <td></td>
                 <td></td>
@@ -1210,7 +1210,7 @@ function AM15() {
               }}
             >
               <div style={styles.leftText}>
-                *Анх хэдэн насанд ирсэн{" "}
+                *Анх хэдэн насанд ирсэн
                 <span style={{ marginLeft: 10 }}>□</span>
               </div>
               <div style={styles.leftText}>
@@ -1229,7 +1229,7 @@ function AM15() {
                 Хэд хоног үргэлжилдэг <span style={{ marginLeft: 58 }}>□</span>
               </div>
               <div style={styles.leftText}>
-                Сүүлийн биений юм хэзээ ирсэн{" "}
+                Сүүлийн биений юм хэзээ ирсэн
                 <span style={{ marginLeft: 10 }}>□</span>
               </div>
             </div>

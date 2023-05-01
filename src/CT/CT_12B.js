@@ -270,7 +270,7 @@ function CT_12B() {
           <div style={styles.leftText}>
             13 . Хэрэв тийм бол
             <span style={{ marginLeft: 30 }}>
-              Өдөрт хэдэн ширхэг _______________{" "}
+              Өдөрт хэдэн ширхэг _______________
             </span>
           </div>
           <div style={styles.leftText}>
@@ -426,7 +426,7 @@ function CT_12B() {
           </div>
           <div style={styles.leftText}>
             <span style={{ marginLeft: 50 }}>
-              1. Халдварт ба шимэгчит зарим өвчин (зур){" "}
+              1. Халдварт ба шимэгчит зарим өвчин (зур)
             </span>
             <span style={{ marginLeft: 96 }}>
               5. Мэдрэлийн тогтолцооны өвчин
@@ -434,7 +434,6 @@ function CT_12B() {
           </div>
           <div style={styles.leftText}>
             <span style={{ marginLeft: 65 }}>
-              {" "}
               (улаанбурхан, элэгний вирүсийн үрэвсэл, бусад)
             </span>
             <span style={{ marginLeft: 60 }}>
@@ -620,7 +619,7 @@ function CT_12B() {
             <b>В. АМЬГҮЙ ТӨРӨЛТИЙН ТАЛААРХ МЭДЭЭЛЭЛ</b>
           </div>
           <div style={styles.leftText}>
-            1 . Төрсөн{" "}
+            1 . Төрсөн
             <span style={{ marginLeft: 50 }}>
               _____он ___сар ___өдөр ___цаг ___минут
             </span>
@@ -729,7 +728,7 @@ function CT_12B() {
       <div className="page">
         <div className="subpage">
           <div style={styles.leftText}>
-            9 . Эмнэл зүйн онош: /ӨОУА-10 кодлоно уу/{" "}
+            9 . Эмнэл зүйн онош: /ӨОУА-10 кодлоно уу/
             <div style={{ marginLeft: 80 }}>
               <div style={styles.leftText}>
                 <span style={{ marginLeft: 20 }}>&nbsp;</span>Үндсэн онош:

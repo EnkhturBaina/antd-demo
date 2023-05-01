@@ -655,7 +655,7 @@ function AM5() {
               <tr>
                 <td style={styles.topText}>Тамга</td>
                 <td colSpan={4} style={styles.topText}>
-                  Мэдээлсэн албан тушаалтан:{" "}
+                  Мэдээлсэн албан тушаалтан:
                   <span style={{ marginLeft: 150 }}>/</span>
                   <span style={{ marginLeft: 150 }}>/</span>
                   <div>&nbsp;</div>

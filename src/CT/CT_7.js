@@ -150,12 +150,12 @@ function CT_7() {
                 <td style={styles.topText}>
                   <b>Эхийн боловсрол:</b>
                   <div style={styles.leftText}>
-                     Боловсролгүй{" "}
-                    <span style={{ marginLeft: 30 }}> Бага</span>{" "}
+                     Боловсролгүй
+                    <span style={{ marginLeft: 30 }}> Бага</span>
                   </div>
                   <div style={styles.leftText}> Бүрэн дунд</div>
                   <div style={styles.leftText}>
-                     Мэргэжлийн болон техникийн{" "}
+                     Мэргэжлийн болон техникийн
                   </div>
                   <div style={styles.leftText}>
                      Дипломын
@@ -167,20 +167,17 @@ function CT_7() {
                   </div>
                   <div style={styles.leftText}>Ажлын газар, албан</div>
                   <div style={styles.leftText}>тушаал _________________ </div>
-                  <div style={styles.leftText}>
-                    {" "}
-                    Мэргэжил: _________________
-                  </div>
+                  <div style={styles.leftText}>Мэргэжил: _________________</div>
                 </td>
                 <td style={styles.topText}>
                   <b>Эцгийн боловсрол:</b>
                   <div style={styles.leftText}>
-                     Боловсролгүй{" "}
-                    <span style={{ marginLeft: 30 }}> Бага</span>{" "}
+                     Боловсролгүй
+                    <span style={{ marginLeft: 30 }}> Бага</span>
                   </div>
                   <div style={styles.leftText}> Бүрэн дунд</div>
                   <div style={styles.leftText}>
-                     Мэргэжлийн болон техникийн{" "}
+                     Мэргэжлийн болон техникийн
                   </div>
                   <div style={styles.leftText}>
                      Дипломын
@@ -192,10 +189,7 @@ function CT_7() {
                   </div>
                   <div style={styles.leftText}>Ажлын газар, албан</div>
                   <div style={styles.leftText}>тушаал _________________ </div>
-                  <div style={styles.leftText}>
-                    {" "}
-                    Мэргэжил: _________________
-                  </div>
+                  <div style={styles.leftText}>Мэргэжил: _________________</div>
                 </td>
               </tr>
               <tr>
@@ -227,7 +221,7 @@ function CT_7() {
                      Гүйцэд <span style={{ marginLeft: 10 }}> Дутуу</span>
                   </div>
                   <div style={styles.leftText}>
-                     Бүтэлттэй{" "}
+                     Бүтэлттэй
                     <span style={{ marginLeft: 10 }}> Бүтэлтгүй</span>
                   </div>
                 </td>
@@ -287,7 +281,7 @@ function CT_7() {
               </tr>
               <tr>
                 <td style={styles.leftText} colSpan={4}>
-                  Нярайд сэхээн амьдруулалт хийсэн эсэх:  Тийм{" "}
+                  Нярайд сэхээн амьдруулалт хийсэн эсэх:  Тийм
                   <span style={{ marginLeft: 5 }}> Үгүй</span>
                   <div style={styles.leftText}>
                     Амьсгалын замыг чөлөөлсөн эсэх:
@@ -329,7 +323,6 @@ function CT_7() {
                   <div style={styles.leftText}>
                     Хөхөө амласан эсэх:
                     <span style={{ marginLeft: 5 }}>
-                      {" "}
                        Тийм Хугацаа __  Үгүй
                     </span>
                   </div>

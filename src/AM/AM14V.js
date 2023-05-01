@@ -168,7 +168,7 @@ function AM14V() {
                         ...{ height: 25, padding: 2 },
                       }}
                     >
-                      {i == 0 ? <>{m + 1}</> : null}{" "}
+                      {i == 0 ? <>{m + 1}</> : null}
                     </td>
                   ))}
                 </tr>

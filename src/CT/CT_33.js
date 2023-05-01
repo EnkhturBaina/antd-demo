@@ -112,12 +112,12 @@ function CT_33() {
           <div style={styles.leftText}>
             Нас___ Хүйс:/зур/ Эрэгтэй, Эмэгтэй
             <span style={{ marginLeft: 300 }}> _____он ______сар_____өдөр</span>
-          </div>{" "}
+          </div>
           <Table bordered className="document" style={{ marginTop: 10 }}>
             <tbody>
               <tr>
                 <td style={styles.centerText}>
-                  <b>Үргэлжлэх хугацаа /минутаар /</b>{" "}
+                  <b>Үргэлжлэх хугацаа /минутаар /</b>
                 </td>
                 {[...Array(16)].map((x, i) => (
                   <td

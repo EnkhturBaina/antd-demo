@@ -340,7 +340,7 @@ function CT_11() {
             </span>
           </div>
           <div style={styles.rowStyle}>
-            6. Хүүхэд ихэр эсэх:{" "}
+            6. Хүүхэд ихэр эсэх:
             <span style={{ marginLeft: 30 }}>1. Тийм </span>
             <span style={{ marginLeft: 30 }}>2. Үгүй </span>
           </div>

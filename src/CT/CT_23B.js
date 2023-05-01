@@ -566,7 +566,7 @@ function CT_23B() {
                     □ Хэржигнүүртэй: /зур/ хуурай,
                   </div>
                   <div style={styles.rowStyle}>
-                    нойтон, холимог, шаржигнуур,{" "}
+                    нойтон, холимог, шаржигнуур,
                   </div>
                   <div style={styles.rowStyle}>жижиг, дунд, том, байрлал</div>
                 </td>
@@ -630,7 +630,7 @@ function CT_23B() {
                     <span style={{ marginLeft: 10 }}>□ Цусан судалтай</span>
                   </div>
                   <div style={styles.rowStyle}>
-                    □ Хоолны боловсроогүй үлдэгдэлтэй{" "}
+                    □ Хоолны боловсроогүй үлдэгдэлтэй
                   </div>
                 </td>
               </tr>

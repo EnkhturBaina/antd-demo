@@ -157,12 +157,12 @@ function CT_2() {
                 <td style={styles.topText}>
                   <b>Эхийн боловсрол:</b>
                   <div style={styles.leftText}>
-                     Боловсролгүй{" "}
-                    <span style={{ marginLeft: 30 }}> Бага</span>{" "}
+                     Боловсролгүй
+                    <span style={{ marginLeft: 30 }}> Бага</span>
                   </div>
                   <div style={styles.leftText}> Бүрэн дунд</div>
                   <div style={styles.leftText}>
-                     Мэргэжлийн болон техникийн{" "}
+                     Мэргэжлийн болон техникийн
                   </div>
                   <div style={styles.leftText}>
                      Дипломын
@@ -176,12 +176,12 @@ function CT_2() {
                 <td style={styles.topText}>
                   <b>Эцгийн боловсрол:</b>
                   <div style={styles.leftText}>
-                     Боловсролгүй{" "}
-                    <span style={{ marginLeft: 30 }}> Бага</span>{" "}
+                     Боловсролгүй
+                    <span style={{ marginLeft: 30 }}> Бага</span>
                   </div>
                   <div style={styles.leftText}> Бүрэн дунд</div>
                   <div style={styles.leftText}>
-                     Мэргэжлийн болон техникийн{" "}
+                     Мэргэжлийн болон техникийн
                   </div>
                   <div style={styles.leftText}>
                      Дипломын
@@ -259,7 +259,7 @@ function CT_2() {
                 <td style={styles.leftText}>Сар, өдөр</td>
               </tr>
             </tbody>
-          </Table>{" "}
+          </Table>
           <Table bordered className="document" style={{ marginBottom: 0 }}>
             <tbody>
               <tr>
@@ -614,7 +614,7 @@ function CT_2() {
                   <b>Тархвар зүйн асуумж:</b>
                   <div style={styles.topText}>
                      Ойрын 6 сарын хугацаанд халдварт өвчтэй хүнтэй ойр байсан
-                    эсэх{" "}
+                    эсэх
                   </div>
                   <div style={styles.topText}>
                      Ойрын 6 сарын дотор гадаад оронд зорчсон эсэх (хаашаа,
@@ -698,7 +698,7 @@ function CT_2() {
                   тухай______________________________________
                   <div style={styles.topText}>
                     Хэдий хугацаагаар хэрэглэж байгаа
-                    _______________________________________________________{" "}
+                    _______________________________________________________
                   </div>
                 </td>
               </tr>
@@ -913,7 +913,7 @@ function CT_2() {
             </tbody>
           </Table>
         </div>
-      </div>{" "}
+      </div>
       <div className="page">
         <div className="subpage">
           <Table
@@ -964,7 +964,7 @@ function CT_2() {
                   Уруул, тагнайн сэтэрхийтэй эсэх:
                   <div style={styles.leftText}> Тийм □ Үгүй</div>
                   <div style={styles.leftText}>
-                    Тийм бол: (баруун, зүүн, 2 талд){" "}
+                    Тийм бол: (баруун, зүүн, 2 талд)
                   </div>
                 </td>
               </tr>
@@ -1038,7 +1038,7 @@ function CT_2() {
                   Дууны өнгө:
                   <div style={styles.leftText}> Хэвийн □ Сул □ Сөөнгө</div>
                   <div style={styles.leftText}>
-                     Дуу гарахгүй □ Бусад_________{" "}
+                     Дуу гарахгүй □ Бусад_________
                   </div>
                   <div style={styles.leftText}>Шүд: _____________________</div>
                 </td>
@@ -1098,7 +1098,7 @@ function CT_2() {
                     (улаан, толбон, гүвдрүүт, цэврүүт, бэлцрүүт, товруут,
                     зангилаат, цусархаг шалбархай, тав, хайрс, ан цав, цууралт,
                     цэгэн, одлог, үү, сорви, гемангиом, атером, хөхрөлт, бусад
-                    ________________________{" "}
+                    ________________________
                   </div>
                   <div style={styles.leftText}>
                     Тууралтын байршил: ____________
@@ -1227,7 +1227,7 @@ function CT_2() {
                   <div style={styles.leftText}> Идэвхигүй</div>
                   <div style={styles.leftText}> Хязгаарлагдмал</div>
                   <div style={styles.leftText}>
-                    аль үеэнд_________________________{" "}
+                    аль үеэнд_________________________
                   </div>
                 </td>
               </tr>
@@ -1374,7 +1374,6 @@ function CT_2() {
                   </div>
                   <div style={styles.leftText}>Бронхофони</div>
                   <div style={styles.leftText}>
-                    {" "}
                     □ Хэвийн □ Тодорсон □ Суларсан ( _______хэсэгт)
                   </div>
                 </td>
@@ -1413,7 +1412,7 @@ function CT_2() {
                   <div style={styles.leftText}>Зүрхний оройн түлхэлт:</div>
                   <div style={styles.leftText}> Хэвийн</div>
                   <div style={styles.leftText}>
-                     Хэлбийсэн байрлал (______________ ){" "}
+                     Хэлбийсэн байрлал (______________ )
                   </div>
                 </td>
                 <td style={styles.topText}>
@@ -1594,14 +1593,14 @@ function CT_2() {
                   <div style={styles.leftText}> Томорсон</div>
                 </td>
                 <td style={styles.topText} colSpan={2}>
-                  Нягтрал:{" "}
+                  Нягтрал:
                   <span style={{ marginLeft: 100 }}>□ Эмзэглэлгүй</span>
                   <div style={styles.leftText}>
-                    □ Хатуу:{" "}
+                    □ Хатуу:
                     <span style={{ marginLeft: 100 }}>□ Хөдөлгөөнтэй</span>
                   </div>
                   <div style={styles.leftText}>
-                    □ Зөөлөн:{" "}
+                    □ Зөөлөн:
                     <span style={{ marginLeft: 90 }}>□ Хөдөлгөөнгүй</span>
                   </div>
                   <div style={styles.leftText}>□ Эмзэглэлтэй:</div>
@@ -1620,7 +1619,7 @@ function CT_2() {
                   <div style={styles.leftText}> Хатна</div>
                 </td>
                 <td style={styles.topText} colSpan={2}>
-                  Суулгах:{" "}
+                  Суулгах:
                   <div style={styles.leftText}>□ Усархаг □ Салсттай</div>
                   <div style={styles.leftText}>
                     □ Цусны судалтай □ Залхагтай
@@ -1772,7 +1771,7 @@ function CT_2() {
                 <td style={styles.topText} colSpan={2}>
                   Шээхэд:
                   <div style={styles.leftText}>
-                     Давсаг шээсний сүв эмзэглэх □ Үгүй{" "}
+                     Давсаг шээсний сүв эмзэглэх □ Үгүй
                   </div>
                   <div style={styles.leftText}>
                      Шээс дүлүүлж гардаг □ Үгүй
@@ -1899,7 +1898,7 @@ function CT_2() {
                     ____________________________________________________________________________
                   </div>
                   <div style={styles.topText}>
-                    Вирүс, маркерийн шинжилгээ:________________________________{" "}
+                    Вирүс, маркерийн шинжилгээ:________________________________
                   </div>
                   <div style={styles.topText}>
                     ____________________________________________________________________________
@@ -2064,9 +2063,7 @@ function CT_2() {
               </tr>
             </tbody>
           </Table>
-          <div style={styles.centerText}>
-            Эмчийн нэр ______________________{" "}
-          </div>
+          <div style={styles.centerText}>Эмчийн нэр ______________________</div>
           <div style={styles.centerText}>
             _____он _____ сар _____ өдөр _____цаг_____минут
           </div>
@@ -2148,9 +2145,8 @@ function CT_2() {
           </div>
           <div style={styles.leftText}>
             <b>
-              Шинжилгээний дүгнэлтээс:{" "}
+              Шинжилгээний дүгнэлтээс:
               <span style={{ marginLeft: 100 }}>
-                {" "}
                 а/ Лабораторийн шинжилгээ:
               </span>
             </b>

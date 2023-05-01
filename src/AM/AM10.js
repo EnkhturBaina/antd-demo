@@ -145,7 +145,7 @@ function AM10() {
             Эмнэлгийн нэр ________________________________________
           </div>
           <div style={styles.leftText}>
-            Олгосон ________ он _____ сар _____ өдөр{" "}
+            Олгосон ________ он _____ сар _____ өдөр
             <span style={{ marginLeft: 30 }}>Дугаар _____________________</span>
           </div>
           <div style={styles.leftText}>
@@ -163,7 +163,7 @@ function AM10() {
                   №
                 </td>
                 <td style={styles.centerText} colSpan={2}>
-                  Хийсэн шинжилгээ{" "}
+                  Хийсэн шинжилгээ
                 </td>
                 <td style={styles.centerText} rowSpan={2}>
                   Он, Сар, Өдөр

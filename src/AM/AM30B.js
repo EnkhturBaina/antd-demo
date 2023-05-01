@@ -947,11 +947,11 @@ function AM30B() {
             хүний нэр, гарын үсэг:
           </div>
           <div style={styles.rightText}>
-            1. Эмч / сувилагч: . . . . . . . . . . . . . . . . . . . . . . . ./{" "}
+            1. Эмч / сувилагч: . . . . . . . . . . . . . . . . . . . . . . . ./
             <span style={{ marginLeft: 80 }}>/</span>
           </div>
           <div style={styles.rightText}>
-            1. Эмч / сувилагч: . . . . . . . . . . . . . . . . . . . . . . . ./{" "}
+            1. Эмч / сувилагч: . . . . . . . . . . . . . . . . . . . . . . . ./
             <span style={{ marginLeft: 80 }}>/</span>
           </div>
         </div>

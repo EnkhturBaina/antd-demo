@@ -2064,7 +2064,7 @@ function AM11() {
           </div>
           <div style={{ display: "flex", padding: 10 }}>
             <span style={styles.generalText}>
-              3. Хүйс (зур):{" "}
+              3. Хүйс (зур):
               <span style={{ ...styles.generalText, ...{ marginLeft: 30 } }}>
                 Эрэгтэй, Эмэгтэй
               </span>

@@ -79,7 +79,7 @@ function CT_36() {
           <div style={styles.flexContainer}>
             <div style={{ display: "flex" }}>
               А1. Эмнэлгийн
-              нэр:_______________________________________________________________{" "}
+              нэр:_______________________________________________________________
             </div>
             <div>
               <span
@@ -230,7 +230,7 @@ function CT_36() {
                 </tr>
                 <tr>
                   <td style={styles.leftText}>
-                    8 нас хүрээгүй өөр хүүхэдтэй хамт{" "}
+                    8 нас хүрээгүй өөр хүүхэдтэй хамт
                   </td>
                   <td style={styles.centerText}>5</td>
                 </tr>
@@ -689,7 +689,7 @@ function CT_36() {
                       <b>В3. Цахилгааны</b>
                     </td>
                     <td style={styles.leftText}>
-                      Гэр ахуйн цахилгааны хэрэгсэл{" "}
+                      Гэр ахуйн цахилгааны хэрэгсэл
                     </td>
                     <td style={styles.centerText}>1</td>
                   </tr>
@@ -968,9 +968,7 @@ function CT_36() {
                         </td>
                       </tr>
                       <tr>
-                        <td style={styles.leftText}>
-                          Халаалт орчмын материал{" "}
-                        </td>
+                        <td style={styles.leftText}>Халаалт орчмын материал</td>
                         <td style={styles.centerText}>1</td>
                       </tr>
                       <tr>
@@ -981,7 +979,7 @@ function CT_36() {
                       </tr>
                       <tr>
                         <td style={styles.leftText}>
-                          Халаалтанд санаандгүй хүрэх{" "}
+                          Халаалтанд санаандгүй хүрэх
                         </td>
                         <td style={styles.centerText}>3</td>
                       </tr>
@@ -1008,7 +1006,7 @@ function CT_36() {
                       </tr>
                       <tr>
                         <td style={styles.leftText}>
-                          Гэрэл, дэнлүү орчмын материал{" "}
+                          Гэрэл, дэнлүү орчмын материал
                         </td>
                         <td style={styles.centerText}>1</td>
                       </tr>
@@ -1282,7 +1280,7 @@ function CT_36() {
                       <td style={styles.leftText}>Цахилгаан эрчим хүч</td>
                       <td style={styles.centerText}>6</td>
                       <td style={styles.leftText}>
-                        Бусад_________________________{" "}
+                        Бусад_________________________
                       </td>
                       <td style={styles.centerText}>98</td>
                     </tr>
@@ -1311,7 +1309,7 @@ function CT_36() {
             </div>
           </div>
           <div style={styles.leftText}>
-            Эмчийн нэр, гарын үсэг: _____________________________________ ({" "}
+            Эмчийн нэр, гарын үсэг: _____________________________________ (
             <span style={{ marginLeft: 200 }}>)</span>
           </div>
         </div>

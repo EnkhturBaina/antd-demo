@@ -100,7 +100,7 @@ function CT2_1() {
             >
               <span style={{ marginRight: 5 }}>
                 Эцэг /эх/-ийн нэр _________________________________ Нэр
-                ________________________________________РД{" "}
+                ________________________________________РД
               </span>
               <div style={styles.rowCells}></div>
               <div style={styles.rowCells}></div>

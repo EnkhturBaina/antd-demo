@@ -95,7 +95,7 @@ function AM12A() {
               ЭМНЭЛЭГ ХЯНАЛТЫН КОМИССООР ОРОГЧДЫН БҮРТГЭЛ
             </span>
           </div>
-        </div>{" "}
+        </div>
         <Table bordered className="document" style={{ marginBottom: 0 }}>
           <tbody>
             <tr>
@@ -109,10 +109,10 @@ function AM12A() {
                 Эцэг /эх/-ийн нэр, Нэр Регистрийн дугаар
               </td>
               <td rowSpan={2} style={styles.centerText}>
-                Нас{" "}
+                Нас
               </td>
               <td rowSpan={2} style={styles.centerText}>
-                Хүйс{" "}
+                Хүйс
               </td>
               <td
                 rowSpan={2}

@@ -1416,7 +1416,7 @@ function AM40() {
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
-            </tr>{" "}
+            </tr>
             <tr>
               <td
                 colSpan={3}
@@ -1459,7 +1459,7 @@ function AM40() {
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
               <td style={textStyle.numberText}></td>
-            </tr>{" "}
+            </tr>
             <tr>
               <td
                 colSpan={3}

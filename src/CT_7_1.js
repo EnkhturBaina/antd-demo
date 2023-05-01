@@ -77,7 +77,7 @@ function CT_7_1() {
                 НЯРАЙН ЭРЧИМТ ЭМЧИЛГЭЭНИЙ ХЯНАЛТЫН ХУУДАС
               </span>
             </div>
-          </div>{" "}
+          </div>
           <Table bordered className="document" style={{ marginBottom: 0 }}>
             <tbody>
               <tr>

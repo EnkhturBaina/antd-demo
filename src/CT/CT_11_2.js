@@ -83,8 +83,8 @@ function CT_11_2() {
               4. Хүүхдийн төрсөн сар, өдөр: ____________________
             </div>
             <div style={styles.rowStyle}>
-              5. Хүүхдийн хүйс:{" "}
-              <span style={{ marginLeft: 40 }}>□ Эрэгтэй </span>{" "}
+              5. Хүүхдийн хүйс:
+              <span style={{ marginLeft: 40 }}>□ Эрэгтэй </span>
               <span style={{ marginLeft: 40 }}>□ Эмэгтэй</span>
             </div>
             <div style={styles.rowStyle}>

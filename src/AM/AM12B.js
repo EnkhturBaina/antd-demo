@@ -157,7 +157,7 @@ function AM12B() {
           </div>
           <div style={styles.leftText}>/хэсэг/хороо/-ийн харъяат</div>
           <div style={styles.leftText}>
-            Эцэг /эх/-ийн нэр ___________________________{" "}
+            Эцэг /эх/-ийн нэр ___________________________
             <span style={{ marginLeft: 30 }}>Нэр ________________________</span>
           </div>
           <div style={styles.leftText}>

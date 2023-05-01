@@ -175,7 +175,7 @@ function AM18() {
                         ________________________________________________
                       </div>
                       <div style={styles.rowStyle}>
-                        Утас _________________{" "}
+                        Утас _________________
                         <span style={{ marginLeft: 30 }}>
                           Ажлын газар _______________________________
                         </span>
@@ -344,7 +344,7 @@ function AM18() {
                 </tbody>
               </Table>
             </div>
-          </div>{" "}
+          </div>
           <Table bordered className="document" style={{ marginBottom: 0 }}>
             <tbody>
               <tr>
@@ -505,7 +505,7 @@ function AM18() {
           </div>
           <div style={styles.leftText}>хэмжээ _________ см байв</div>
           <div style={styles.leftText}>
-            Умайн хүзүүг тэлсэн эсэх:{" "}
+            Умайн хүзүүг тэлсэн эсэх:
             <span style={{ marginLeft: 30 }}>Тийм</span>
             <span style={{ marginLeft: 30 }}>Үгүй</span>
           </div>

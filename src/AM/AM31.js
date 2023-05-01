@@ -172,7 +172,7 @@ function AM31() {
             </div>
           </div>
           <div style={styles.rowStyle}>
-            4. Оршин суугаа хаяг:{" "}
+            4. Оршин суугаа хаяг:
             <span style={{ marginLeft: 30 }}>
               Аймаг/хот: __________________________________
             </span>
@@ -217,7 +217,7 @@ function AM31() {
             7. Хүүхдийн гэр бүл эмзэг бүлэгт хамаарагдах эсэх:
             <span style={{ marginLeft: 30 }}>1. Тийм;</span>
             <span style={{ marginLeft: 30 }}>2. Үгүй;</span>
-            <span style={{ marginLeft: 30 }}>3. Мэдээлэлгүй</span>{" "}
+            <span style={{ marginLeft: 30 }}>3. Мэдээлэлгүй</span>
           </div>
           <div style={styles.rowStyle}>
             8. Тийм бол эмзэг бүлгийн аль хэсэгт хамаарагдах вэ?
@@ -254,7 +254,7 @@ function AM31() {
             <b>Хүүхдийн ерөнхий мэдээлэл:</b>
           </div>
           <div style={styles.rowStyle}>
-            9. Хүүхдийн төрсөн он, сар, өдөр:{" "}
+            9. Хүүхдийн төрсөн он, сар, өдөр:
             <span style={{ marginLeft: 30 }}>
               _____он ___сар ___өдөр ___цаг ___минут
             </span>
@@ -304,7 +304,7 @@ function AM31() {
           </div>
           <div style={styles.rowStyle}>
             <span style={{ marginLeft: 180 }}>
-              3. Аймгийн нэгдсэн эмнэлэг, БОЭТ{" "}
+              3. Аймгийн нэгдсэн эмнэлэг, БОЭТ
             </span>
             <span style={{ marginLeft: 30 }}>8. Сумын эмнэлэг</span>
           </div>
@@ -570,7 +570,7 @@ function AM31() {
             </tbody>
           </Table>
           <div style={styles.rowStyle}>
-            22. Дээрх шинж тэмдгийн үед эмчилгээ хийсэн эсэх:{" "}
+            22. Дээрх шинж тэмдгийн үед эмчилгээ хийсэн эсэх:
             <span style={{ marginLeft: 30 }}>1. Тийм; 2. Үгүй</span>
           </div>
           <div style={styles.rowStyle}>23. Тийм бол хаана эмчилсэн бэ?</div>
@@ -817,7 +817,7 @@ function AM31() {
           <div style={styles.rowStyle}>
             33. Эмгэг судлалын шинжилгээнд орсон эсэх:
             <span style={{ marginLeft: 30 }}>1. тийм</span>
-            <span style={{ marginLeft: 30 }}>2. үгүй</span>{" "}
+            <span style={{ marginLeft: 30 }}>2. үгүй</span>
           </div>
           <div style={styles.rowStyle}>34. Эмгэг судлалын онош:</div>
           <div style={{ marginLeft: 30 }}>
@@ -849,7 +849,7 @@ function AM31() {
           <div style={styles.rowStyle}>
             35. Эмгэг судлалын онош тохирсон эсэх:
             <span style={{ marginLeft: 30 }}>1. тийм</span>
-            <span style={{ marginLeft: 30 }}>2. үгүй</span>{" "}
+            <span style={{ marginLeft: 30 }}>2. үгүй</span>
           </div>
           <div style={styles.rowStyle}>
             • 1-р хожимдол (гэр бүлийнх нь хүүхдийн өвчин хүндэрснийг мэдээгүй,
@@ -863,7 +863,7 @@ function AM31() {
           </div>
           <div style={styles.rowStyle}>
             • 2-р хожимдол (эмнэлгийн байгууллагаас хол, тээврийн хэрэгсэл
-            байгаагүй, цаг агаарын хэцүү нөхцөл){" "}
+            байгаагүй, цаг агаарын хэцүү нөхцөл)
           </div>
           <div style={styles.leftText}>
             _________________________________________________________________________________________________________________________
