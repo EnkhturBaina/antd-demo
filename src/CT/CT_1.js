@@ -3,6 +3,17 @@ import { Table } from "react-bootstrap";
 import CT_1_Hudulguun from "./CT_1_Hudulguun.PNG";
 import CT_1_MEDREHUI from "./CT_1_MEDREHUI.PNG";
 import CT_1_img from "./CT_1_img.PNG";
+import CT_1_NUD_1 from "./CT_1_NUD_1.PNG";
+import CT_1_NUD_2 from "./CT_1_NUD_2.PNG";
+import CT_1_NUD_3 from "./CT_1_NUD_3.PNG";
+import CT_1_NUD_4 from "./CT_1_NUD_4.PNG";
+import CT_1_NUD_5 from "./CT_1_NUD_5.PNG";
+import CT_1_NUD_6 from "./CT_1_NUD_6.PNG";
+import CT_1_DOTOOD_1 from "./CT_1_DOTOOD_1.PNG";
+import CT_1_DOTOOD_2 from "./CT_1_DOTOOD_2.PNG";
+import CT_1_DOTOOD_3 from "./CT_1_DOTOOD_3.PNG";
+import CT_1_DOTOOD_4 from "./CT_1_DOTOOD_4.PNG";
+import CT_1_DOTOOD_5 from "./CT_1_DOTOOD_5.PNG";
 
 //маягт СТ-1
 function CT_1() {
@@ -1266,7 +1277,6 @@ function CT_1() {
           </Table>
         </div>
       </div>
-
       <div className="page">
         <div className="subpage">
           <Table
@@ -1477,7 +1487,7 @@ function CT_1() {
             </tbody>
           </Table>
         </div>
-      </div> */}
+      </div> 
       <div className="page">
         <div className="subpage">
           <div style={styles.centerText}>
@@ -1876,6 +1886,1260 @@ function CT_1() {
                       </tr>
                     </tbody>
                   </Table>
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>ЧИХ ХАМАР ХООЛОЙН ЭМЧИЙН ҮЗЛЭГ</b>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.centerText}>
+                  <b>Биеийн ерөнхий байдал</b>{" "}
+                </td>
+                <td style={styles.centerText}>
+                  <b>Ухаан санаа</b>{" "}
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  <b>Арьс салст</b>{" "}
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  □ Дунд □ Хүндэвтэр □ Хүнд
+                  <div style={styles.topText}>□ Маш хүнд</div>
+                </td>
+                <td style={styles.topText}>
+                  □ Саруул □ Бүдгэрсэн
+                  <div style={styles.topText}>□ Ухаангүй</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  □ Хэвийн □ Хэвийн бус_________
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Амьсгалын эрхтэн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>Амьсгал 1 минутанд _____ удаа</td>
+                <td style={styles.topText} colSpan={3}>
+                  <b>Чагналтаар:</b> □ Хэржигнүүртэй
+                  <div style={styles.topText}>
+                    □ Уушги цулцангийн □ Амьсгал сулавтар
+                  </div>
+                  <div style={styles.topText}>
+                    □ Гуурсан хоолойн (баруун, зүүн, 2 талдаа){" "}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Цусны эргэлтийн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Судасны цохилт 1 минутанд_____ удаа
+                  <div style={styles.topText}>Хүчдэл дүүрэлт______ </div>
+                </td>
+                <td style={styles.topText}>
+                  <b>Тогшилтоор:</b>
+                  <div style={styles.topText}>Зүрхний хил</div>
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Томорсон (зүүн, баруун)</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  <b>Чагналтаар:</b>
+                  <div style={styles.topText}>Зүрхний авиа </div>
+                  <div style={styles.topText}>
+                    □ Тод □ Бүдэг □ Бүдгэвтэр □ Хэм жигд
+                  </div>
+                  <div style={styles.topText}>□ Жигд бус □ Хэм алдалттай</div>
+                  <div style={styles.topText}>
+                    АД баруун талд _____/____ Зүүн талд _____/______{" "}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Хоол шингээх эрхтэн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Хэл
+                  <div style={styles.topText}>□ Ердийн □ Хуурай</div>
+                  <div style={styles.topText}>□ Өнгөргүй □ Өнгөртэй</div>
+                </td>
+                <td style={styles.topText} colSpan={3}>
+                  Хэвлийн үзлэг:
+                  <div style={styles.topText}>
+                    □ Өнгөц тэмтрэлтээр □ Гүн тэмтрэлтээр □ Эмзэглэлтэй
+                    (байрлал____)
+                  </div>
+                  <div style={styles.topText}>
+                    □ Ердийн □ Зөөлөн гялтан цочрол үгүй □ Гялтан цочролын шинж
+                    илэрсэн
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Мэдрэлийн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  Сонсох чадвахи:
+                  <div style={styles.topText}>
+                    □ Хэвийн □ Буурсан (баруун, зүүн)
+                  </div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  Рефлексүүд:
+                  <div style={styles.topText}>
+                    □ Хадгалагдана □ Хадгалагдахгүй
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  Бусад
+                  _______________________________________________________________________________________________________________________________
+                  <div style={styles.topText}>
+                    Сэтгэцийн
+                    байдал:_________________________________________________________________________________________________________________
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={4}>
+                  <b>ЧИХ ХАМАР ХООЛОЙН ҮЗЛЭГ</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  Хамрын амьсгал:
+                  <div style={styles.topText}>□ Чөлөөтэй</div>
+                  <div style={styles.topText}>
+                    □ Саадтай /баруун, зүүн, 2 талд адил/
+                  </div>
+                </td>
+                <td style={styles.topText}>
+                  Гадна хамрын хэлбэр:
+                  <div style={styles.topText}>□ Зөв</div>
+                  <div style={styles.topText}>□ Зөв бус</div>
+                </td>
+                <td style={styles.topText}>
+                  Тэмтрэхэд:
+                  <div style={styles.topText}>□ Эмзэглэлгүй</div>
+                  <div style={styles.topText}>□ Эмзэглэлтэй</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Хамрын үүдэвч:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                </td>
+                <td style={styles.topText}>
+                  Ерөнхий хөндий:
+                  <div style={styles.topText}>□ Чөлөөтэй</div>
+                  <div style={styles.topText}>□ Саадтай</div>
+                </td>
+                <td style={styles.topText}>
+                  Хамрын таславч:
+                  <div style={styles.topText}>□ Муруйлтгүй</div>
+                  <div style={styles.topText}>□ Муруйсан</div>
+                  <div style={styles.topText}>□ Бусад өөрчлөлттэй</div>
+                </td>
+                <td style={styles.topText}>
+                  <img src={CT_1_NUD_1} width={200} />
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  Хамрын салст бүрхүүл:
+                  <div style={styles.topText}>□ Ягаан</div>
+                  <div style={styles.topText}>□ Улаан ягаан</div>
+                  <div style={styles.topText}>□ Хөхөлбий</div>
+                  <div style={styles.topText}>□ Цайвар</div>
+                  <div style={styles.topText}>□ Бусад</div>
+                </td>
+                <td style={styles.topText}>
+                  Самалдгууд:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хөөнгө</div>
+                  <div style={styles.topText}>□ Бусад өөрчлөлттэй</div>
+                  <div style={styles.topText}>Хамрын жим:</div>
+                  <div style={styles.topText}>□ Ялгадасгүй</div>
+                  <div style={styles.topText}>□ Ялгадастай</div>
+                </td>
+                <td style={styles.topText}>
+                  Ялгадас:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>Эмгэг шинжтэй:</div>
+                  <div style={styles.topText}>□ Идээрхэг □ Ногоон</div>
+                  <div style={styles.topText}>□ Үнэртэй □ Өтгөн</div>
+                  <div style={styles.topText}>□ Бусад өөрчлөлттэй</div>
+                </td>
+              </tr>
+              <tr>
+                <td colSpan={4}>
+                  <img src={CT_1_NUD_2} width="100%" height={100} />
+                </td>
+              </tr>
+              <tr>
+                <td colSpan={4} style={styles.leftText}>
+                  Бүсийн лимфийн булчирхайн байдал:
+                </td>
+              </tr>
+              <tr>
+                <td colSpan={4} style={styles.leftText}>
+                  <b>Баруун, зүүн чих:</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Гадна чихний хэлбэр:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                </td>
+                <td style={styles.topText}>
+                  Тэмтрэхэд:
+                  <div style={styles.topText}>□ Эмзэглэлгүй</div>
+                  <div style={styles.topText}>□ Эмзэглэлтэй</div>
+                </td>
+                <td style={styles.topText}>
+                  Хөхлөг сэртэн:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хавантай</div>
+                </td>
+                <td style={styles.topText}>
+                  Тэмтрэхэд:
+                  <div style={styles.topText}>□ Эмзэглэлгүй</div>
+                  <div style={styles.topText}>□ Эмзэглэлтэй</div>
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>ЧИХ ХАМАР ХООЛОЙН ЭМЧИЙН ҮЗЛЭГ</b>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.centerText} colSpan={4}>
+                  <img src={CT_1_NUD_3} width="50%" height={80} />
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Чихний гадна суваг:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>
+                    □ Нарийссан (төрөлхийн, олдмол){" "}
+                  </div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Чөлөөтэй</div>
+                  <div style={styles.topText}>□ Саадтай</div>
+                  <div style={styles.topText}>□ Ялгадасгүй</div>
+                  <div style={styles.topText}>
+                    □ Ялгадастай: (идээрхэг, үнэртэй, ногоон){" "}
+                  </div>
+                </td>
+                <td style={styles.topText}>
+                  Сувгийн хана:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Цүлхийсэн (аль хана)</div>
+                </td>
+                <td style={styles.centerText}>
+                  <img src={CT_1_NUD_4} width="100%" height={80} />
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Хэнгэргэн хальс:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                  <div style={styles.topText}>□ Бусад</div>
+                  <div style={styles.topText}>□ Сувдан саарал</div>
+                  <div style={styles.topText}>□ Улаан</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Цооролтын байрлал</div>
+                  <div style={styles.topText}>□ Цооролтын хэмжээ</div>
+                  <div style={styles.topText}>Хэнгэргэн хөндийн салст:</div>
+                  <div style={styles.topText}>□ Цайвар ягаан</div>
+                  <div style={styles.topText}>□ Улаан</div>
+                  <div style={styles.topText}>□ Эмгэг өөрчлөлт</div>
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  <img src={CT_1_NUD_5} width="100%" height={100} />
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={4}>
+                  Бүсийн лимфийн булчирхайн байдал:
+                  ________________________________________________
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Хөглүүрийн сорил:
+                  <div style={styles.topText}>□ Ринне</div>
+                  <div style={styles.topText}>□ Вебер</div>
+                  <div style={styles.topText}>□ Желле</div>
+                  <div style={styles.topText}>□ Вальсалва</div>
+                </td>
+                <td style={styles.topText}>
+                  Сонсголын бичлэг:
+                  <div style={styles.topText}>________________</div>
+                  <div style={styles.topText}>________________</div>
+                  <div style={styles.topText}>Зэрэг:</div>
+                  <div style={styles.topText}>________________</div>
+                  <div style={styles.topText}>________________</div>
+                </td>
+                <td style={styles.topText}>
+                  Ам ангайлт:
+                  <div style={styles.topText}>□ Чөлөөтэй</div>
+                  <div style={styles.topText}>□ Хязгаарлагдсан</div>
+                  <div style={styles.topText}>Хүүхэн хэл:</div>
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                </td>
+                <td style={styles.topText}>
+                  Зөөлөн тагнай:
+                  <div style={styles.topText}>□ Хэвийн □ Хэвийн бус</div>
+                  <div style={styles.topText}>Тагнайн гүйлс:</div>
+                  <div style={styles.topText}>□ Хэвийн □ Томорсон</div>
+                  <div style={styles.topText}>□ 1-р зэрэг □ 2-р зэрэг</div>
+                  <div style={styles.topText}>□ 3-р зэрэг □ Бусад өөрчлөлт</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  <img src={CT_1_NUD_6} width="100%" height={100} />
+                </td>
+                <td style={styles.topText}>
+                  Архаг үрэвслийн шинж:
+                  <div style={styles.topText}>□ Зак</div>
+                  <div style={styles.topText}>□ Гисс</div>
+                  <div style={styles.topText}>□ Преображенский</div>
+                  <div style={styles.topText}>□ Бусад</div>
+                </td>
+                <td style={styles.topText}>
+                  Лакуны байдал:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Өргөссөн</div>
+                  <div style={styles.topText}>Залгиурын ар хана:</div>
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                </td>
+                <td style={styles.topText}>
+                  Залгиурын хажуу хана:
+                  <div style={styles.topText}>□ Хэвийн </div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                  <div style={styles.topText}>Шувтан хонхрын байдал:</div>
+                  <div style={styles.topText}>□ Хэвийн </div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Төвөнхийн гадна үзлэг:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                  <div style={styles.topText}>Тэмтрэхэд:</div>
+                  <div style={styles.topText}>□ Эмзэглэлгүй</div>
+                  <div style={styles.topText}>□ Эмзэглэлтэй</div>
+                </td>
+                <td style={styles.topText}>
+                  Нуржигнах:
+                  <div style={styles.topText}>□ Чимээтэй</div>
+                  <div style={styles.topText}>□ Чимээгүй</div>
+                  <div style={styles.topText}>
+                    Төвөнхийн шууд бус тольдолтоор:
+                  </div>
+                  <div style={styles.topText}>Амьсгалын үйл ажиллагаа:</div>
+                  <div style={styles.topText}>□ Чөлөөтэй</div>
+                  <div style={styles.topText}>□ Саалтай</div>
+                </td>
+                <td style={styles.topText}>
+                  Халхавч мөгөөрс:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                  <div style={styles.topText}>Төвөнхийн салст:</div>
+                  <div style={styles.topText}>□ Цайвар ягаан</div>
+                  <div style={styles.topText}>□ Улаан</div>
+                  <div style={styles.topText}>□ Цайвар</div>
+                </td>
+                <td style={styles.topText}>
+                  Утгуур мөгөөрс
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                  <div style={styles.topText}>Дууны туслах хөвчүүд:</div>
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                  <div style={styles.topText}>Жинхэнэ хөвч:</div>
+                  <div style={styles.topText}>□ Хэвийн □ Хэвийн бус</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  <img src={CT_1_NUD_7} width="100%" height={100} />
+                </td>
+                <td style={styles.topText}>
+                  Дууны өнгө: □ Хэвийн □ Хэвийн бус
+                  <div style={styles.topText}>
+                    Фонаци хийх үед: (Дууны хөвчүүд бүрэн гадаргуугаар
+                    шүргэлцэнэ)
+                  </div>
+                  <div style={styles.topText}>
+                    Дууны хөвчүүдийн үйл ажиллаггааны хямрал:
+                  </div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  Дууны хөвчийн доод зайн байдал: _____
+                  <div style={styles.topText}>ЦМХоолой цагираг:</div>
+                  <div style={styles.topText}>□ Хэвийн □ Хэвийн бус □ Өнгө</div>
+                  <div style={styles.topText}>
+                    Бүсийн лимфийн булчирхайн байдал:
+                  </div>
+                  <div style={styles.topText}>
+                    Бусад:______________________________{" "}
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>АРЬСНЫ ЭМЧИЙН ҮЗЛЭГ</b>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.centerText}>
+                  <b>Биеийн ерөнхий байдал</b>{" "}
+                </td>
+                <td style={styles.centerText}>
+                  <b>Ухаан санаа</b>{" "}
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  <b>Арьс салст</b>{" "}
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  □ Дунд □ Хүндэвтэр □ Хүнд
+                  <div style={styles.topText}>□ Маш хүнд</div>
+                </td>
+                <td style={styles.topText}>
+                  □ Саруул □ Бүдгэрсэн
+                  <div style={styles.topText}>□ Ухаангүй</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  □ Хэвийн □ Хэвийн бус_________
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Амьсгалын эрхтэн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>Амьсгал 1 минутанд _____ удаа</td>
+                <td style={styles.topText} colSpan={3}>
+                  <b>Чагналтаар:</b> □ Хэржигнүүртэй
+                  <div style={styles.topText}>
+                    □ Уушги цулцангийн □ Амьсгал сулавтар
+                  </div>
+                  <div style={styles.topText}>
+                    □ Гуурсан хоолойн (баруун, зүүн, 2 талдаа){" "}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Цусны эргэлтийн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Судасны цохилт 1 минутанд_____ удаа
+                  <div style={styles.topText}>Хүчдэл дүүрэлт______ </div>
+                </td>
+                <td style={styles.topText}>
+                  <b>Тогшилтоор:</b>
+                  <div style={styles.topText}>Зүрхний хил</div>
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Томорсон (зүүн, баруун)</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  <b>Чагналтаар:</b>
+                  <div style={styles.topText}>Зүрхний авиа </div>
+                  <div style={styles.topText}>
+                    □ Тод □ Бүдэг □ Бүдгэвтэр □ Хэм жигд
+                  </div>
+                  <div style={styles.topText}>□ Жигд бус □ Хэм алдалттай</div>
+                  <div style={styles.topText}>
+                    АД баруун талд _____/____ Зүүн талд _____/______{" "}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Хоол шингээх эрхтэн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Хэл
+                  <div style={styles.topText}>□ Ердийн □ Хуурай</div>
+                  <div style={styles.topText}>□ Өнгөргүй □ Өнгөртэй</div>
+                </td>
+                <td style={styles.topText} colSpan={3}>
+                  Хэвлийн үзлэг:
+                  <div style={styles.topText}>
+                    □ Өнгөц тэмтрэлтээр □ Гүн тэмтрэлтээр □ Эмзэглэлтэй
+                    (байрлал____)
+                  </div>
+                  <div style={styles.topText}>
+                    □ Ердийн □ Зөөлөн гялтан цочрол үгүй □ Гялтан цочролын шинж
+                    илэрсэн
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Мэдрэлийн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  Сонсох чадвахи:
+                  <div style={styles.topText}>
+                    □ Хэвийн □ Буурсан (баруун, зүүн)
+                  </div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  Рефлексүүд:
+                  <div style={styles.topText}>
+                    □ Хадгалагдана □ Хадгалагдахгүй
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  Бусад
+                  _______________________________________________________________________________________________________________________________
+                  <div style={styles.topText}>
+                    Сэтгэцийн
+                    байдал:_________________________________________________________________________________________________________________
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={4}>
+                  <b>Арьс, салст, дайвруудын үзлэг:</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={4}>
+                  <b>Арьсны хүрэлцэх мэдрэхүйн байдал:</b> □ Мэдэрч байна □
+                  Мэдрэхгүй байна
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={4}>
+                  <b>Арьсны байдал:</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Арьсны өнгө:
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Улаан цоохор</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Хэвийн бус</div>
+                  <div style={styles.topText}>□ Зэвхий саарал</div>
+                  <div style={styles.topText}>□ Шар</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Шарангуй</div>
+                  <div style={styles.topText}>□ Хүрэн</div>
+                  <div style={styles.topText}>□ Харласан</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Хөхөрсөн</div>
+                  <div style={styles.topText}>□ Цайж алагласан</div>
+                  <div style={styles.topText}>□ Хүрэл шиг</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Уян чанар
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Ихэссэн</div>
+                  <div style={styles.topText}>□ Алдагдсан</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  Арьсны халуун
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Халуун</div>
+                  <div style={styles.topText}>□ Хүйтэн</div>
+                </td>
+                <td style={styles.topText}>
+                  Чийглэг байдал
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Ихэссэн</div>
+                  <div style={styles.topText}>□ Багассан</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={4}>
+                  <b>Хэсэг газрын үзлэг</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={4}>
+                  <b>Тууралтын онцлог</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Өнгө: □ Бор
+                  <div style={styles.topText}>□ Ягаан □ Хар</div>
+                  <div style={styles.topText}>□ Улаан □ Хөх</div>
+                  <div style={styles.topText}>□ Цагаан □ Саарал</div>
+                  <div style={styles.topText}>□ Цайвар бор □ Шар</div>
+                </td>
+                <td style={styles.topText}>
+                  Хүрээ:
+                  <div style={styles.topText}>□ Хил хязгаар нь тод</div>
+                  <div style={styles.topText}>
+                    □ Тод бус (well defined) (Illdefined)
+                  </div>
+                </td>
+                <td style={styles.topText}>
+                  Хэлбэр:
+                  <div style={styles.topText}>□ Дугараг</div>
+                  <div style={styles.topText}>□ Зууван</div>
+                  <div style={styles.topText}>□ Олон талт</div>
+                  <div style={styles.topText}>□ Олон цагирагт</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Зоос хэлбэрийн</div>
+                  <div style={styles.topText}>□ Могой хэлбэрийн</div>
+                  <div style={styles.topText}>□ Шугаман</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Тэмтрэхэд: □ Хатуувтар
+                  <div style={styles.topText}>□ Тогтоц нь □ Нягт хатуу</div>
+                  <div style={styles.topText}>□ Зөөлөн □ Бамбалзсан</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Даргар</div>
+                  <div style={styles.topText}>□ Халуун</div>
+                  <div style={styles.topText}>□ Хүйтэн</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Хөдөлгөөнтэй</div>
+                  <div style={styles.topText}>□ Хөдөлгөөнгүй</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Эмзэглэлтэй</div>
+                  <div style={styles.topText}>□ Эмзэглэлгүй</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  Эмх цэгц, хэв маяг болон тархалт
+                  <div style={styles.topText}>
+                    Тоо хэмжээ: □ Нэг □ Олон тууралт
+                  </div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  Эмх цэгц: □ Бүлэглэсэн □ Тархсан
+                  <div style={styles.topText}>Нягтрал: □ Байгаа □ Байхгүй</div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>Тархац: Тэлэлт:</td>
+                <td style={styles.topText} colSpan={2}>
+                  Байрлалт
+                </td>
+                <td style={styles.topText}>□ Хурууны завсар</td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  □ Дангараа
+                  <div style={styles.topText}>□ Нэг хэсэг (хэсэгчилсэн)</div>
+                  <div style={styles.topText}>□ Хэсэг газрыг хамарсан</div>
+                  <div style={styles.topText}>□ Бүх биеэр тархсан</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  <div style={styles.topText}>□ 2 талд тэгш</div>
+                  <div style={styles.topText}>□ Тэгш бус</div>
+                  <div style={styles.topText}>□ Өртсөн хэсэгт </div>
+                  <div style={styles.topText}>□ Даралттай хэсэгт</div>
+                </td>
+                <td style={styles.topText}>
+                  □ Энд тэнд
+                  <div style={styles.topText}>□ Blaschko-н шугам дагуу</div>
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>
+      <div className="page">
+        <div className="subpage">
+          <div style={styles.centerText}>
+            <b>АРЬСНЫ ЭМЧИЙН ҮЗЛЭГ</b>
+          </div>
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.centerText}>
+                  <b>Биеийн ерөнхий байдал</b>{" "}
+                </td>
+                <td style={styles.centerText}>
+                  <b>Ухаан санаа</b>{" "}
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  <b>Арьс салст</b>{" "}
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  □ Дунд □ Хүндэвтэр □ Хүнд
+                  <div style={styles.topText}>□ Маш хүнд</div>
+                </td>
+                <td style={styles.topText}>
+                  □ Саруул □ Бүдгэрсэн
+                  <div style={styles.topText}>□ Ухаангүй</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  □ Хэвийн □ Хэвийн бус_________
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Амьсгалын эрхтэн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>Амьсгал 1 минутанд _____ удаа</td>
+                <td style={styles.topText} colSpan={3}>
+                  <b>Чагналтаар:</b> □ Хэржигнүүртэй
+                  <div style={styles.topText}>
+                    □ Уушги цулцангийн □ Амьсгал сулавтар
+                  </div>
+                  <div style={styles.topText}>
+                    □ Гуурсан хоолойн (баруун, зүүн, 2 талдаа){" "}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Цусны эргэлтийн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Судасны цохилт 1 минутанд_____ удаа
+                  <div style={styles.topText}>Хүчдэл дүүрэлт______ </div>
+                </td>
+                <td style={styles.topText}>
+                  <b>Тогшилтоор:</b>
+                  <div style={styles.topText}>Зүрхний хил</div>
+                  <div style={styles.topText}>□ Хэвийн</div>
+                  <div style={styles.topText}>□ Томорсон (зүүн, баруун)</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  <b>Чагналтаар:</b>
+                  <div style={styles.topText}>Зүрхний авиа </div>
+                  <div style={styles.topText}>
+                    □ Тод □ Бүдэг □ Бүдгэвтэр □ Хэм жигд
+                  </div>
+                  <div style={styles.topText}>□ Жигд бус □ Хэм алдалттай</div>
+                  <div style={styles.topText}>
+                    АД баруун талд _____/____ Зүүн талд _____/______{" "}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Хоол шингээх эрхтэн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Хэл
+                  <div style={styles.topText}>□ Ердийн □ Хуурай</div>
+                  <div style={styles.topText}>□ Өнгөргүй □ Өнгөртэй</div>
+                </td>
+                <td style={styles.topText} colSpan={3}>
+                  Хэвлийн үзлэг:
+                  <div style={styles.topText}>
+                    □ Өнгөц тэмтрэлтээр □ Гүн тэмтрэлтээр □ Эмзэглэлтэй
+                    (байрлал____)
+                  </div>
+                  <div style={styles.topText}>
+                    □ Ердийн □ Зөөлөн гялтан цочрол үгүй □ Гялтан цочролын шинж
+                    илэрсэн
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  <b>Мэдрэлийн тогтолцоо</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={2}>
+                  Сонсох чадвахи:
+                  <div style={styles.topText}>
+                    □ Хэвийн □ Буурсан (баруун, зүүн)
+                  </div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  Рефлексүүд:
+                  <div style={styles.topText}>
+                    □ Хадгалагдана □ Хадгалагдахгүй
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={4}>
+                  Бусад
+                  _______________________________________________________________________________________________________________________________
+                  <div style={styles.topText}>
+                    Сэтгэцийн
+                    байдал:_________________________________________________________________________________________________________________
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={4}>
+                  <b>ДОТООД ШҮҮРЭЛ СУДЛАЛЫН ҮЗЛЭГ</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>
+                  <img src={CT_1_DOTOOD_1} width="80%" height={120} />
+                </td>
+                <td style={styles.topText}>
+                  <b>Зовиур:</b>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  <b>Бамбайн томролын зэрэг:</b>
+                  <div style={styles.topText}>
+                    □ 0 зэрэг (Харагдахгүй, тэмтрэгдэхгүй)
+                  </div>
+                  <div style={styles.topText}>
+                    □ 1-р зэрэг (Харагдахгүй, тэмтрэгдэнэ){" "}
+                  </div>
+                  <div style={styles.topText}>
+                    □ 2-р зэрэг (Харагдана, тэмтрэгдэнэ)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText}>
+                  Нүдний бүлтийлт:
+                  <div style={styles.topText}>Нүдний шинж:</div>
+                  <div style={styles.topText}>□ Крауссийн шинж</div>
+                  <div style={styles.topText}>□ Грефийн шинж</div>
+                  <div style={styles.topText}>□ Кохерийн шинж </div>
+                  <div style={styles.topText}>□ Мебиусийн шинж</div>
+                </td>
+                <td style={styles.topText}>
+                  <div style={styles.topText}>□ Штельвагийн шинж</div>
+                  <div style={styles.topText}>□ Дельримплийн шинж</div>
+                  <div style={styles.topText}>□ Еленикийн шинж</div>
+                  <div style={styles.topText}>□ Розенбахийн шинж</div>
+                  <div style={styles.topText}>□ Боткиний шинж</div>
+                  <div style={styles.topText}>□ Жоффруагийн шинж</div>
+                </td>
+                <td style={styles.topText} colSpan={2}>
+                  Марийн шинж
+                  <div style={styles.topText}>
+                    ____________________________________________
+                  </div>
+                  <div style={styles.topText}>Цахилгаан бүхээгний шинж</div>
+                  <div style={styles.topText}>
+                    ____________________________________________
+                  </div>
+                  <div style={styles.topText}>
+                    Дермографизм (улаан, түргэн тогтвортой)
+                  </div>
+                  <div style={styles.topText}>
+                    ____________________________________________
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>
+                  <img src={CT_1_DOTOOD_5} width="80%" height={120} />
+                </td>
+                <td style={styles.topText} colSpan={2} rowSpan={2}>
+                  <Table
+                    bordered
+                    className="document"
+                    style={{ marginBottom: 0, marginTop: 0 }}
+                  >
+                    <tbody>
+                      <tr>
+                        <td style={styles.centerText}>Үзүүлэлт</td>
+                        <td style={styles.centerText}>Хариу</td>
+                        <td style={styles.centerText}>Хэвийн хэмжээ</td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Чөлөөт Т3</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Чөлөөт Т4</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Нийт Т3</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>Нийт Т4</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>TSH</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>TR-Ab</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>TG-Ab</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                      <tr>
+                        <td style={styles.leftText}>TPO-Ab</td>
+                        <td style={styles.centerText}></td>
+                        <td style={styles.centerText}></td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                  <div style={styles.topText}>
+                    <b>Бамбайн цөмийн изотоп шинжилгээ:</b>
+                    <div style={styles.topText}>
+                      ____________________________________________
+                    </div>
+                    <div style={styles.topText}>
+                      <b>Бамбайн эсийн шинжилгээ:</b>
+                    </div>
+                    <div style={styles.topText}>
+                      ____________________________________________
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>
+                  <img src={CT_1_DOTOOD_2} width="80%" height={120} />
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+      </div>*/}
+
+      <div className="page">
+        <div className="subpage">
+          <Table
+            bordered
+            className="document"
+            style={{ marginBottom: 0, marginTop: 0 }}
+          >
+            <tbody>
+              <tr>
+                <td style={styles.topText} colSpan={6}>
+                  <b>Чихрийн шижингийн үзлэг</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={3}>
+                  <b>Чихрийн шижингийн эрсдэлт хүчин зүйлс:</b>
+                  <div style={styles.leftText}>□ Тарган удам</div>
+                  <div style={styles.leftText}>□ ЧШ-гийн удам</div>
+                  <div style={styles.leftText}>□ Жин (хамгийн их)</div>
+                  <div style={styles.leftText}>□ Гепатит</div>
+                  <div style={styles.leftText}>□ Панкреатит</div>
+                  <div style={styles.leftText}>□ Жирэмсний ЧШ</div>
+                  <div style={styles.leftText}>□ 4 кг дээш хүүхэд</div>
+                  <div style={styles.leftText}>□ Архи</div>
+                  <div style={styles.leftText}>□ Тамхи</div>
+                  <div style={styles.leftText}>
+                    □ Хоолны дэглэм: сайн / дунд / муу
+                  </div>
+                  <div style={styles.leftText}>
+                    □ Хөдөлгөөн: сайн / дунд / муу
+                  </div>
+                </td>
+                <td style={styles.topText} colSpan={3}>
+                  <b>Оношлогдсон он:</b>
+                  <div>&nbsp;</div>
+                  <div style={styles.topText}>
+                    <b>Хэрэглэдэг эмийн бэлдмэл:</b>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={3}>
+                  <b>Бие бялдарын үзүүлэлт: </b>
+                  <div style={styles.leftText}>□ Жин_________кг</div>
+                  <div style={styles.leftText}>□ Өндөр ________ см</div>
+                  <div style={styles.leftText}>
+                    □ Биеийн өөхний хэмжээ_____%
+                  </div>
+                  <div style={{ ...styles.leftText, ...{ marginLeft: 40 } }}>
+                    □ (эр&#60;25%; эм&#60;30%)
+                  </div>
+                  <div style={styles.leftText}>□ Бүсэлхийн тойрог______см</div>
+                  <div style={{ ...styles.leftText, ...{ marginLeft: 40 } }}>
+                    □ (Aзи - эр&#60;94см; эм&#60;80см)
+                  </div>
+                  <div style={{ ...styles.leftText, ...{ marginLeft: 40 } }}>
+                    □ (Европ - эр&#60;102см; эм&#60;88см)
+                  </div>
+                </td>
+                <td style={styles.topText} colSpan={3}>
+                  <img src={CT_1_DOTOOD_3} width="80%" height={140} />
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={6}>
+                  Биеийн жингийн индекс (БЖИ) ________ кг/м2
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>Жингийн дутагдал</td>
+                <td style={styles.centerText}>Хэвийн жинтэй</td>
+                <td style={styles.centerText}>Жингийн илүүдэл</td>
+                <td style={styles.centerText}>Таргалалтын I зэрэг</td>
+                <td style={styles.centerText}>Таргалалтын II зэрэг</td>
+                <td style={styles.centerText}>Таргалалтын III зэрэг</td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>&#60;18кг/м2</td>
+                <td style={styles.centerText}>18-24.9кг/м2</td>
+                <td style={styles.centerText}>25-29.9 кг/м2</td>
+                <td style={styles.centerText}>30-34.9 кг/м2 </td>
+                <td style={styles.centerText}>35-39.9 кг/м2</td>
+                <td style={styles.centerText}>40кг/м2&#60;</td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={6}>
+                  <b>Чихрийн шижингийн хяналт</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={6}>
+                  <b>Өөрийн хяналт:</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Өлөн үеийн глюкоз (&#60;6.0 ммоль/л)
+                </td>
+                <td style={styles.leftText} colSpan={5}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  Хоолны дараах глюкоз (&#60;8.0 ммоль/л)
+                </td>
+                <td style={styles.leftText} colSpan={5}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>&nbsp;</td>
+                <td style={styles.leftText} colSpan={5}></td>
+              </tr>
+              <tr>
+                <td style={styles.leftText}>
+                  <b>Эмчийн хяналт:</b>
+                </td>
+                <td style={styles.leftText} colSpan={5}></td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={6}>
+                  <b>HbA1C................%</b>
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>Эрүүл</td>
+                <td style={styles.centerText} colSpan={2}>
+                  Сайн
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  Дунд
+                </td>
+                <td style={styles.centerText}>Муу</td>
+              </tr>
+              <tr>
+                <td style={styles.centerText}>4-6%</td>
+                <td style={styles.centerText} colSpan={2}>
+                  &#60;6.5%
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  6.5-7.5%
+                </td>
+                <td style={styles.centerText}>7.5%&#60;</td>
+              </tr>
+              <tr>
+                <td style={styles.topText} colSpan={3}>
+                  Anti- GAD/IA2 ____________________
+                </td>
+                <td style={styles.topText} colSpan={3}>
+                  Глюкозын ачаалалтай сорил:
+                  <div style={styles.leftText}>
+                    □ Өлөн үеийн глюкоз__________ ммоль/л
+                  </div>{" "}
+                  <div style={styles.leftText}>
+                    □ 2 цагийн дараах глюкоз _________ ммол
+                  </div>{" "}
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={6}>
+                  <b>
+                    Чихрийн шижингийн хүндрэл Нүд:
+                    _________________________________________________________
+                  </b>
+                  <div style={styles.leftText}>
+                    Зүрх:
+                    ___________________________________________________________________________________
+                  </div>{" "}
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.centerText} colSpan={2}>
+                  Өөх тосны үзүүлэлтүүд
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  Хариу
+                </td>
+                <td style={styles.centerText} colSpan={2}>
+                  Хэвийн хэмжээ
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Холестерол
+                </td>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}>
+                  &#60; 4ммоль/л
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  БНЛП
+                </td>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}>
+                  &#60; 2ммоль/л
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  ИНЛП
+                </td>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}>
+                  эр&#60;1.0ммоль/л
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}>
+                  эм&#60;1.2ммоль/л
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Триглицерид
+                </td>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}>
+                  &#60; 1.7ммоль/л
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  ИНЛП-с бусад
+                </td>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}>
+                  &#60; 3.3ммоль/л
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={2}>
+                  Холест/ИНЛП
+                </td>
+                <td style={styles.leftText} colSpan={2}></td>
+                <td style={styles.leftText} colSpan={2}>
+                  &#60; 5 ммоль/л
+                </td>
+              </tr>
+              <tr>
+                <td style={styles.leftText} colSpan={6}>
+                  CRP....................... &#60;5.0мг/л
                 </td>
               </tr>
             </tbody>
