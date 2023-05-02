@@ -69,7 +69,7 @@ function CT_1() {
   };
   return (
     <>
-      {/* <div className="page">
+      <div className="page">
         <div className="subpage">
           <div style={styles.flexContainer}>
             <div style={{ display: "flex" }}></div>
@@ -608,7 +608,7 @@ function CT_1() {
             </tbody>
           </Table>
         </div>
-      </div> */}
+      </div>
       <div className="page">
         <div className="subpage">
           <Table bordered className="document" style={{ marginBottom: 0 }}>
