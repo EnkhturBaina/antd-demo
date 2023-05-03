@@ -11,6 +11,8 @@ import CT_1_ULAMJLALT from "./CT_1_ULAMJLALT";
 import CT_1_EMEGTEICHUUD from "./CT_1_EMEGTEICHUUD";
 import CT_1_TSUS from "./CT_1_TSUS";
 import CT_1_SETGETS from "./CT_1_SETGETS";
+import CT_1_HOOL from "./CT_1_HOOL";
+import CT_1_ZURH from "./CT_1_ZURH";
 
 //маягт СТ-1
 function CT_1() {
@@ -368,8 +370,10 @@ function CT_1() {
       <CT_1_GEMTEL />
       <CT_1_ULAMJLALT />
       <CT_1_EMEGTEICHUUD />
-      <CT_1_TSUS /> */}
+      <CT_1_TSUS />
       <CT_1_SETGETS />
+      <CT_1_HOOL /> */}
+      <CT_1_ZURH />
     </>
   );
 }
