@@ -13,6 +13,7 @@ import CT_1_TSUS from "./CT_1_TSUS";
 import CT_1_SETGETS from "./CT_1_SETGETS";
 import CT_1_HOOL from "./CT_1_HOOL";
 import CT_1_ZURH from "./CT_1_ZURH";
+import CT_1_SERGEEN from "./CT_1_SERGEEN";
 
 //маягт СТ-1
 function CT_1() {
@@ -82,7 +83,7 @@ function CT_1() {
   };
   return (
     <>
-      {/* <div className="page">
+      <div className="page">
         <div className="subpage">
           <div style={styles.flexContainer}>
             <div style={{ display: "flex" }}></div>
@@ -360,20 +361,21 @@ function CT_1() {
             </tbody>
           </Table>
         </div>
-      </div> */}
-      {/* <CT_1_DOTOR />
+      </div>
+      <CT_1_DOTOR />
       <CT_1_MEDREL />
       <CT_1_NUD />
       <CT_1_CHIX_HAMAR />
       <CT_1_ARIS />
-      <CT_1_DOTOOD /> 
+      <CT_1_DOTOOD />
       <CT_1_GEMTEL />
       <CT_1_ULAMJLALT />
       <CT_1_EMEGTEICHUUD />
       <CT_1_TSUS />
       <CT_1_SETGETS />
-      <CT_1_HOOL /> */}
+      <CT_1_HOOL />
       <CT_1_ZURH />
+      <CT_1_SERGEEN />
     </>
   );
 }
